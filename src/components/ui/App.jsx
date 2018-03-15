@@ -1,17 +1,19 @@
 import React from 'react'
 
+import LiveBusDepartures from '../containers/LiveBusDepartures'
+
 import '../../styles/App.css'
 
 const App = () =>
-  <div class='container-fluid'>
-    <div class='row py-4'>
-      <div class='col-sm col-1'>
+  <div className='container-fluid'>
+    <div className='row py-4'>
+      <div className='col-sm col-1'>
         Col 1
       </div>
-      <div class='col-sm col-2'>
-        Col 2
+      <div className='col-sm col-2'>
+        <LiveBusDepartures stopCode='91431,91432' />
       </div>
-      <div class='col-sm col-3'>
+      <div className='col-sm col-3'>
         Col 3
       </div>
     </div>

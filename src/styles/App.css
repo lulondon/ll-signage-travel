@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  width: 100wh;
-  height: 90vh;
+  width: 100%;
+  height: 100vh;
   color: #fff;
   background: linear-gradient(-45deg, #6F3092, #361163, #B70062, #ED2482);
   background-size: 400% 400%;
@@ -53,8 +53,6 @@ body {
 /* COLUMN STYLING */
 
 .col-1, .col-2, .col-3 {
-  width   : 200px;
-  height  : 50px;   
   position: relative;
   z-index : 1;
 }

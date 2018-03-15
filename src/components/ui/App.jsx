@@ -6,6 +6,11 @@ import '../../styles/App.css'
 
 const App = () =>
   <div className='container-fluid'>
+    <div className='row pt-3'>
+      <div className='col-sm'>
+      <h1>LOCAL TRAVEL INFORMATION</h1>
+      </div>
+    </div>
     <div className='row py-4'>
       <div className='col-sm col-1'>
         Col 1

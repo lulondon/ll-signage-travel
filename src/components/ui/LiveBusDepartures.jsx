@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import '../../styles/LiveBusDepartures.css'
+
 class BusInfo extends Component {
   render() {
     if (this.props.bus[0] === 4) {
@@ -26,10 +28,12 @@ class BusInfo extends Component {
 
 class LiveBusDepartures extends Component {
   render() {
+    const { data } = this.props
     return (
       <div>
-        <h3>{this.props.data[0][1]}</h3>
-        {this.props.data.map(bus => <BusInfo key={bus[4]} bus={bus} />)}
+        <h3>{data[0][1]}</h3>
+        <p className='LiveBusDepartures-subheading mb-4'>Live bus departures from this stop</p>
+        {data.map(bus => <BusInfo key={bus[4]} bus={bus} />)}
       </div>
     )
   }

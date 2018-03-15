@@ -4,5 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './components/ui/App'
 
-render(<App />,
-document.getElementById('root'))
+render(
+  <App />,
+  document.getElementById('root')
+)

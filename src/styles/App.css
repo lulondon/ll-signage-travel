@@ -12,6 +12,8 @@ body {
   animation: Gradient 20s ease infinite;
 }
 
+/*.BACKGROUND ANIMATION */
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%
@@ -46,4 +48,23 @@ body {
   100% {
     background-position: 0% 50%
   }
+}
+
+/* COLUMN STYLING */
+
+.col-1, .col-2, .col-3 {
+  width   : 200px;
+  height  : 50px;   
+  position: relative;
+  z-index : 1;
+}
+
+.col-2:before, .col-3:before {
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 80%;
+  width   : 1px;  /* or 100px */
+  border-left: 1px solid white;
 }

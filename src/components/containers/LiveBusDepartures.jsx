@@ -44,12 +44,12 @@ class ContainerLBD extends Component {
 
   componentDidMount() {
     this.loadData()
-    const reloadIntercval = setInterval(() => this.loadData(), 30000)
-    this.setState({ reloadIntercval })
+    const reloadInterval = setInterval(() => this.loadData(), 30000)
+    this.setState({ reloadInterval })
   }
 
   componentWillUmount() {
-    clearInterval(this.state.reloadIntercval)
+    clearInterval(this.state.reloadInterval)
   }
 
   render() {

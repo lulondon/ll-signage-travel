@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import '../../styles/LiveTubeStatus.css'
+
 export const colours = {
   bakerloo: 'rgb(178,99,0)',
   central: 'rgb(220,36,31)',
@@ -21,7 +23,7 @@ class LineInfo extends Component {
   render() {
     const { line } = this.props
     return (
-      <div id={line.id}>{line.name}</div>
+      <div id={line.id} className='line-info pb-2'>{line.name}</div>
     )
   }
 }

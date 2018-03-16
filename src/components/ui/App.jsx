@@ -1,6 +1,7 @@
 import React from 'react'
 
 import LiveBusDepartures from '../containers/LiveBusDepartures'
+import LiveTubeStatus from '../containers/LiveTubeStatus'
 
 import '../../styles/App.css'
 
@@ -13,7 +14,7 @@ const App = () =>
     </div>
     <div className='row py-4'>
       <div className='col-sm col-1'>
-        Col 1
+        <LiveTubeStatus />
       </div>
       <div className='col-sm col-2'>
         <LiveBusDepartures stopCode='91431,91432' />

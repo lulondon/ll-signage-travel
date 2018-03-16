@@ -28,7 +28,7 @@ class BusInfo extends Component {
 
 class LiveBusDepartures extends Component {
   render() {
-    const { data } = this.props
+    const { data } = this.props || []
     return (
       <div>
         <h3>{data[0][1]}</h3>

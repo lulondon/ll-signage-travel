@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+/* ------------ Switch to Lato 300 for 12-Screen ------------------ */
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300'); */
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 1920px;
   height: 1080px;
   outline: 1px solid white;
   color: #fff;
   background: linear-gradient(-45deg, #6F3092, #361163, #B70062, #ED2482);
   background-size: 400% 400%;
-  -webkit-animation: Gradient 20s ease infinite;
-  -moz-animation: Gradient 20s ease infinite;
-  animation: Gradient 20s ease infinite;
+  -webkit-animation: Gradient 90s ease infinite;
+  -moz-animation: Gradient 90s ease infinite;
+  animation: Gradient 90s ease infinite;
 }
 
 /* GLOBAL STYLES */
@@ -30,16 +33,21 @@ body {
         @keyframes blur { to { filter: blur(5px); } }
 
 .clear {
+  -webkit-animation-delay: 0.5s;
+     -moz-animation-delay: 0.5s;
+       -o-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+
   -webkit-animation: 0.25s linear forwards reveal;
    -moz-animation: 0.25s linear forwards reveal;
      -o-animation: 0.25s linear forwards reveal;
         animation: 0.25s linear forwards reveal;
 }
 
-@-webkit-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
-   @-moz-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
-     @-o-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
-        @keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
+@-webkit-keyframes reveal { from { filter: blur(5px); } to { filter: blur(0px); }  }
+   @-moz-keyframes reveal { from { filter: blur(5px); } to { filter: blur(0px); }  }
+     @-o-keyframes reveal { from { filter: blur(5px); } to { filter: blur(0px); }  }
+        @keyframes reveal { from { filter: blur(5px); } to { filter: blur(0px); }  }
 
 
 /* BACKGROUND ANIMATION */

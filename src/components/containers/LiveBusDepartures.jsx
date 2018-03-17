@@ -2,7 +2,6 @@ import axios from 'axios'
 import React, { Component } from 'react'
 
 import LiveBusDepartures from '../ui/LiveBusDepartures'
-import Spinner from '../ui/Spinner'
 
 class ContainerLBD extends Component {
   constructor() {
@@ -54,9 +53,13 @@ class ContainerLBD extends Component {
 
   render() {
     return (
-      this.state.loading
-        ? <Spinner />
-        : <LiveBusDepartures data={this.state.busData} />
+      this.state.busData
+        ? <LiveBusDepartures
+          data={this.state.busData}
+          error={this.state.error}
+          loading={this.state.loading}
+        />
+        : null
     )
   }
 }

@@ -24,14 +24,16 @@ class LineInfo extends Component {
 
 class LiveTubeStatus extends Component {
   render() {
-    const { data } = this.props
+    const { data, error, loading } = this.props
     return (
       <div>
         <h3>Tube & Rail</h3>
         <p className='subheading'>Visit tfl.gov.uk for more information.</p>
-        {
-          data.map(line => <LineInfo line={line} key={line.id} />)
-        }
+        <div className={loading || error ? 'blur' : 'clear'}>
+          {
+            data.map(line => <LineInfo line={line} key={line.id} />)
+          }
+        </div>
       </div>
     )
   }

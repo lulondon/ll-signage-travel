@@ -2,7 +2,6 @@ import axios from 'axios'
 import React, { Component } from 'react'
 
 import LiveTubeStatus from '../ui/LiveTubeStatus'
-import Spinner from '../ui/Spinner'
 
 class ContainerLTS extends Component {
   constructor() {
@@ -49,9 +48,11 @@ class ContainerLTS extends Component {
 
   render() {
     return (
-      this.state.loading
-        ? <Spinner />
-        : <LiveTubeStatus data={this.state.tubeData} />
+      <LiveTubeStatus
+        data={this.state.tubeData}
+        error={this.state.error}
+        loading={this.state.loading}
+      />
     )
   }
 }

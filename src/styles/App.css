@@ -18,6 +18,30 @@ body {
   font-size: 0.9rem;
 }
 
+.blur {
+  -webkit-animation: blur 0.25s linear forwards;
+     -moz-animation: blur 0.25s linear forwards;
+       -o-animation: blur 0.25s linear forwards;
+          animation: blur 0.25s linear forwards;
+}
+
+@-webkit-keyframes blur { to { filter: blur(5px); } }
+   @-moz-keyframes blur { to { filter: blur(5px); } }
+        @keyframes blur { to { filter: blur(5px); } }
+
+.clear {
+  -webkit-animation: 0.25s linear forwards reveal;
+   -moz-animation: 0.25s linear forwards reveal;
+     -o-animation: 0.25s linear forwards reveal;
+        animation: 0.25s linear forwards reveal;
+}
+
+@-webkit-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
+   @-moz-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
+     @-o-keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
+        @keyframes reveal { from { filter:blur(5px); } to { filter:blur(0px); }  }
+
+
 /* BACKGROUND ANIMATION */
 
 @-webkit-keyframes Gradient {

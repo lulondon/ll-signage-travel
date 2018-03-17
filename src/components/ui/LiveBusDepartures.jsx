@@ -26,12 +26,16 @@ class BusInfo extends Component {
 
 class LiveBusDepartures extends Component {
   render() {
-    const { data } = this.props || []
+    const { data, error, loading } = this.props || []
     return (
       <div>
         <h3>Live Bus Departures</h3>
         <p className='subheading mb-4'>The next buses to arrive at {data[0][1]}</p>
-        {data.map(bus => <BusInfo key={bus[4]} bus={bus} />)}
+        <div className={error || loading ? 'blur' : 'clear'}>
+          {
+            data.map(bus => <BusInfo key={bus[4]} bus={bus} />)
+          }
+        </div>
       </div>
     )
   }

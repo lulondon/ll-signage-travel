@@ -13,7 +13,12 @@ body {
   animation: Gradient 20s ease infinite;
 }
 
-/*.BACKGROUND ANIMATION */
+/* GLOBAL STYLES */
+.subheading {
+  font-size: 0.9rem;
+}
+
+/* BACKGROUND ANIMATION */
 
 @-webkit-keyframes Gradient {
   0% {

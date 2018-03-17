@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import '../../styles/LiveBusDepartures.css'
-
 class BusInfo extends Component {
   render() {
     if (this.props.bus[0] === 4) {
@@ -32,7 +30,7 @@ class LiveBusDepartures extends Component {
     return (
       <div>
         <h3>Live Bus Departures</h3>
-        <p className='LiveBusDepartures-subheading mb-4'>The next buses to arrive at {data[0][1]}</p>
+        <p className='subheading mb-4'>The next buses to arrive at {data[0][1]}</p>
         {data.map(bus => <BusInfo key={bus[4]} bus={bus} />)}
       </div>
     )

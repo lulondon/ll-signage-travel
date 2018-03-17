@@ -8,12 +8,13 @@ body {
   width: 1920px;
   height: 1080px;
   outline: 1px solid white;
+  font-size: 1.1rem;
   color: #fff;
   background: linear-gradient(-45deg, #6F3092, #361163, #B70062, #ED2482);
   background-size: 400% 400%;
-  -webkit-animation: Gradient 90s ease infinite;
-  -moz-animation: Gradient 90s ease infinite;
-  animation: Gradient 90s ease infinite;
+  -webkit-animation: Gradient 120s ease infinite;
+  -moz-animation: Gradient 120s ease infinite;
+  animation: Gradient 120s ease infinite;
 }
 
 /* GLOBAL STYLES */

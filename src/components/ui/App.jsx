@@ -22,6 +22,9 @@ const App = () =>
       <div className='col-sm col-3'>
         Col 3
       </div>
+      <div className='col-sm col-4'>
+        Col 4
+      </div>
     </div>
   </div>
 

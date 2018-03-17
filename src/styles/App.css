@@ -22,54 +22,55 @@ body {
 
 @-webkit-keyframes Gradient {
   0% {
-    background-position: 0% 50%
+    background-position: 0 50%
   }
   50% {
     background-position: 100% 50%
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0 50%
   }
 }
 
 @-moz-keyframes Gradient {
   0% {
-    background-position: 0% 50%
+    background-position: 0 50%
   }
   50% {
     background-position: 100% 50%
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0 50%
   }
 }
 
 @keyframes Gradient {
   0% {
-    background-position: 0% 50%
+    background-position: 0 50%
   }
   50% {
     background-position: 100% 50%
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0 50%
   }
 }
 
 /* COLUMN STYLING */
 
-.col-1, .col-2, .col-3 {
+.col-1, .col-2, .col-3, .col-4 {
   position: relative;
   z-index : 1;
-  padding: 0 3rem;
+  padding: 0 32px;
 }
 
-.col-2:before, .col-3:before {
-  content : "";
-  position: absolute;
-  left    : 0;
-  bottom  : 0;
-  height  : 80%;
-  width   : 1px;  /* or 100px */
+.col-2:before, .col-3:before, .col-4:before {
   border-left: 1px solid white;
+  bottom : 0;
+  content : "";
+  height : 80%;
+  left : 0;
+  position: absolute;
+  top: 10%;
+  width : 1px;
 }

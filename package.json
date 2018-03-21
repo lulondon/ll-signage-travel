@@ -28,7 +28,6 @@
     "babel-preset-stage-3": "^6.24.1",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.8",
-    "dotenv-webpack": "^1.5.4",
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-react-app": "^2.1.0",

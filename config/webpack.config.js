@@ -14,11 +14,7 @@ module.exports = {
     new htmlWebpackPlugin({
       template: paths.src + '/template/index.html'
     }),
-    new extractTextPlugin('bundle.css'),
-    new dotenvWebpack({
-      path: paths.app + '/.env',
-      systemvars: true
-    }),
+    new extractTextPlugin('bundle.css')
   ],
   module: {
     loaders: [

@@ -1,7 +1,11 @@
 import axios from 'axios'
 import React, { Component } from 'react'
 
-import LiveTubeStatus from '../ui/LiveTubeStatus'
+import { tube } from '../../../../config/config.json'
+
+import LiveTubeStatus from '../../ui/tube/LiveTubeStatus'
+
+const { tflAppId, tflApiKey, refreshInterval } = tube
 
 class ContainerLTS extends Component {
   constructor() {
@@ -19,8 +23,8 @@ class ContainerLTS extends Component {
 
     axios.get('https://api.tfl.gov.uk/line/mode/tube,overground,dlr,tflrail/status', {
       params: {
-        app_id: process.env.TFL_APP_ID,
-        app_key: process.env.TFL_API_KEY
+        app_id: tflAppId,
+        app_key: tflApiKey
       }
     })
       .then((response) => {
@@ -38,7 +42,7 @@ class ContainerLTS extends Component {
 
   componentDidMount() {
     this.loadData()
-    const reloadInterval = setInterval(() => this.loadData(), 60000)
+    const reloadInterval = setInterval(() => this.loadData(), refreshInterval || 60000)
     this.setState({ reloadInterval })
   }
 

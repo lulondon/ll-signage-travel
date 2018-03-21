@@ -1,0 +1,16 @@
+.platform {
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+.service-late {
+  font-size: 0.9rem;
+}
+
+.service-header p {
+  margin: 0;
+}
+
+.departure-board-subheading {
+  font-size: 0.8rem;
+}

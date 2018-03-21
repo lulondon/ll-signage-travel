@@ -1,7 +1,11 @@
 import axios from 'axios'
 import React, { Component } from 'react'
 
-import LiveBusDepartures from '../ui/LiveBusDepartures'
+import { bus } from '../../../../config/config.json'
+
+import LiveBusDepartures from '../../ui/bus/LiveBusDepartures'
+
+const { countdownApiProxy, refreshInterval } = bus
 
 class ContainerLBD extends Component {
   constructor() {
@@ -17,20 +21,23 @@ class ContainerLBD extends Component {
   loadData() {
     this.setState({ loading: true })
 
+    const { stopCode } = this.props
+
     const component = this
-    axios.get('http://countdown.api.tfl.gov.uk/interfaces/ura/instant_V1', {
-      params: {
-        StopCode1: this.props.stopCode,
+    axios.post(`${countdownApiProxy}/${stopCode}`, {
+      options: {
         ReturnList: 'EstimatedTime,LineID,DestinationName,StopPointName,TripID'
       }
     })
       .then((response) => {
-        const busData = JSON.parse(`[${response.data.replace(/]/g, '],').replace(/\],$/, ']').toString()}]`).slice(1)
-        busData.sort((a, b) => {
-          const x = a[5]
-          const y = b[5]
-          return ((x < y) ? -1 : ((x > y) ? 1 : 0)) // eslint-disable-line no-nested-ternary
-        })
+        const busData = response.data
+          .slice(1)
+          .sort((a, b) => {
+            const x = a[5]
+            const y = b[5]
+            return ((x < y) ? -1 : ((x > y) ? 1 : 0)) // eslint-disable-line no-nested-ternary
+          })
+
         component.setState({
           busData,
           loading: false
@@ -43,7 +50,7 @@ class ContainerLBD extends Component {
 
   componentDidMount() {
     this.loadData()
-    const reloadInterval = setInterval(() => this.loadData(), 30000)
+    const reloadInterval = setInterval(() => this.loadData(), refreshInterval || 30000)
     this.setState({ reloadInterval })
   }
 

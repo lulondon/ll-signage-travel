@@ -1,0 +1,16 @@
+{
+  "tube": {
+    "tflAppId": "xxxxxxxx",
+    "tflApiKey": "xxxxxxxx",
+    "refreshInterval": 120000
+  },
+  "rail": {
+    "darwinToken": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
+    "darwinApiProxy": "https://darwinApi.proxy:9001",
+    "refreshInterval": 120000
+  },
+  "bus": {
+    "countdownApiProxy": "https://countdownApi.proxy:9002",
+    "refreshInterval": 30000
+  }
+}

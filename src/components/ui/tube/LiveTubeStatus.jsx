@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import '../../styles/LiveTubeStatus.css'
+import '../../../styles/LiveTubeStatus.css'
 
 class LineInfo extends Component {
   render() {

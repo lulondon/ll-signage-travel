@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import { messageErrorGeneral } from '../../../../config/config.json'
+
 import '../../../styles/LiveTubeStatus.css'
 
 class LineInfo extends Component {
@@ -29,9 +31,19 @@ class LiveTubeStatus extends Component {
       <div>
         <h3>Tube & Rail</h3>
         <p className='subheading'>Visit tfl.gov.uk for more information.</p>
-        <div className={loading || error ? 'blur' : 'clear'}>
+        <div className='error-overlay-container'>
+          <div className={loading || error ? 'blur' : 'clear'}>
+            {
+              data.map(line => <LineInfo line={line} key={line.id} />)
+            }
+          </div>
           {
-            data.map(line => <LineInfo line={line} key={line.id} />)
+            error
+            ? <div className='error'>
+                <p>{ messageErrorGeneral }</p>
+                <p>{ error }</p>
+              </div>
+            : null
           }
         </div>
       </div>

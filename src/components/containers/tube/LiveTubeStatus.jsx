@@ -13,7 +13,7 @@ class ContainerLTS extends Component {
 
     this.state = {
       loading: true,
-      error: false,
+      error: null,
       tubeData: []
     }
   }
@@ -30,12 +30,13 @@ class ContainerLTS extends Component {
       .then((response) => {
         this.setState({
           tubeData: response.data,
-          loading: false
+          loading: false,
+          error: null
         })
       })
       .catch(() => this.setState({
         loading: false,
-        error: true,
+        error: 'Connection error', // fix this
         tubeData: []
       }))
   }
@@ -51,11 +52,13 @@ class ContainerLTS extends Component {
   }
 
   render() {
+    const { tubeData, error, loading } = this.state
+
     return (
       <LiveTubeStatus
-        data={this.state.tubeData}
-        error={this.state.error}
-        loading={this.state.loading}
+        data={tubeData}
+        error={error}
+        loading={loading}
       />
     )
   }

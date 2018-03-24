@@ -13,7 +13,7 @@ class ContainerLBD extends Component {
 
     this.state = {
       loading: true,
-      error: false,
+      error: null,
       busData: null
     }
   }
@@ -40,12 +40,14 @@ class ContainerLBD extends Component {
 
         component.setState({
           busData,
-          loading: false
+          loading: false,
+          error: null
         })
       })
-      .catch(() => {
-        this.setState({ error: true, loading: false })
-      })
+      .catch(() => this.setState({
+        error: 'Connection error',
+        loading: false
+      }))
   }
 
   componentDidMount() {

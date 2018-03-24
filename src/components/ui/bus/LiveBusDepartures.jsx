@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import { messageErrorGeneral } from '../../../../config/config.json'
+
 class BusInfo extends Component {
   render() {
     if (this.props.bus[0] === 4) {
@@ -31,9 +33,19 @@ class LiveBusDepartures extends Component {
       <div>
         <h3>Live Bus Departures</h3>
         <p className='subheading mb-4'>The next buses to arrive at {data[0][1]}</p>
-        <div className={error || loading ? 'blur' : 'clear'}>
+        <div className='error-overlay-container'>
+          <div className={error || loading ? 'blur' : 'clear'}>
+            {
+              data.map(bus => <BusInfo key={bus[4]} bus={bus} />)
+            }
+          </div>
           {
-            data.map(bus => <BusInfo key={bus[4]} bus={bus} />)
+            error
+              ? <div className='error'>
+                  <p>{ messageErrorGeneral }</p>
+                  <p>{error}</p>
+                </div>
+              : null
           }
         </div>
       </div>

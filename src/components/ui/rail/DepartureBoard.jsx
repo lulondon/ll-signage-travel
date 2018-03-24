@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import '../../../styles/DepartureBoard.css'
 
+import { messageErrorGeneral } from '../../../../config/config.json'
+
 import ServiceHeader from './ServiceHeader'
 
 class DepartureBoard extends Component {
@@ -10,25 +12,30 @@ class DepartureBoard extends Component {
       station,
       callingPoint,
       loading,
+      error,
       departures
     } = this.props
 
     return (
       <div className='mb-5'>
-        <div>
-          <h3>{station.name}</h3>
-          <p className='departure-board-subheading'>
+        <h3>{station.name}</h3>
+        <p className='departure-board-subheading'>
           {`Next trains from this station${callingPoint ? ` calling at ${callingPoint.name}` : '.'}`}
-          </p>
+        </p>
+        <div className={`error-overlay-container ${loading || error ? 'blur' : 'clear'}`}>
+          {
+            departures.map(service =>
+              <ServiceHeader key={service.serviceId} service={service} />)
+          }
+          {
+            error
+              ? <div className='error'>
+                  <p>{ messageErrorGeneral }</p>
+                  <p>{ error }</p>
+                </div>
+              : null
+          }
         </div>
-        {
-          loading
-            ? <div className='loader' />
-            : <div className='loader-padding' />
-        }
-        {departures.map(service =>
-          <ServiceHeader key={service.serviceId} service={service} />)
-        }
       </div>
     )
   }

@@ -90,6 +90,20 @@ body {
   }
 }
 
+.error-overlay-container {
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: -32px;
+  font-size: 0.8rem;
+}
+
 /* COLUMN STYLING */
 
 .col-1, .col-2, .col-3, .col-4 {

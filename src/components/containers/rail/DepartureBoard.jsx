@@ -15,6 +15,7 @@ class ContainerDepartureBoard extends Component {
     this.state = {
       departures: [],
       loading: false,
+      error: null,
       station,
       callingPoint,
       options
@@ -58,24 +59,33 @@ class ContainerDepartureBoard extends Component {
       })
         .then(response => this.setState({
           departures: response.data.trainServices,
-          loading: false
+          loading: false,
+          error: null
         }))
-        .catch(() => {
+        .catch(() =>
           this.setState({
-            loading: false
-          })
-        })
+            loading: false,
+            error: 'Connection error'
+          }))
     }
   }
 
   render() {
-    const { departures, station, callingPoint } = this.state
+    const {
+      departures,
+      station,
+      callingPoint,
+      error,
+      loading
+    } = this.state
 
     return (
       <DepartureBoard
         station={station}
         callingPoint={callingPoint}
         departures={departures}
+        loading={loading}
+        error={error}
       />
     )
   }

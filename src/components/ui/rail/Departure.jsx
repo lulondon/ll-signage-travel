@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class ServiceHeader extends Component {
+class Departure extends Component {
   render() {
     const { service } = this.props
 
@@ -17,17 +17,15 @@ class ServiceHeader extends Component {
 
     return (
       <div>
-        <h5 className='mb-0'>
-          <div className='d-flex justify-content-start p-0 mt-3 service-header'>
-            <p className='m-0 mr-2'>{service.std}</p>
-            <p className='m-0' >{service.destination.name}</p>
-            <p className='m-0 ml-auto'>{service.platform}</p>
-          </div>
-        </h5>
+        <div className='d-flex justify-content-start service-header mb-3'>
+          <p className='m-0 mr-2'>{service.std}</p>
+          <p className='m-0' >{service.destination.name}</p>
+          <p className='m-0 ml-auto'>{service.platform}</p>
+        </div>
         {serviceInfo}
       </div>
     )
   }
 }
 
-export default ServiceHeader
+export default Departure

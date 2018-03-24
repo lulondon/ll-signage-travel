@@ -15,7 +15,9 @@ const App = () =>
         <LiveTubeStatus />
       </div>
       <div className='col-sm col-2'>
-        <LiveBusDepartures stopCode='91431,91432' />
+        <DepartureBoard
+          station={{ name: 'Hackney Wick', code: 'HKW' }}
+        />
       </div>
       <div className='col-sm col-3'>
         {
@@ -29,7 +31,7 @@ const App = () =>
         }
       </div>
       <div className='col-sm col-4'>
-        Col 4
+        <LiveBusDepartures stopCode='91431,91432' />
       </div>
     </div>
   </div>

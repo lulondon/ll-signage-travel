@@ -4,7 +4,7 @@ import '../../../styles/DepartureBoard.css'
 
 import { messageErrorGeneral } from '../../../../config/config.json'
 
-import ServiceHeader from './ServiceHeader'
+import Departure from './Departure'
 
 class DepartureBoard extends Component {
   render() {
@@ -19,13 +19,13 @@ class DepartureBoard extends Component {
     return (
       <div className='mb-5'>
         <h3>{station.name}</h3>
-        <p className='departure-board-subheading'>
+        <p className='subheading'>
           {`Next trains from this station${callingPoint ? ` calling at ${callingPoint.name}` : '.'}`}
         </p>
         <div className={`error-overlay-container ${loading || error ? 'blur' : 'clear'}`}>
           {
             departures.map(service =>
-              <ServiceHeader key={service.serviceId} service={service} />)
+              <Departure key={service.serviceId} service={service} />)
           }
           {
             error

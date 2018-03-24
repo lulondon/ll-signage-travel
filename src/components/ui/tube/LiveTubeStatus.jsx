@@ -29,7 +29,7 @@ class LiveTubeStatus extends Component {
     const { data, error, loading } = this.props
     return (
       <div>
-        <h3>Tube & Rail</h3>
+        <h3>Tube</h3>
         <p className='subheading'>Visit tfl.gov.uk for more information.</p>
         <div className='error-overlay-container'>
           <div className={loading || error ? 'blur' : 'clear'}>

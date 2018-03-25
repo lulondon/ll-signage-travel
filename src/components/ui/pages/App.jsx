@@ -17,6 +17,11 @@ const App = () =>
       <div className='col-sm col-2'>
         <DepartureBoard
           station={{ name: 'Hackney Wick', code: 'HKW' }}
+          filter='SRA'
+        />
+        <DepartureBoard
+          station={{ name: 'Stratford (regional)', code: 'SRA' }}
+          filter='CLJ,RMD'
         />
       </div>
       <div className='col-sm col-3'>

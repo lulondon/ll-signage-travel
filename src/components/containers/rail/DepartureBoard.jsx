@@ -10,12 +10,18 @@ const { darwinApiProxy, darwinToken, refreshInterval } = rail
 class ContainerDepartureBoard extends Component {
   constructor(props) {
     super(props)
-    const { station, callingPoint, options } = props
+    const {
+      station,
+      callingPoint,
+      filter,
+      options
+    } = props
 
     this.state = {
       departures: [],
       loading: false,
       error: null,
+      filter,
       station,
       callingPoint,
       options
@@ -45,7 +51,11 @@ class ContainerDepartureBoard extends Component {
   }
 
   loadData() {
-    const { station, callingPoint, options } = this.state
+    const {
+      station,
+      callingPoint,
+      options
+    } = this.state
 
     if (station) {
       this.setState({ loading: true })

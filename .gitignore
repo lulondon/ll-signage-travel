@@ -60,5 +60,7 @@ typings/
 # Webpack build
 dist
 
+.DS_Store
+
 # Configuration
 config.json

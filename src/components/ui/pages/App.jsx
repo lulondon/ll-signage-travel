@@ -11,6 +11,9 @@ import { defaults } from '../../../../config/config.json'
 const App = () =>
   <div className='container-fluid'>
     <div className='row py-4'>
+      <div className='page-title'>
+        <p>TRAVEL INFORMATION</p>
+      </div>
       <div className='col-sm col-1'>
         <LiveTubeStatus />
       </div>

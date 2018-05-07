@@ -31,8 +31,8 @@ class LiveBusDepartures extends Component {
     const { data, error, loading } = this.props || []
     return (
       <div>
-        <h3>Live Bus Departures</h3>
-        <p className='subheading mb-4'>The next buses to arrive at {data[0][1]}</p>
+        <h3>Buses from {data[0][1]}</h3>
+        <p className='subheading mb-4'>Live London bus departure information for this stop.</p>
         <div className='error-overlay-container'>
           <div className={error || loading ? 'blur' : 'clear'}>
             {

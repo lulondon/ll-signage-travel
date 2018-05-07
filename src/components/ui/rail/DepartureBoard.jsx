@@ -9,11 +9,11 @@ import Departure from './Departure'
 class DepartureBoard extends Component {
   render() {
     const {
-      station,
       callingPoint,
-      loading,
+      departures = [],
       error,
-      departures
+      loading,
+      station
     } = this.props
 
     return (
@@ -24,8 +24,9 @@ class DepartureBoard extends Component {
         </p>
         <div className={`error-overlay-container ${loading || error ? 'blur' : 'clear'}`}>
           {
-            departures.map(service =>
-              <Departure key={service.serviceId} service={service} />)
+            departures
+              .map(service =>
+                <Departure key={service.serviceId} service={service} />)
           }
           {
             error

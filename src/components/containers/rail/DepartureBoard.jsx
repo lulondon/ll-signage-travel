@@ -86,14 +86,17 @@ class ContainerDepartureBoard extends Component {
       station,
       callingPoint,
       error,
-      loading
+      loading,
+      filter = ''
     } = this.state
 
     return (
       <DepartureBoard
         station={station}
         callingPoint={callingPoint}
-        departures={departures}
+        departures={departures
+          .filter(service =>
+            filter.toLowerCase().indexOf(service.destination.crs.toLowerCase()) < 0)}
         loading={loading}
         error={error}
       />

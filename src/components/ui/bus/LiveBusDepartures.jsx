@@ -39,6 +39,7 @@ class LiveBusDepartures extends Component {
               data.map(bus => <BusInfo key={bus[4]} bus={bus} />)
             }
           </div>
+          <p className='attribution'>Powered by TfL Open Data</p>
           {
             error
               ? <div className='error'>

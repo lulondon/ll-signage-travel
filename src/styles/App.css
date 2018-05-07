@@ -23,6 +23,13 @@ body {
   font-size: 0.9rem;
 }
 
+.attribution {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+/* BG GRADIENT ANIMATION */
+
 .blur {
   -webkit-animation: blur 0.25s linear forwards;
      -moz-animation: blur 0.25s linear forwards;

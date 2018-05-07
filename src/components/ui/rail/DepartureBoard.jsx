@@ -36,6 +36,7 @@ class DepartureBoard extends Component {
                 </div>
               : null
           }
+          <p className='attribution'>Powered by National Rail Enquiries</p>
         </div>
       </div>
     )

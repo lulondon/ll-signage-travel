@@ -36,6 +36,7 @@ class LiveTubeStatus extends Component {
             {
               data.map(line => <LineInfo line={line} key={line.id} />)
             }
+          <p className='attribution'>Powered by TfL Open Data</p>
           </div>
           {
             error

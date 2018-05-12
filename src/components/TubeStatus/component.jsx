@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import { messageErrorGeneral } from '../../../../config/config.json'
+import { messageErrorGeneral } from '../../../config/config.json'
 
-import '../../../styles/LiveTubeStatus.css'
+import './styles.css'
 
 class LineInfo extends Component {
   render() {
@@ -24,7 +24,7 @@ class LineInfo extends Component {
   }
 }
 
-class LiveTubeStatus extends Component {
+class TubeStatusView extends Component {
   render() {
     const { data, error, loading } = this.props
     return (
@@ -52,4 +52,4 @@ class LiveTubeStatus extends Component {
   }
 }
 
-export default LiveTubeStatus
+export default TubeStatusView

@@ -1,12 +1,10 @@
 import React from 'react'
 
-import LiveBusDepartures from '../../containers/bus/LiveBusDepartures'
-import LiveTubeStatus from '../../containers/tube/LiveTubeStatus'
-import DepartureBoard from '../../containers/rail/DepartureBoard'
+import BusDepartures from '../BusDepartures'
+import TubeStatus from '../TubeStatus'
+import NationalRailDepartures from '../NationalRailDepartures'
 
-import '../../../styles/App.css'
-
-import { defaults } from '../../../../config/config.json'
+import { defaults } from '../../../config/config.json'
 
 const App = () =>
   <div className='container-fluid'>
@@ -15,14 +13,14 @@ const App = () =>
         <p>TRAVEL INFORMATION</p>
       </div>
       <div className='col-sm col-1'>
-        <LiveTubeStatus />
+        <TubeStatus />
       </div>
       <div className='col-sm col-2'>
-        <DepartureBoard
+        <NationalRailDepartures
           station={{ name: 'Hackney Wick', code: 'HKW' }}
           filter='SRA'
         />
-        <DepartureBoard
+        <NationalRailDepartures
           station={{ name: 'Stratford (regional)', code: 'SRA' }}
           filter='CLJ,RMD'
         />
@@ -30,7 +28,7 @@ const App = () =>
       <div className='col-sm col-3'>
         {
           defaults.rail.map(board =>
-            <DepartureBoard
+            <NationalRailDepartures
               station={board.station}
               callingPoint={board.callingPoint}
               options={{ rows: 5 }}
@@ -39,7 +37,7 @@ const App = () =>
         }
       </div>
       <div className='col-sm col-4'>
-        <LiveBusDepartures stopCode='91431,91432' />
+        <BusDepartures stopCode='91431,91432' />
       </div>
     </div>
   </div>

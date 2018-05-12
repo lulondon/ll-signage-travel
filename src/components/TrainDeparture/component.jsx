@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Departure extends Component {
+class TrainDeparture extends Component {
   render() {
     const { service } = this.props
 
@@ -27,4 +27,4 @@ class Departure extends Component {
   }
 }
 
-export default Departure
+export default TrainDeparture

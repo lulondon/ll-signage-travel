@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import '../../../styles/DepartureBoard.css'
+import { messageErrorGeneral } from '../../../config/config.json'
 
-import { messageErrorGeneral } from '../../../../config/config.json'
+import TrainDeparture from '../TrainDeparture'
 
-import Departure from './Departure'
+import './styles.css'
 
-class DepartureBoard extends Component {
+class NationalRailDepartures extends Component {
   render() {
     const {
       callingPoint,
@@ -26,7 +26,7 @@ class DepartureBoard extends Component {
           {
             departures
               .map(service =>
-                <Departure key={service.serviceId} service={service} />)
+                <TrainDeparture key={service.serviceId} service={service} />)
           }
           {
             error
@@ -43,4 +43,4 @@ class DepartureBoard extends Component {
   }
 }
 
-export default DepartureBoard
+export default NationalRailDepartures

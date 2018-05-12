@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-import { rail } from '../../../../config/config.json'
+import { rail } from '../../../config/config.json'
 
-import DepartureBoard from '../../ui/rail/DepartureBoard'
+import DepartureBoardView from './component'
 
 const { darwinApiProxy, darwinToken, refreshInterval } = rail
 
-class ContainerDepartureBoard extends Component {
+class NationalRailDepartures extends Component {
   constructor(props) {
     super(props)
     const {
@@ -91,7 +91,7 @@ class ContainerDepartureBoard extends Component {
     } = this.state
 
     return (
-      <DepartureBoard
+      <DepartureBoardView
         station={station}
         callingPoint={callingPoint}
         departures={departures
@@ -104,4 +104,4 @@ class ContainerDepartureBoard extends Component {
   }
 }
 
-export default ContainerDepartureBoard
+export default NationalRailDepartures

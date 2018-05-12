@@ -1,13 +1,13 @@
 import axios from 'axios'
 import React, { Component } from 'react'
 
-import { bus } from '../../../../config/config.json'
+import { bus } from '../../../config/config.json'
 
-import LiveBusDepartures from '../../ui/bus/LiveBusDepartures'
+import BusDeparturesView from './component'
 
 const { countdownApiProxy, refreshInterval } = bus
 
-class ContainerLBD extends Component {
+class BusDepartures extends Component {
   constructor() {
     super()
 
@@ -63,7 +63,7 @@ class ContainerLBD extends Component {
   render() {
     return (
       this.state.busData
-        ? <LiveBusDepartures
+        ? <BusDeparturesView
           data={this.state.busData}
           error={this.state.error}
           loading={this.state.loading}
@@ -73,4 +73,4 @@ class ContainerLBD extends Component {
   }
 }
 
-export default ContainerLBD
+export default BusDepartures

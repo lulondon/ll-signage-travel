@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { messageErrorGeneral } from '../../../../config/config.json'
+import { messageErrorGeneral } from '../../../config/config.json'
 
 class BusInfo extends Component {
   render() {
@@ -26,7 +26,7 @@ class BusInfo extends Component {
   }
 }
 
-class LiveBusDepartures extends Component {
+class BusDepartures extends Component {
   render() {
     const { data, error, loading } = this.props || []
     return (
@@ -54,4 +54,4 @@ class LiveBusDepartures extends Component {
   }
 }
 
-export default LiveBusDepartures
+export default BusDepartures

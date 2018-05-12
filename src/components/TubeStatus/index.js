@@ -1,13 +1,13 @@
 import axios from 'axios'
 import React, { Component } from 'react'
 
-import { tube } from '../../../../config/config.json'
+import { tube } from '../../../config/config.json'
 
-import LiveTubeStatus from '../../ui/tube/LiveTubeStatus'
+import TubeStatusView from './component'
 
 const { tflAppId, tflApiKey, refreshInterval } = tube
 
-class ContainerLTS extends Component {
+class TubeStatus extends Component {
   constructor() {
     super()
 
@@ -55,7 +55,7 @@ class ContainerLTS extends Component {
     const { tubeData, error, loading } = this.state
 
     return (
-      <LiveTubeStatus
+      <TubeStatusView
         data={tubeData}
         error={error}
         loading={loading}
@@ -64,4 +64,4 @@ class ContainerLTS extends Component {
   }
 }
 
-export default ContainerLTS
+export default TubeStatus

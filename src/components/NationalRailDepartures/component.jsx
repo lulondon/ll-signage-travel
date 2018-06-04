@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import { messageErrorGeneral } from '../../../config/config.json'
+import getStationNameByCRS from '../../lib/NationalRailStations'
 
 import TrainDeparture from '../TrainDeparture'
 
@@ -18,9 +19,9 @@ class NationalRailDepartures extends Component {
 
     return (
       <div className='mb-5'>
-        <h3>{station.name}</h3>
+        <h3>{station.name || getStationNameByCRS(station.code)}</h3>
         <p className='subheading'>
-          {`Next trains from this station${callingPoint ? ` calling at ${callingPoint.name}` : '.'}`}
+          {`Next trains from this station${callingPoint ? ` calling at ${callingPoint.name || getStationNameByCRS(callingPoint.code)}` : '.'}`}
         </p>
         <div className={`error-overlay-container ${loading || error ? 'blur' : 'clear'}`}>
           {

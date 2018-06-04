@@ -4,8 +4,6 @@ import BusDepartures from '../BusDepartures'
 import TubeStatus from '../TubeStatus'
 import NationalRailDepartures from '../NationalRailDepartures'
 
-import { defaults } from '../../../config/config.json'
-
 const App = () =>
   <div className='grid-container'>
     <div className='page-title'>
@@ -16,24 +14,23 @@ const App = () =>
     </div>
     <div className='col-2'>
       <NationalRailDepartures
-        station={{ name: 'Hackney Wick', code: 'HKW' }}
+        station={{ code: 'HKW' }}
         filter='SRA'
       />
       <NationalRailDepartures
-        station={{ name: 'Stratford (regional)', code: 'SRA' }}
+        station={{ name: 'Stratford (regional trains)', code: 'SRA' }}
         filter='CLJ,RMD'
       />
     </div>
     <div className='col-3'>
-      {
-        defaults.rail.map(board =>
-          <NationalRailDepartures
-            station={board.station}
-            callingPoint={board.callingPoint}
-            options={{ rows: 5 }}
-            key={`${board.station.code}-${board.callingPoint.code}`}
-          />)
-      }
+      <NationalRailDepartures
+        station={{ code: 'LBO' }}
+        callingPoint={{ code: 'SFA' }}
+      />
+      <NationalRailDepartures
+        station={{ code: 'SFA' }}
+        callingPoint={{ code: 'STP' }}
+      />
     </div>
     <div className='col-4'>
       <BusDepartures stopCode='91431,91432' />

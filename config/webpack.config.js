@@ -30,6 +30,18 @@ module.exports = {
         })
       },
       {
+        test: /\.(scss)$/,
+        use: [{
+          loader: 'style-loader', // inject CSS to page
+        },
+        {
+          loader: 'css-loader', // translates CSS into CommonJS modules
+        },
+        {
+          loader: 'sass-loader' // compiles Sass to CSS
+        }]
+      },
+      {
         test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         use: 'url-loader?limit=10000,outputPath=fonts/',
       },

@@ -18,8 +18,8 @@ class NationalRailDepartures extends Component {
     } = this.props
 
     return (
-      <div className='board-container'>
-        <h3>{station.name || getStationNameByCRS(station.code)}</h3>
+      <div className='board-container-transparent'>
+        <h3 className='board-header'>{station.name || getStationNameByCRS(station.code)}</h3>
         <p className='subheading'>
           {`Next trains from this station${callingPoint ? ` calling at ${callingPoint.name || getStationNameByCRS(callingPoint.code)}` : '.'}`}
         </p>

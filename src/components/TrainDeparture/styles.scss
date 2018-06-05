@@ -1,0 +1,52 @@
+@import '../../styles/variables.scss';
+
+%no-margin-padding {
+  padding: 0;
+  margin: 0;
+}
+
+%service-text {
+  font-size: 0.9rem;
+}
+
+.train-departure-container {
+  margin: $box-margin 0;
+  padding: $box-padding;
+
+  background-color: $lu-light-grey;
+  border-radius: $border-radius;
+  color: $primary;
+}
+
+.service-info-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.service-std {
+  @extend %no-margin-padding;
+  @extend %service-text;
+
+  margin-right: $text-margin;
+}
+
+.service-destination {
+  @extend %no-margin-padding;
+
+  margin-bottom: $text-margin;
+  font-size: 1.2rem;
+}
+
+.service-platform {
+  @extend %no-margin-padding;
+
+  font-size: 0.9rem;
+}
+
+.service-etd-status {
+  @extend %no-margin-padding;
+  @extend %service-text;
+
+  margin-right: $text-margin;
+  color: $error;
+}

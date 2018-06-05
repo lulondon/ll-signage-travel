@@ -14,8 +14,7 @@ const App = () =>
     </div>
     <div className='col-2'>
       <NationalRailDepartures
-        station={{ code: 'HKW' }}
-        filter='SRA'
+        station={{ code: 'KGX' }}
       />
       <NationalRailDepartures
         station={{ name: 'Stratford (regional trains)', code: 'SRA' }}

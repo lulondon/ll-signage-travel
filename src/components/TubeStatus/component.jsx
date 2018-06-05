@@ -16,7 +16,7 @@ class LineInfo extends Component {
     return (
       line
         ? <div id={line.id} className='line-info'>
-            <h5>{line.name}</h5>
+            <h4>{line.name}</h4>
             <p className='line-status'>{formatStatusText(line.lineStatuses)}</p>
           </div>
         : null

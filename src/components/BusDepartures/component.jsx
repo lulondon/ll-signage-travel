@@ -1,8 +1,16 @@
 import React, { Component } from 'react'
+import posed, { PoseGroup } from 'react-pose'
 
 import { messageErrorGeneral } from '../../../config/config.json'
 
 import './styles.scss'
+
+const busOptions = {
+  enter: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -10 }
+}
+
+const Bus = posed.div(busOptions)
 
 class BusInfo extends Component {
   render() {
@@ -37,11 +45,11 @@ class BusDepartures extends Component {
         <h3 className='board-header'>Buses from {data[0][1]}</h3>
         <p className='subheading mb-4'>Live London bus departure information for this stop.</p>
         <div className='error-overlay-container'>
-          <div className={error || loading ? 'blur' : 'clear'}>
+          <PoseGroup animateOnMount={true}>
             {
-              data.map(bus => <BusInfo key={bus[4]} bus={bus} />)
+              data.map(bus => <Bus key={bus[4]}><BusInfo bus={bus} /></Bus>)
             }
-          </div>
+          </PoseGroup>
           <p className='attribution'>Powered by TfL Open Data</p>
           {
             error

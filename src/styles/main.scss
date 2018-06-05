@@ -22,7 +22,7 @@ body {
 /* GLOBAL STYLES */
 %board-container-shared {
   padding: $box-padding;
-  margin: $box-margin;
+  margin: $box-margin 0;
 }
 
 .board-container {

@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+%no-margin-padding {
+  padding: 0;
+  margin: 0;
+}
+
+.bus-departures-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  color: $primary;
+  border-radius: $border-radius;
+  background-color: $lu-light-grey;
+
+  margin: $box-margin 0;
+  padding: $box-padding;
+
+  align-items: center;
+}
+
+.bus-service {
+  @extend %no-margin-padding;
+
+  margin: -$box-margin;
+
+  border-top-left-radius: $border-radius;
+  border-bottom-left-radius: $border-radius;
+
+  padding: $box-padding;
+  margin-right: $box-margin;
+
+  background-color: $tfl-bus;
+  color: $lu-light-grey;
+}
+
+.bus-destination {
+  @extend %no-margin-padding;
+}
+
+.bus-arrival {
+  @extend %no-margin-padding;
+  margin-left: auto;
+  font-size: $font-size-sm;
+}

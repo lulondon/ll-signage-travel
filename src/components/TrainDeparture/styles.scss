@@ -6,7 +6,7 @@
 }
 
 %service-text {
-  font-size: 0.9rem;
+  font-size: $font-size-sm;
 }
 
 .train-departure-container {
@@ -40,7 +40,7 @@
 .service-platform {
   @extend %no-margin-padding;
 
-  font-size: 0.9rem;
+  font-size: $font-size-sm;
 }
 
 .service-etd-status {

@@ -14,18 +14,15 @@ const App = () =>
     </div>
     <div className='col-2'>
       <NationalRailDepartures
-        station={{ code: 'KGX' }}
+        station={{ code: 'HKW' }}
+        filter='SRA'
       />
       <NationalRailDepartures
         station={{ name: 'Stratford (regional trains)', code: 'SRA' }}
-        filter='CLJ,RMD'
+        filter='CLJ,RMD,LST'
       />
     </div>
     <div className='col-3'>
-      <NationalRailDepartures
-        station={{ code: 'LBO' }}
-        callingPoint={{ code: 'SFA' }}
-      />
       <NationalRailDepartures
         station={{ code: 'SFA' }}
         callingPoint={{ code: 'STP' }}

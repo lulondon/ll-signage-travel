@@ -7,7 +7,7 @@ import './styles.scss'
 
 const busOptions = {
   enter: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -10 }
+  exit: { opacity: 0, y: 10 }
 }
 
 const Bus = posed.div(busOptions)
@@ -38,7 +38,7 @@ class BusInfo extends Component {
 
 class BusDepartures extends Component {
   render() {
-    const { data, error, loading } = this.props || []
+    const { data, error } = this.props || []
 
     return (
       <div className='board-container-transparent'>

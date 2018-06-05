@@ -1,5 +1,6 @@
 @import 'grid';
 @import 'loading';
+@import 'variables';
 
 @font-face{
     font-family: 'DIN Round Pro Thin';
@@ -19,6 +20,31 @@ body {
 }
 
 /* GLOBAL STYLES */
+%board-container-shared {
+  padding: $box-padding;
+  margin: $box-margin;
+}
+
+.board-container {
+  @extend %board-container-shared;
+
+  color: $primary;
+  background-color: $lu-light-grey;
+  border-radius: $border-radius;
+}
+
+.board-container-transparent {
+  @extend %board-container-shared;
+
+  background: none;
+  border: none;
+}
+
+h3.board-header {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
 .subheading {
   font-size: 0.9rem;
 }

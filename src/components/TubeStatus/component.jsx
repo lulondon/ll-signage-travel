@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { messageErrorGeneral } from '../../../config/config.json'
 
-import './styles.css'
+import './styles.scss'
 
 class LineInfo extends Component {
   render() {
@@ -15,9 +15,9 @@ class LineInfo extends Component {
 
     return (
       line
-        ? <div id={line.id} className='line-info py-2'>
-            <h5 className='mb-0'>{line.name}</h5>
-            <p className='line-status m-0'>{formatStatusText(line.lineStatuses)}</p>
+        ? <div id={line.id} className='line-info'>
+            <h5>{line.name}</h5>
+            <p className='line-status'>{formatStatusText(line.lineStatuses)}</p>
           </div>
         : null
     )
@@ -27,9 +27,10 @@ class LineInfo extends Component {
 class TubeStatusView extends Component {
   render() {
     const { data, error, loading } = this.props
+
     return (
-      <div>
-        <h3>Tube</h3>
+      <div className='board-container-transparent'>
+        <h3 className='board-header'>Tube</h3>
         <p className='subheading'>Visit tfl.gov.uk for more information.</p>
         <div className='error-overlay-container'>
           <div className={loading || error ? 'blur' : 'clear'}>

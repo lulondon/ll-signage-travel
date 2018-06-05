@@ -29,8 +29,9 @@ class BusInfo extends Component {
 class BusDepartures extends Component {
   render() {
     const { data, error, loading } = this.props || []
+
     return (
-      <div>
+      <div className='board-container'>
         <h3>Buses from {data[0][1]}</h3>
         <p className='subheading mb-4'>Live London bus departure information for this stop.</p>
         <div className='error-overlay-container'>

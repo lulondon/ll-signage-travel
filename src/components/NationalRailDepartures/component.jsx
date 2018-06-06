@@ -21,6 +21,7 @@ class NationalRailDepartures extends Component {
       callingPoint,
       departures = [],
       error,
+      loading,
       station
     } = this.props
 
@@ -45,7 +46,14 @@ class NationalRailDepartures extends Component {
               </div>
             : null
         }
-        <p className='attribution'>Powered by National Rail Enquiries</p>
+        <div className='board-footer'>
+          <p className='attribution'>Powered by National Rail Enquiries</p>
+          {
+            loading
+            ? <div className='spinner' />
+            : null
+          }
+        </div>
       </div>
     )
   }

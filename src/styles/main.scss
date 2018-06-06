@@ -19,6 +19,29 @@ body {
   background-color: #361163;
 }
 
+/* Spinner */
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.spinner {
+  content: '';
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  border-top-color: #ED2482;
+  animation: spinner .6s linear infinite;
+}
+
+.spinner-invisible {
+  height: 16px;
+  width: 16px;
+  content: '';
+}
+
+
 /* GLOBAL STYLES */
 %board-container-shared {
   padding: $box-padding;
@@ -51,5 +74,14 @@ h3.board-header {
 
 .attribution {
   font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.board-footer {
   margin-top: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-contents: center;
+  justify-content: space-between;
 }

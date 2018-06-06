@@ -32,12 +32,19 @@ class TubeStatusView extends Component {
       <div className='board-container-transparent'>
         <h3 className='board-header'>Tube</h3>
         <p className='subheading'>Visit tfl.gov.uk for more information.</p>
-        <div className='error-overlay-container'>
-          <div className={loading || error ? 'blur' : 'clear'}>
+        <div>
+          <div>
             {
               data.map(line => <LineInfo line={line} key={line.id} />)
             }
-          <p className='attribution'>Powered by TfL Open Data</p>
+          </div>
+          <div className='board-footer'>
+            <p className='attribution'>Powered by TfL Open Data</p>
+            {
+              loading
+              ? <div className='spinner' />
+              : null
+            }
           </div>
           {
             error

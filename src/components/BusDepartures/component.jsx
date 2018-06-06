@@ -38,7 +38,7 @@ class BusInfo extends Component {
 
 class BusDepartures extends Component {
   render() {
-    const { data, error } = this.props || []
+    const { data, error, loading } = this.props || []
 
     return (
       <div className='board-container-transparent'>
@@ -50,7 +50,14 @@ class BusDepartures extends Component {
               data.map(bus => <Bus key={bus[4]}><BusInfo bus={bus} /></Bus>)
             }
           </PoseGroup>
-          <p className='attribution'>Powered by TfL Open Data</p>
+          <div className='board-footer'>
+            <p className='attribution'>Powered by TfL Open Data</p>
+            {
+              loading
+              ? <div className='spinner' />
+              : null
+            }
+          </div>
           {
             error
               ? <div className='error'>

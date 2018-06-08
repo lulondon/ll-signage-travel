@@ -70,6 +70,7 @@ h3.board-header {
 
 .subheading {
   font-size: 0.9rem;
+  margin-top: 0;
 }
 
 .attribution {
@@ -79,7 +80,7 @@ h3.board-header {
 }
 
 .board-footer {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   display: flex;
   flex-wrap: nowrap;
   align-contents: center;

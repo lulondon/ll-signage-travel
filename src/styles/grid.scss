@@ -1,5 +1,7 @@
 .grid-container {
   display: grid;
+  height: 1080px;
+  flex-wrap: nowrap;
   grid-template-columns: 7rem repeat(4, 1fr);
 }
 
@@ -18,4 +20,11 @@
 
 .col-1 {
   padding-left: 0;
+}
+
+.col-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }

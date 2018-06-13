@@ -1,8 +1,9 @@
 import React from 'react'
 
+import AdditionalInformation from '../AdditionalInformation'
 import BusDepartures from '../BusDepartures'
-import TubeStatus from '../TubeStatus'
 import NationalRailDepartures from '../NationalRailDepartures'
+import TubeStatus from '../TubeStatus'
 
 const App = () =>
   <div className='grid-container'>
@@ -30,6 +31,7 @@ const App = () =>
     </div>
     <div className='col-4'>
       <BusDepartures stopCode='91431,91432' />
+      <AdditionalInformation />
     </div>
   </div>
 

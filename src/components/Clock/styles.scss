@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.clock {
+  padding: $box-padding;
+  margin: $box-margin;
+
+  text-align: right;
+}
+
+h3.clockface {
+  margin: 0;
+}

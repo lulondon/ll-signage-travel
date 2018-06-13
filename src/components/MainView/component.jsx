@@ -4,6 +4,7 @@ import AdditionalInformation from '../AdditionalInformation'
 import BusDepartures from '../BusDepartures'
 import NationalRailDepartures from '../NationalRailDepartures'
 import TubeStatus from '../TubeStatus'
+import Clock from '../Clock'
 
 const App = () =>
   <div className='grid-container'>
@@ -32,6 +33,7 @@ const App = () =>
     <div className='col-4'>
       <BusDepartures stopCode='91431,91432' />
       <AdditionalInformation />
+      <Clock />
     </div>
   </div>
 

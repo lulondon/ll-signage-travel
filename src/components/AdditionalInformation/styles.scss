@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.additional-information {
+  border-radius: $border-radius;
+  background-color: $mulberry;
+  padding: $box-padding;
+  margin: $box-margin;
+  margin-top: auto;
+}
+
+.additional-information-header {
+  margin-bottom: 1rem !important;
+}
+
+.additional-information-url {
+  display: inline;
+  font-weight: bold;
+  text-decoration: underline;
+}

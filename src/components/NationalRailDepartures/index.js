@@ -40,7 +40,6 @@ class NationalRailDepartures extends Component {
   componentDidMount() {
     this.loadData()
 
-    // eslint-disable-next-line no-mixed-operators
     const timer = setInterval(() => this.loadData(), randomRefreshInterval())
     this.setState({ timer })
   }

@@ -28,6 +28,11 @@ const App = () =>
       <NationalRailDepartures
         station={{ code: 'SFA' }}
         callingPoint={{ code: 'STP' }}
+        options={{ rows: 5 }}
+      />
+      <NationalRailDepartures
+        station={{ code: 'STP' }}
+        callingPoint={{ code: 'LBO' }}
       />
     </div>
     <div className='col-4'>

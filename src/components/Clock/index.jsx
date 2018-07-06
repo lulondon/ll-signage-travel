@@ -7,17 +7,21 @@ class Clock extends Component {
 
     this.state = {
       time: Date.now(),
-      unsetTimer: null
+      unsetTimer: null,
     }
   }
 
   componentDidMount() {
-    const unsetTimer = setInterval(() => this.setState({ time: Date.now() }), 1000)
-    this.setState({ unsetTimer })
+    this.initialiseClock()
   }
 
   componentWillUnmount() {
     this.state.unsetTimer()
+  }
+
+  initialiseClock() {
+    const unsetTimer = setInterval(() => this.setState({ time: Date.now() }), 1000)
+    this.setState({ unsetTimer })
   }
 
   render() {

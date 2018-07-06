@@ -21,7 +21,7 @@ class NationalRailDepartures extends Component {
       station,
       callingPoint,
       filter,
-      options
+      options,
     } = props
 
     this.state = {
@@ -31,7 +31,7 @@ class NationalRailDepartures extends Component {
       filter,
       station,
       callingPoint,
-      options
+      options,
     }
 
     this.loadDate = this.loadData.bind(this)
@@ -39,13 +39,7 @@ class NationalRailDepartures extends Component {
 
   componentDidMount() {
     this.loadData()
-
-    const timer = setInterval(() => this.loadData(), randomRefreshInterval())
-    this.setState({ timer })
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.state.timer)
+    this.initialiseRefreshInterval()
   }
 
   componentWillReceiveProps(newProps) {
@@ -53,15 +47,24 @@ class NationalRailDepartures extends Component {
 
     this.setState({
       station,
-      callingPoint
+      callingPoint,
     }, () => this.loadData())
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.timer)
+  }
+
+  initialiseRefreshInterval() {
+    const timer = setInterval(() => this.loadData(), randomRefreshInterval())
+    this.setState({ timer })
   }
 
   loadData() {
     const {
       station,
       callingPoint,
-      options
+      options,
     } = this.state
 
     if (station) {
@@ -71,18 +74,18 @@ class NationalRailDepartures extends Component {
         token: darwinToken,
         options: {
           destination: callingPoint ? callingPoint.code : null,
-          ...options
-        }
+          ...options,
+        },
       })
         .then(response => this.setState({
           departures: response.data.trainServices,
           loading: false,
-          error: null
+          error: null,
         }))
         .catch(() =>
           this.setState({
             loading: false,
-            error: 'Connection error'
+            error: 'Connection error',
           }))
     }
   }
@@ -94,7 +97,7 @@ class NationalRailDepartures extends Component {
       callingPoint,
       error,
       loading,
-      filter = ''
+      filter = '',
     } = this.state
 
     return (

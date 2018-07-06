@@ -14,8 +14,22 @@ class BusDepartures extends Component {
     this.state = {
       loading: true,
       error: null,
-      busData: null
+      busData: null,
     }
+  }
+
+  componentDidMount() {
+    this.loadData()
+    this.initialiseRefreshInterval()
+  }
+
+  componentWillUmount() {
+    clearInterval(this.state.reloadInterval)
+  }
+
+  initialiseRefreshInterval() {
+    const reloadInterval = setInterval(() => this.loadData(), refreshInterval || 30000)
+    this.setState({ reloadInterval })
   }
 
   loadData() {
@@ -26,8 +40,8 @@ class BusDepartures extends Component {
     const component = this
     axios.post(`${countdownApiProxy}/${stopCode}`, {
       options: {
-        ReturnList: 'EstimatedTime,LineID,DestinationName,StopPointName,TripID'
-      }
+        ReturnList: 'EstimatedTime,LineID,DestinationName,StopPointName,TripID',
+      },
     })
       .then((response) => {
         const busData = response.data
@@ -41,23 +55,13 @@ class BusDepartures extends Component {
         component.setState({
           busData,
           loading: false,
-          error: null
+          error: null,
         })
       })
       .catch(() => this.setState({
         error: 'Connection error',
-        loading: false
+        loading: false,
       }))
-  }
-
-  componentDidMount() {
-    this.loadData()
-    const reloadInterval = setInterval(() => this.loadData(), refreshInterval || 30000)
-    this.setState({ reloadInterval })
-  }
-
-  componentWillUmount() {
-    clearInterval(this.state.reloadInterval)
   }
 
   render() {

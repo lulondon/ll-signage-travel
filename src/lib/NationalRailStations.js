@@ -1,10284 +1,10284 @@
 const stations = [
   {
     name: 'Abbey Wood',
-    code: 'ABW'
+    code: 'ABW',
   },
   {
     name: 'Aber',
-    code: 'ABE'
+    code: 'ABE',
   },
   {
     name: 'Abercynon',
-    code: 'ACY'
+    code: 'ACY',
   },
   {
     name: 'Aberdare',
-    code: 'ABA'
+    code: 'ABA',
   },
   {
     name: 'Aberdeen',
-    code: 'ABD'
+    code: 'ABD',
   },
   {
     name: 'Aberdour',
-    code: 'AUR'
+    code: 'AUR',
   },
   {
     name: 'Aberdovey',
-    code: 'AVY'
+    code: 'AVY',
   },
   {
     name: 'Abererch',
-    code: 'ABH'
+    code: 'ABH',
   },
   {
     name: 'Abergavenny',
-    code: 'AGV'
+    code: 'AGV',
   },
   {
     name: 'Abergele & Pensarn',
-    code: 'AGL'
+    code: 'AGL',
   },
   {
     name: 'Aberystwyth',
-    code: 'AYW'
+    code: 'AYW',
   },
   {
     name: 'Accrington',
-    code: 'ACR'
+    code: 'ACR',
   },
   {
     name: 'Achanalt',
-    code: 'AAT'
+    code: 'AAT',
   },
   {
     name: 'Achnasheen',
-    code: 'ACN'
+    code: 'ACN',
   },
   {
     name: 'Achnashellach',
-    code: 'ACH'
+    code: 'ACH',
   },
   {
     name: 'Acklington',
-    code: 'ACK'
+    code: 'ACK',
   },
   {
     name: 'Acle',
-    code: 'ACL'
+    code: 'ACL',
   },
   {
     name: 'Acocks Green',
-    code: 'ACG'
+    code: 'ACG',
   },
   {
     name: 'Acton Bridge (Cheshire)',
-    code: 'ACB'
+    code: 'ACB',
   },
   {
     name: 'Acton Central',
-    code: 'ACC'
+    code: 'ACC',
   },
   {
     name: 'Acton Main Line',
-    code: 'AML'
+    code: 'AML',
   },
   {
     name: 'Adderley Park',
-    code: 'ADD'
+    code: 'ADD',
   },
   {
     name: 'Addiewell',
-    code: 'ADW'
+    code: 'ADW',
   },
   {
     name: 'Addlestone',
-    code: 'ASN'
+    code: 'ASN',
   },
   {
     name: 'Adisham',
-    code: 'ADM'
+    code: 'ADM',
   },
   {
     name: 'Adlington (Cheshire)',
-    code: 'ADC'
+    code: 'ADC',
   },
   {
     name: 'Adlington (Lancs)',
-    code: 'ADL'
+    code: 'ADL',
   },
   {
     name: 'Adwick',
-    code: 'AWK'
+    code: 'AWK',
   },
   {
     name: 'Aigburth',
-    code: 'AIG'
+    code: 'AIG',
   },
   {
     name: 'Ainsdale',
-    code: 'ANS'
+    code: 'ANS',
   },
   {
     name: 'Aintree',
-    code: 'AIN'
+    code: 'AIN',
   },
   {
     name: 'Airbles',
-    code: 'AIR'
+    code: 'AIR',
   },
   {
     name: 'Airdrie',
-    code: 'ADR'
+    code: 'ADR',
   },
   {
     name: 'Albany Park',
-    code: 'AYP'
+    code: 'AYP',
   },
   {
     name: 'Albrighton',
-    code: 'ALB'
+    code: 'ALB',
   },
   {
     name: 'Alderley Edge',
-    code: 'ALD'
+    code: 'ALD',
   },
   {
     name: 'Aldermaston',
-    code: 'AMT'
+    code: 'AMT',
   },
   {
     name: 'Aldershot',
-    code: 'AHT'
+    code: 'AHT',
   },
   {
     name: 'Aldrington',
-    code: 'AGT'
+    code: 'AGT',
   },
   {
     name: 'Alexandra Palace',
-    code: 'AAP'
+    code: 'AAP',
   },
   {
     name: 'Alexandra Parade',
-    code: 'AXP'
+    code: 'AXP',
   },
   {
     name: 'Alexandria',
-    code: 'ALX'
+    code: 'ALX',
   },
   {
     name: 'Alfreton',
-    code: 'ALF'
+    code: 'ALF',
   },
   {
     name: 'Allens West',
-    code: 'ALW'
+    code: 'ALW',
   },
   {
     name: 'Alloa',
-    code: 'ALO'
+    code: 'ALO',
   },
   {
     name: 'Alness',
-    code: 'ASS'
+    code: 'ASS',
   },
   {
     name: 'Alnmouth',
-    code: 'ALM'
+    code: 'ALM',
   },
   {
     name: 'Alresford (Essex)',
-    code: 'ALR'
+    code: 'ALR',
   },
   {
     name: 'Alsager',
-    code: 'ASG'
+    code: 'ASG',
   },
   {
     name: 'Althorne (Essex)',
-    code: 'ALN'
+    code: 'ALN',
   },
   {
     name: 'Althorpe',
-    code: 'ALP'
+    code: 'ALP',
   },
   {
     name: 'Altnabreac',
-    code: 'ABC'
+    code: 'ABC',
   },
   {
     name: 'Alton',
-    code: 'AON'
+    code: 'AON',
   },
   {
     name: 'Altrincham',
-    code: 'ALT'
+    code: 'ALT',
   },
   {
     name: 'Alvechurch',
-    code: 'ALV'
+    code: 'ALV',
   },
   {
     name: 'Ambergate',
-    code: 'AMB'
+    code: 'AMB',
   },
   {
     name: 'Amberley',
-    code: 'AMY'
+    code: 'AMY',
   },
   {
     name: 'Amersham',
-    code: 'AMR'
+    code: 'AMR',
   },
   {
     name: 'Ammanford',
-    code: 'AMF'
+    code: 'AMF',
   },
   {
     name: 'Ancaster',
-    code: 'ANC'
+    code: 'ANC',
   },
   {
     name: 'Anderston',
-    code: 'AND'
+    code: 'AND',
   },
   {
     name: 'Andover',
-    code: 'ADV'
+    code: 'ADV',
   },
   {
     name: 'Anerley',
-    code: 'ANZ'
+    code: 'ANZ',
   },
   {
     name: 'Angel Road',
-    code: 'AGR'
+    code: 'AGR',
   },
   {
     name: 'Angmering',
-    code: 'ANG'
+    code: 'ANG',
   },
   {
     name: 'Annan',
-    code: 'ANN'
+    code: 'ANN',
   },
   {
     name: 'Anniesland',
-    code: 'ANL'
+    code: 'ANL',
   },
   {
     name: 'Ansdell & Fairhaven',
-    code: 'AFV'
+    code: 'AFV',
   },
   {
     name: 'Apperley Bridge',
-    code: 'APY'
+    code: 'APY',
   },
   {
     name: 'Appleby',
-    code: 'APP'
+    code: 'APP',
   },
   {
     name: 'Appledore (Kent)',
-    code: 'APD'
+    code: 'APD',
   },
   {
     name: 'Appleford',
-    code: 'APF'
+    code: 'APF',
   },
   {
     name: 'Appley Bridge',
-    code: 'APB'
+    code: 'APB',
   },
   {
     name: 'Apsley',
-    code: 'APS'
+    code: 'APS',
   },
   {
     name: 'Arbroath',
-    code: 'ARB'
+    code: 'ARB',
   },
   {
     name: 'Ardgay',
-    code: 'ARD'
+    code: 'ARD',
   },
   {
     name: 'Ardlui',
-    code: 'AUI'
+    code: 'AUI',
   },
   {
     name: 'Ardrossan Harbour',
-    code: 'ADS'
+    code: 'ADS',
   },
   {
     name: 'Ardrossan South Beach',
-    code: 'ASB'
+    code: 'ASB',
   },
   {
     name: 'Ardrossan Town',
-    code: 'ADN'
+    code: 'ADN',
   },
   {
     name: 'Ardwick',
-    code: 'ADK'
+    code: 'ADK',
   },
   {
     name: 'Argyle Street',
-    code: 'AGS'
+    code: 'AGS',
   },
   {
     name: 'Arisaig',
-    code: 'ARG'
+    code: 'ARG',
   },
   {
     name: 'Arlesey',
-    code: 'ARL'
+    code: 'ARL',
   },
   {
     name: 'Armadale (West Lothian)',
-    code: 'ARM'
+    code: 'ARM',
   },
   {
     name: 'Armathwaite',
-    code: 'AWT'
+    code: 'AWT',
   },
   {
     name: 'Arnside',
-    code: 'ARN'
+    code: 'ARN',
   },
   {
     name: 'Arram',
-    code: 'ARR'
+    code: 'ARR',
   },
   {
     name: 'Arrochar & Tarbet',
-    code: 'ART'
+    code: 'ART',
   },
   {
     name: 'Arundel',
-    code: 'ARU'
+    code: 'ARU',
   },
   {
     name: 'Ascot (Berks)',
-    code: 'ACT'
+    code: 'ACT',
   },
   {
     name: 'Ascott-under-Wychwood',
-    code: 'AUW'
+    code: 'AUW',
   },
   {
     name: 'Ash',
-    code: 'ASH'
+    code: 'ASH',
   },
   {
     name: 'Ash Vale',
-    code: 'AHV'
+    code: 'AHV',
   },
   {
     name: 'Ashburys',
-    code: 'ABY'
+    code: 'ABY',
   },
   {
     name: 'Ashchurch for Tewkesbury',
-    code: 'ASC'
+    code: 'ASC',
   },
   {
     name: 'Ashfield',
-    code: 'ASF'
+    code: 'ASF',
   },
   {
     name: 'Ashford (Surrey)',
-    code: 'AFS'
+    code: 'AFS',
   },
   {
     name: 'Ashford International',
-    code: 'AFK'
+    code: 'AFK',
   },
   {
     name: 'Ashford International (Eurostar)',
-    code: 'ASI'
+    code: 'ASI',
   },
   {
     name: 'Ashley',
-    code: 'ASY'
+    code: 'ASY',
   },
   {
     name: 'Ashtead',
-    code: 'AHD'
+    code: 'AHD',
   },
   {
     name: 'Ashton-under-Lyne',
-    code: 'AHN'
+    code: 'AHN',
   },
   {
     name: 'Ashurst (Kent)',
-    code: 'AHS'
+    code: 'AHS',
   },
   {
     name: 'Ashurst New Forest',
-    code: 'ANF'
+    code: 'ANF',
   },
   {
     name: 'Ashwell & Morden',
-    code: 'AWM'
+    code: 'AWM',
   },
   {
     name: 'Askam',
-    code: 'ASK'
+    code: 'ASK',
   },
   {
     name: 'Aslockton',
-    code: 'ALK'
+    code: 'ALK',
   },
   {
     name: 'Aspatria',
-    code: 'ASP'
+    code: 'ASP',
   },
   {
     name: 'Aspley Guise',
-    code: 'APG'
+    code: 'APG',
   },
   {
     name: 'Aston',
-    code: 'AST'
+    code: 'AST',
   },
   {
     name: 'Atherstone',
-    code: 'ATH'
+    code: 'ATH',
   },
   {
     name: 'Atherton',
-    code: 'ATN'
+    code: 'ATN',
   },
   {
     name: 'Attadale',
-    code: 'ATT'
+    code: 'ATT',
   },
   {
     name: 'Attenborough',
-    code: 'ATB'
+    code: 'ATB',
   },
   {
     name: 'Attleborough',
-    code: 'ATL'
+    code: 'ATL',
   },
   {
     name: 'Auchinleck',
-    code: 'AUK'
+    code: 'AUK',
   },
   {
     name: 'Audley End',
-    code: 'AUD'
+    code: 'AUD',
   },
   {
     name: 'Aughton Park',
-    code: 'AUG'
+    code: 'AUG',
   },
   {
     name: 'Aviemore',
-    code: 'AVM'
+    code: 'AVM',
   },
   {
     name: 'Avoncliff',
-    code: 'AVF'
+    code: 'AVF',
   },
   {
     name: 'Avonmouth',
-    code: 'AVN'
+    code: 'AVN',
   },
   {
     name: 'Axminster',
-    code: 'AXM'
+    code: 'AXM',
   },
   {
     name: 'Aylesbury',
-    code: 'AYS'
+    code: 'AYS',
   },
   {
     name: 'Aylesbury Vale Parkway',
-    code: 'AVP'
+    code: 'AVP',
   },
   {
     name: 'Aylesford',
-    code: 'AYL'
+    code: 'AYL',
   },
   {
     name: 'Aylesham',
-    code: 'AYH'
+    code: 'AYH',
   },
   {
     name: 'Ayr',
-    code: 'AYR'
+    code: 'AYR',
   },
   {
     name: 'Bache',
-    code: 'BAC'
+    code: 'BAC',
   },
   {
     name: 'Baglan',
-    code: 'BAJ'
+    code: 'BAJ',
   },
   {
     name: 'Bagshot',
-    code: 'BAG'
+    code: 'BAG',
   },
   {
     name: 'Baildon',
-    code: 'BLD'
+    code: 'BLD',
   },
   {
     name: 'Baillieston',
-    code: 'BIO'
+    code: 'BIO',
   },
   {
     name: 'Balcombe',
-    code: 'BAB'
+    code: 'BAB',
   },
   {
     name: 'Baldock',
-    code: 'BDK'
+    code: 'BDK',
   },
   {
     name: 'Balham',
-    code: 'BAL'
+    code: 'BAL',
   },
   {
     name: 'Balloch',
-    code: 'BHC'
+    code: 'BHC',
   },
   {
     name: 'Balmossie',
-    code: 'BSI'
+    code: 'BSI',
   },
   {
     name: 'Bamber Bridge',
-    code: 'BMB'
+    code: 'BMB',
   },
   {
     name: 'Bamford',
-    code: 'BAM'
+    code: 'BAM',
   },
   {
     name: 'Banavie',
-    code: 'BNV'
+    code: 'BNV',
   },
   {
     name: 'Banbury',
-    code: 'BAN'
+    code: 'BAN',
   },
   {
     name: 'Bangor (Gwynedd)',
-    code: 'BNG'
+    code: 'BNG',
   },
   {
     name: 'Bank Hall',
-    code: 'BAH'
+    code: 'BAH',
   },
   {
     name: 'Banstead',
-    code: 'BAD'
+    code: 'BAD',
   },
   {
     name: 'Barassie',
-    code: 'BSS'
+    code: 'BSS',
   },
   {
     name: 'Barbican',
-    code: 'ZBB'
+    code: 'ZBB',
   },
   {
     name: 'Bardon Mill',
-    code: 'BLL'
+    code: 'BLL',
   },
   {
     name: 'Bare Lane',
-    code: 'BAR'
+    code: 'BAR',
   },
   {
     name: 'Bargeddie',
-    code: 'BGI'
+    code: 'BGI',
   },
   {
     name: 'Bargoed',
-    code: 'BGD'
+    code: 'BGD',
   },
   {
     name: 'Barking',
-    code: 'BKG'
+    code: 'BKG',
   },
   {
     name: 'Barlaston',
-    code: 'BRT'
+    code: 'BRT',
   },
   {
     name: 'Barming',
-    code: 'BMG'
+    code: 'BMG',
   },
   {
     name: 'Barmouth',
-    code: 'BRM'
+    code: 'BRM',
   },
   {
     name: 'Barnehurst',
-    code: 'BNH'
+    code: 'BNH',
   },
   {
     name: 'Barnes',
-    code: 'BNS'
+    code: 'BNS',
   },
   {
     name: 'Barnes Bridge',
-    code: 'BNI'
+    code: 'BNI',
   },
   {
     name: 'Barnetby',
-    code: 'BTB'
+    code: 'BTB',
   },
   {
     name: 'Barnham',
-    code: 'BAA'
+    code: 'BAA',
   },
   {
     name: 'Barnhill',
-    code: 'BNL'
+    code: 'BNL',
   },
   {
     name: 'Barnsley',
-    code: 'BNY'
+    code: 'BNY',
   },
   {
     name: 'Barnstaple',
-    code: 'BNP'
+    code: 'BNP',
   },
   {
     name: 'Barnt Green',
-    code: 'BTG'
+    code: 'BTG',
   },
   {
     name: 'Barrhead',
-    code: 'BRR'
+    code: 'BRR',
   },
   {
     name: 'Barrhill',
-    code: 'BRL'
+    code: 'BRL',
   },
   {
     name: 'Barrow Haven',
-    code: 'BAV'
+    code: 'BAV',
   },
   {
     name: 'Barrow-in-Furness',
-    code: 'BIF'
+    code: 'BIF',
   },
   {
     name: 'Barrow-Upon-Soar',
-    code: 'BWS'
+    code: 'BWS',
   },
   {
     name: 'Barry',
-    code: 'BRY'
+    code: 'BRY',
   },
   {
     name: 'Barry Docks',
-    code: 'BYD'
+    code: 'BYD',
   },
   {
     name: 'Barry Island',
-    code: 'BYI'
+    code: 'BYI',
   },
   {
     name: 'Barry Links',
-    code: 'BYL'
+    code: 'BYL',
   },
   {
     name: 'Barton-on-Humber',
-    code: 'BAU'
+    code: 'BAU',
   },
   {
     name: 'Basildon',
-    code: 'BSO'
+    code: 'BSO',
   },
   {
     name: 'Basingstoke',
-    code: 'BSK'
+    code: 'BSK',
   },
   {
     name: 'Bat & Ball',
-    code: 'BBL'
+    code: 'BBL',
   },
   {
     name: 'Bath Spa',
-    code: 'BTH'
+    code: 'BTH',
   },
   {
     name: 'Bathgate',
-    code: 'BHG'
+    code: 'BHG',
   },
   {
     name: 'Batley',
-    code: 'BTL'
+    code: 'BTL',
   },
   {
     name: 'Battersby',
-    code: 'BTT'
+    code: 'BTT',
   },
   {
     name: 'Battersea Park',
-    code: 'BAK'
+    code: 'BAK',
   },
   {
     name: 'Battle',
-    code: 'BAT'
+    code: 'BAT',
   },
   {
     name: 'Battlesbridge',
-    code: 'BLB'
+    code: 'BLB',
   },
   {
     name: 'Bayford',
-    code: 'BAY'
+    code: 'BAY',
   },
   {
     name: 'Beaconsfield',
-    code: 'BCF'
+    code: 'BCF',
   },
   {
     name: 'Bearley',
-    code: 'BER'
+    code: 'BER',
   },
   {
     name: 'Bearsden',
-    code: 'BRN'
+    code: 'BRN',
   },
   {
     name: 'Bearsted',
-    code: 'BSD'
+    code: 'BSD',
   },
   {
     name: 'Beasdale',
-    code: 'BSL'
+    code: 'BSL',
   },
   {
     name: 'Beaulieu Road',
-    code: 'BEU'
+    code: 'BEU',
   },
   {
     name: 'Beauly',
-    code: 'BEL'
+    code: 'BEL',
   },
   {
     name: 'Bebington',
-    code: 'BEB'
+    code: 'BEB',
   },
   {
     name: 'Beccles',
-    code: 'BCC'
+    code: 'BCC',
   },
   {
     name: 'Beckenham Hill',
-    code: 'BEC'
+    code: 'BEC',
   },
   {
     name: 'Beckenham Junction',
-    code: 'BKJ'
+    code: 'BKJ',
   },
   {
     name: 'Bedford',
-    code: 'BDM'
+    code: 'BDM',
   },
   {
     name: 'Bedford St Johns',
-    code: 'BSJ'
+    code: 'BSJ',
   },
   {
     name: 'Bedhampton',
-    code: 'BDH'
+    code: 'BDH',
   },
   {
     name: 'Bedminster',
-    code: 'BMT'
+    code: 'BMT',
   },
   {
     name: 'Bedworth',
-    code: 'BEH'
+    code: 'BEH',
   },
   {
     name: 'Bedwyn',
-    code: 'BDW'
+    code: 'BDW',
   },
   {
     name: 'Beeston',
-    code: 'BEE'
+    code: 'BEE',
   },
   {
     name: 'Bekesbourne',
-    code: 'BKS'
+    code: 'BKS',
   },
   {
     name: 'Belle Vue',
-    code: 'BLV'
+    code: 'BLV',
   },
   {
     name: 'Bellgrove',
-    code: 'BLG'
+    code: 'BLG',
   },
   {
     name: 'Bellingham',
-    code: 'BGM'
+    code: 'BGM',
   },
   {
     name: 'Bellshill',
-    code: 'BLH'
+    code: 'BLH',
   },
   {
     name: 'Belmont',
-    code: 'BLM'
+    code: 'BLM',
   },
   {
     name: 'Belper',
-    code: 'BLP'
+    code: 'BLP',
   },
   {
     name: 'Beltring',
-    code: 'BEG'
+    code: 'BEG',
   },
   {
     name: 'Belvedere',
-    code: 'BVD'
+    code: 'BVD',
   },
   {
     name: 'Bempton',
-    code: 'BEM'
+    code: 'BEM',
   },
   {
     name: 'Ben Rhydding',
-    code: 'BEY'
+    code: 'BEY',
   },
   {
     name: 'Benfleet',
-    code: 'BEF'
+    code: 'BEF',
   },
   {
     name: 'Bentham',
-    code: 'BEN'
+    code: 'BEN',
   },
   {
     name: 'Bentley (Hants)',
-    code: 'BTY'
+    code: 'BTY',
   },
   {
     name: 'Bentley (South Yorks)',
-    code: 'BYK'
+    code: 'BYK',
   },
   {
     name: 'Bere Alston',
-    code: 'BAS'
+    code: 'BAS',
   },
   {
     name: 'Bere Ferrers',
-    code: 'BFE'
+    code: 'BFE',
   },
   {
     name: 'Berkhamsted',
-    code: 'BKM'
+    code: 'BKM',
   },
   {
     name: 'Berkswell',
-    code: 'BKW'
+    code: 'BKW',
   },
   {
     name: 'Bermuda Park',
-    code: 'BEP'
+    code: 'BEP',
   },
   {
     name: 'Berney Arms',
-    code: 'BYA'
+    code: 'BYA',
   },
   {
     name: 'Berry Brow',
-    code: 'BBW'
+    code: 'BBW',
   },
   {
     name: 'Berrylands',
-    code: 'BRS'
+    code: 'BRS',
   },
   {
     name: 'Berwick (Sussex)',
-    code: 'BRK'
+    code: 'BRK',
   },
   {
     name: 'Berwick-upon-Tweed',
-    code: 'BWK'
+    code: 'BWK',
   },
   {
     name: 'Bescar Lane',
-    code: 'BES'
+    code: 'BES',
   },
   {
     name: 'Bescot Stadium',
-    code: 'BSC'
+    code: 'BSC',
   },
   {
     name: 'Betchworth',
-    code: 'BTO'
+    code: 'BTO',
   },
   {
     name: 'Bethnal Green',
-    code: 'BET'
+    code: 'BET',
   },
   {
     name: 'Betws-y-Coed',
-    code: 'BYC'
+    code: 'BYC',
   },
   {
     name: 'Beverley',
-    code: 'BEV'
+    code: 'BEV',
   },
   {
     name: 'Bexhill',
-    code: 'BEX'
+    code: 'BEX',
   },
   {
     name: 'Bexley',
-    code: 'BXY'
+    code: 'BXY',
   },
   {
     name: 'Bexleyheath',
-    code: 'BXH'
+    code: 'BXH',
   },
   {
     name: 'Bicester North',
-    code: 'BCS'
+    code: 'BCS',
   },
   {
     name: 'Bicester Village',
-    code: 'BIT'
+    code: 'BIT',
   },
   {
     name: 'Bickley',
-    code: 'BKL'
+    code: 'BKL',
   },
   {
     name: 'Bidston',
-    code: 'BID'
+    code: 'BID',
   },
   {
     name: 'Biggleswade',
-    code: 'BIW'
+    code: 'BIW',
   },
   {
     name: 'Bilbrook',
-    code: 'BBK'
+    code: 'BBK',
   },
   {
     name: 'Billericay',
-    code: 'BIC'
+    code: 'BIC',
   },
   {
     name: 'Billingham (Cleveland)',
-    code: 'BIL'
+    code: 'BIL',
   },
   {
     name: 'Billingshurst',
-    code: 'BIG'
+    code: 'BIG',
   },
   {
     name: 'Bingham',
-    code: 'BIN'
+    code: 'BIN',
   },
   {
     name: 'Bingley',
-    code: 'BIY'
+    code: 'BIY',
   },
   {
     name: 'Birchgrove',
-    code: 'BCG'
+    code: 'BCG',
   },
   {
     name: 'Birchington-on-sea',
-    code: 'BCH'
+    code: 'BCH',
   },
   {
     name: 'Birchwood',
-    code: 'BWD'
+    code: 'BWD',
   },
   {
     name: 'Birkbeck',
-    code: 'BIK'
+    code: 'BIK',
   },
   {
     name: 'Birkdale',
-    code: 'BDL'
+    code: 'BDL',
   },
   {
     name: 'Birkenhead Central',
-    code: 'BKC'
+    code: 'BKC',
   },
   {
     name: 'Birkenhead Hamilton Square',
-    code: 'BKQ'
+    code: 'BKQ',
   },
   {
     name: 'Birkenhead North',
-    code: 'BKN'
+    code: 'BKN',
   },
   {
     name: 'Birkenhead Park',
-    code: 'BKP'
+    code: 'BKP',
   },
   {
     name: 'Birmingham International',
-    code: 'BHI'
+    code: 'BHI',
   },
   {
     name: 'Birmingham Moor Street',
-    code: 'BMO'
+    code: 'BMO',
   },
   {
     name: 'Birmingham New Street',
-    code: 'BHM'
+    code: 'BHM',
   },
   {
     name: 'Birmingham Snow Hill',
-    code: 'BSW'
+    code: 'BSW',
   },
   {
     name: 'Bishop Auckland',
-    code: 'BIA'
+    code: 'BIA',
   },
   {
     name: 'Bishopbriggs',
-    code: 'BBG'
+    code: 'BBG',
   },
   {
     name: 'Bishops Stortford',
-    code: 'BIS'
+    code: 'BIS',
   },
   {
     name: 'Bishopstone (Sussex)',
-    code: 'BIP'
+    code: 'BIP',
   },
   {
     name: 'Bishopton (Strathclyde)',
-    code: 'BPT'
+    code: 'BPT',
   },
   {
     name: 'Bitterne',
-    code: 'BTE'
+    code: 'BTE',
   },
   {
     name: 'Blackburn',
-    code: 'BBN'
+    code: 'BBN',
   },
   {
     name: 'Blackheath',
-    code: 'BKH'
+    code: 'BKH',
   },
   {
     name: 'Blackhorse Road',
-    code: 'BHO'
+    code: 'BHO',
   },
   {
     name: 'Blackpool North',
-    code: 'BPN'
+    code: 'BPN',
   },
   {
     name: 'Blackpool Pleasure Beach',
-    code: 'BPB'
+    code: 'BPB',
   },
   {
     name: 'Blackpool South',
-    code: 'BPS'
+    code: 'BPS',
   },
   {
     name: 'Blackridge',
-    code: 'BKR'
+    code: 'BKR',
   },
   {
     name: 'Blackrod',
-    code: 'BLK'
+    code: 'BLK',
   },
   {
     name: 'Blackwater',
-    code: 'BAW'
+    code: 'BAW',
   },
   {
     name: 'Blaenau Ffestiniog',
-    code: 'BFF'
+    code: 'BFF',
   },
   {
     name: 'Blair Atholl',
-    code: 'BLA'
+    code: 'BLA',
   },
   {
     name: 'Blairhill',
-    code: 'BAI'
+    code: 'BAI',
   },
   {
     name: 'Blake Street',
-    code: 'BKT'
+    code: 'BKT',
   },
   {
     name: 'Blakedown',
-    code: 'BKD'
+    code: 'BKD',
   },
   {
     name: 'Blantyre',
-    code: 'BLT'
+    code: 'BLT',
   },
   {
     name: 'Blaydon',
-    code: 'BLO'
+    code: 'BLO',
   },
   {
     name: 'Bleasby',
-    code: 'BSB'
+    code: 'BSB',
   },
   {
     name: 'Bletchley',
-    code: 'BLY'
+    code: 'BLY',
   },
   {
     name: 'Bloxwich',
-    code: 'BLX'
+    code: 'BLX',
   },
   {
     name: 'Bloxwich North',
-    code: 'BWN'
+    code: 'BWN',
   },
   {
     name: 'Blundellsands & Crosby',
-    code: 'BLN'
+    code: 'BLN',
   },
   {
     name: 'Blythe Bridge',
-    code: 'BYB'
+    code: 'BYB',
   },
   {
     name: 'Bodmin Parkway',
-    code: 'BOD'
+    code: 'BOD',
   },
   {
     name: 'Bodorgan',
-    code: 'BOR'
+    code: 'BOR',
   },
   {
     name: 'Bognor Regis',
-    code: 'BOG'
+    code: 'BOG',
   },
   {
     name: 'Bogston',
-    code: 'BGS'
+    code: 'BGS',
   },
   {
     name: 'Bolton',
-    code: 'BON'
+    code: 'BON',
   },
   {
     name: 'Bolton-Upon-Dearne',
-    code: 'BTD'
+    code: 'BTD',
   },
   {
     name: 'Bookham',
-    code: 'BKA'
+    code: 'BKA',
   },
   {
     name: 'Bootle (Cumbria)',
-    code: 'BOC'
+    code: 'BOC',
   },
   {
     name: 'Bootle New Strand',
-    code: 'BNW'
+    code: 'BNW',
   },
   {
     name: 'Bootle Oriel Road',
-    code: 'BOT'
+    code: 'BOT',
   },
   {
     name: 'Bordesley',
-    code: 'BBS'
+    code: 'BBS',
   },
   {
     name: 'Borough Green & Wrotham',
-    code: 'BRG'
+    code: 'BRG',
   },
   {
     name: 'Borth',
-    code: 'BRH'
+    code: 'BRH',
   },
   {
     name: 'Bosham',
-    code: 'BOH'
+    code: 'BOH',
   },
   {
     name: 'Boston',
-    code: 'BSN'
+    code: 'BSN',
   },
   {
     name: 'Botley',
-    code: 'BOE'
+    code: 'BOE',
   },
   {
     name: 'Bottesford',
-    code: 'BTF'
+    code: 'BTF',
   },
   {
     name: 'Bourne End',
-    code: 'BNE'
+    code: 'BNE',
   },
   {
     name: 'Bournemouth',
-    code: 'BMH'
+    code: 'BMH',
   },
   {
     name: 'Bournville',
-    code: 'BRV'
+    code: 'BRV',
   },
   {
     name: 'Bow Brickhill',
-    code: 'BWB'
+    code: 'BWB',
   },
   {
     name: 'Bowes Park',
-    code: 'BOP'
+    code: 'BOP',
   },
   {
     name: 'Bowling',
-    code: 'BWG'
+    code: 'BWG',
   },
   {
     name: 'Box Hill & Westhumble',
-    code: 'BXW'
+    code: 'BXW',
   },
   {
     name: 'Bracknell',
-    code: 'BCE'
+    code: 'BCE',
   },
   {
     name: 'Bradford Forster Square',
-    code: 'BDQ'
+    code: 'BDQ',
   },
   {
     name: 'Bradford Interchange',
-    code: 'BDI'
+    code: 'BDI',
   },
   {
     name: 'Bradford-on-Avon',
-    code: 'BOA'
+    code: 'BOA',
   },
   {
     name: 'Brading',
-    code: 'BDN'
+    code: 'BDN',
   },
   {
     name: 'Braintree',
-    code: 'BTR'
+    code: 'BTR',
   },
   {
     name: 'Braintree Freeport',
-    code: 'BTP'
+    code: 'BTP',
   },
   {
     name: 'Bramhall',
-    code: 'BML'
+    code: 'BML',
   },
   {
     name: 'Bramley (Hants)',
-    code: 'BMY'
+    code: 'BMY',
   },
   {
     name: 'Bramley (W Yorks)',
-    code: 'BLE'
+    code: 'BLE',
   },
   {
     name: 'Brampton (Cumbria)',
-    code: 'BMP'
+    code: 'BMP',
   },
   {
     name: 'Brampton (Suffolk)',
-    code: 'BRP'
+    code: 'BRP',
   },
   {
     name: 'Branchton',
-    code: 'BCN'
+    code: 'BCN',
   },
   {
     name: 'Brandon',
-    code: 'BND'
+    code: 'BND',
   },
   {
     name: 'Branksome',
-    code: 'BSM'
+    code: 'BSM',
   },
   {
     name: 'Braystones (Cumbria)',
-    code: 'BYS'
+    code: 'BYS',
   },
   {
     name: 'Bredbury',
-    code: 'BDY'
+    code: 'BDY',
   },
   {
     name: 'Breich',
-    code: 'BRC'
+    code: 'BRC',
   },
   {
     name: 'Brentford',
-    code: 'BFD'
+    code: 'BFD',
   },
   {
     name: 'Brentwood',
-    code: 'BRE'
+    code: 'BRE',
   },
   {
     name: 'Bricket Wood',
-    code: 'BWO'
+    code: 'BWO',
   },
   {
     name: 'Bridge of Allan',
-    code: 'BEA'
+    code: 'BEA',
   },
   {
     name: 'Bridge of Orchy',
-    code: 'BRO'
+    code: 'BRO',
   },
   {
     name: 'Bridgend',
-    code: 'BGN'
+    code: 'BGN',
   },
   {
     name: 'Bridgeton',
-    code: 'BDG'
+    code: 'BDG',
   },
   {
     name: 'Bridgwater',
-    code: 'BWT'
+    code: 'BWT',
   },
   {
     name: 'Bridlington',
-    code: 'BDT'
+    code: 'BDT',
   },
   {
     name: 'Brierfield',
-    code: 'BRF'
+    code: 'BRF',
   },
   {
     name: 'Brigg',
-    code: 'BGG'
+    code: 'BGG',
   },
   {
     name: 'Brighouse',
-    code: 'BGH'
+    code: 'BGH',
   },
   {
     name: 'Brighton (East Sussex)',
-    code: 'BTN'
+    code: 'BTN',
   },
   {
     name: 'Brimsdown',
-    code: 'BMD'
+    code: 'BMD',
   },
   {
     name: 'Brinnington',
-    code: 'BNT'
+    code: 'BNT',
   },
   {
     name: 'Bristol Parkway',
-    code: 'BPW'
+    code: 'BPW',
   },
   {
     name: 'Bristol Temple Meads',
-    code: 'BRI'
+    code: 'BRI',
   },
   {
     name: 'Brithdir',
-    code: 'BHD'
+    code: 'BHD',
   },
   {
     name: 'Briton Ferry',
-    code: 'BNF'
+    code: 'BNF',
   },
   {
     name: 'Brixton',
-    code: 'BRX'
+    code: 'BRX',
   },
   {
     name: 'Broad Green',
-    code: 'BGE'
+    code: 'BGE',
   },
   {
     name: 'Broadbottom',
-    code: 'BDB'
+    code: 'BDB',
   },
   {
     name: 'Broadstairs',
-    code: 'BSR'
+    code: 'BSR',
   },
   {
     name: 'Brockenhurst',
-    code: 'BCU'
+    code: 'BCU',
   },
   {
     name: 'Brockholes',
-    code: 'BHS'
+    code: 'BHS',
   },
   {
     name: 'Brockley',
-    code: 'BCY'
+    code: 'BCY',
   },
   {
     name: 'Bromborough',
-    code: 'BOM'
+    code: 'BOM',
   },
   {
     name: 'Bromborough Rake',
-    code: 'BMR'
+    code: 'BMR',
   },
   {
     name: 'Bromley Cross (Lancs)',
-    code: 'BMC'
+    code: 'BMC',
   },
   {
     name: 'Bromley North',
-    code: 'BMN'
+    code: 'BMN',
   },
   {
     name: 'Bromley South',
-    code: 'BMS'
+    code: 'BMS',
   },
   {
     name: 'Bromsgrove',
-    code: 'BMV'
+    code: 'BMV',
   },
   {
     name: 'Brondesbury',
-    code: 'BSY'
+    code: 'BSY',
   },
   {
     name: 'Brondesbury Park',
-    code: 'BSP'
+    code: 'BSP',
   },
   {
     name: 'Brookmans Park',
-    code: 'BPK'
+    code: 'BPK',
   },
   {
     name: 'Brookwood',
-    code: 'BKO'
+    code: 'BKO',
   },
   {
     name: 'Broome',
-    code: 'BME'
+    code: 'BME',
   },
   {
     name: 'Broomfleet',
-    code: 'BMF'
+    code: 'BMF',
   },
   {
     name: 'Brora',
-    code: 'BRA'
+    code: 'BRA',
   },
   {
     name: 'Brough',
-    code: 'BUH'
+    code: 'BUH',
   },
   {
     name: 'Broughty Ferry',
-    code: 'BYF'
+    code: 'BYF',
   },
   {
     name: 'Broxbourne',
-    code: 'BXB'
+    code: 'BXB',
   },
   {
     name: 'Bruce Grove',
-    code: 'BCV'
+    code: 'BCV',
   },
   {
     name: 'Brundall',
-    code: 'BDA'
+    code: 'BDA',
   },
   {
     name: 'Brundall Gardens',
-    code: 'BGA'
+    code: 'BGA',
   },
   {
     name: 'Brunstane',
-    code: 'BSU'
+    code: 'BSU',
   },
   {
     name: 'Brunswick',
-    code: 'BRW'
+    code: 'BRW',
   },
   {
     name: 'Bruton',
-    code: 'BRU'
+    code: 'BRU',
   },
   {
     name: 'Bryn',
-    code: 'BYN'
+    code: 'BYN',
   },
   {
     name: 'Buckenham (Norfolk)',
-    code: 'BUC'
+    code: 'BUC',
   },
   {
     name: 'Buckley',
-    code: 'BCK'
+    code: 'BCK',
   },
   {
     name: 'Bucknell',
-    code: 'BUK'
+    code: 'BUK',
   },
   {
     name: 'Buckshaw Parkway',
-    code: 'BSV'
+    code: 'BSV',
   },
   {
     name: 'Bugle',
-    code: 'BGL'
+    code: 'BGL',
   },
   {
     name: 'Builth Road',
-    code: 'BHR'
+    code: 'BHR',
   },
   {
     name: 'Bulwell',
-    code: 'BLW'
+    code: 'BLW',
   },
   {
     name: 'Bures',
-    code: 'BUE'
+    code: 'BUE',
   },
   {
     name: 'Burgess Hill',
-    code: 'BUG'
+    code: 'BUG',
   },
   {
     name: 'Burley Park',
-    code: 'BUY'
+    code: 'BUY',
   },
   {
     name: 'Burley-in-Wharfedale',
-    code: 'BUW'
+    code: 'BUW',
   },
   {
     name: 'Burnage',
-    code: 'BNA'
+    code: 'BNA',
   },
   {
     name: 'Burneside (Cumbria)',
-    code: 'BUD'
+    code: 'BUD',
   },
   {
     name: 'Burnham (Bucks)',
-    code: 'BNM'
+    code: 'BNM',
   },
   {
     name: 'Burnham-on-Crouch',
-    code: 'BUU'
+    code: 'BUU',
   },
   {
     name: 'Burnley Barracks',
-    code: 'BUB'
+    code: 'BUB',
   },
   {
     name: 'Burnley Central',
-    code: 'BNC'
+    code: 'BNC',
   },
   {
     name: 'Burnley Manchester Road',
-    code: 'BYM'
+    code: 'BYM',
   },
   {
     name: 'Burnside (Strathclyde)',
-    code: 'BUI'
+    code: 'BUI',
   },
   {
     name: 'Burntisland',
-    code: 'BTS'
+    code: 'BTS',
   },
   {
     name: 'Burscough Bridge',
-    code: 'BCB'
+    code: 'BCB',
   },
   {
     name: 'Burscough Junction',
-    code: 'BCJ'
+    code: 'BCJ',
   },
   {
     name: 'Bursledon',
-    code: 'BUO'
+    code: 'BUO',
   },
   {
     name: 'Burton Joyce',
-    code: 'BUJ'
+    code: 'BUJ',
   },
   {
     name: 'Burton-on-Trent',
-    code: 'BUT'
+    code: 'BUT',
   },
   {
     name: 'Bury St Edmunds',
-    code: 'BSE'
+    code: 'BSE',
   },
   {
     name: 'Busby',
-    code: 'BUS'
+    code: 'BUS',
   },
   {
     name: 'Bush Hill Park',
-    code: 'BHK'
+    code: 'BHK',
   },
   {
     name: 'Bushey',
-    code: 'BSH'
+    code: 'BSH',
   },
   {
     name: 'Butlers Lane',
-    code: 'BUL'
+    code: 'BUL',
   },
   {
     name: 'Buxted',
-    code: 'BXD'
+    code: 'BXD',
   },
   {
     name: 'Buxton',
-    code: 'BUX'
+    code: 'BUX',
   },
   {
     name: 'Byfleet & New Haw',
-    code: 'BFN'
+    code: 'BFN',
   },
   {
     name: 'Bynea',
-    code: 'BYE'
+    code: 'BYE',
   },
   {
     name: 'Cadoxton',
-    code: 'CAD'
+    code: 'CAD',
   },
   {
     name: 'Caergwrle',
-    code: 'CGW'
+    code: 'CGW',
   },
   {
     name: 'Caerphilly',
-    code: 'CPH'
+    code: 'CPH',
   },
   {
     name: 'Caersws',
-    code: 'CWS'
+    code: 'CWS',
   },
   {
     name: 'Caldercruix',
-    code: 'CAC'
+    code: 'CAC',
   },
   {
     name: 'Caldicot',
-    code: 'CDT'
+    code: 'CDT',
   },
   {
     name: 'Caledonian Rd & Barnsbury',
-    code: 'CIR'
+    code: 'CIR',
   },
   {
     name: 'Calstock',
-    code: 'CSK'
+    code: 'CSK',
   },
   {
     name: 'Cam & Dursley',
-    code: 'CDU'
+    code: 'CDU',
   },
   {
     name: 'Camberley',
-    code: 'CAM'
+    code: 'CAM',
   },
   {
     name: 'Camborne',
-    code: 'CBN'
+    code: 'CBN',
   },
   {
     name: 'Cambridge',
-    code: 'CBG'
+    code: 'CBG',
   },
   {
     name: 'Cambridge Heath',
-    code: 'CBH'
+    code: 'CBH',
   },
   {
     name: 'Cambuslang',
-    code: 'CBL'
+    code: 'CBL',
   },
   {
     name: 'Camden Road',
-    code: 'CMD'
+    code: 'CMD',
   },
   {
     name: 'Camelon',
-    code: 'CMO'
+    code: 'CMO',
   },
   {
     name: 'Canada Water',
-    code: 'ZCW'
+    code: 'ZCW',
   },
   {
     name: 'Canley',
-    code: 'CNL'
+    code: 'CNL',
   },
   {
     name: 'Cannock',
-    code: 'CAO'
+    code: 'CAO',
   },
   {
     name: 'Canonbury',
-    code: 'CNN'
+    code: 'CNN',
   },
   {
     name: 'Canterbury East',
-    code: 'CBE'
+    code: 'CBE',
   },
   {
     name: 'Canterbury West',
-    code: 'CBW'
+    code: 'CBW',
   },
   {
     name: 'Cantley',
-    code: 'CNY'
+    code: 'CNY',
   },
   {
     name: 'Capenhurst',
-    code: 'CPU'
+    code: 'CPU',
   },
   {
     name: 'Carbis Bay',
-    code: 'CBB'
+    code: 'CBB',
   },
   {
     name: 'Cardenden',
-    code: 'CDD'
+    code: 'CDD',
   },
   {
     name: 'Cardiff Bay',
-    code: 'CDB'
+    code: 'CDB',
   },
   {
     name: 'Cardiff Central',
-    code: 'CDF'
+    code: 'CDF',
   },
   {
     name: 'Cardiff Queen Street',
-    code: 'CDQ'
+    code: 'CDQ',
   },
   {
     name: 'Cardonald',
-    code: 'CDO'
+    code: 'CDO',
   },
   {
     name: 'Cardross',
-    code: 'CDR'
+    code: 'CDR',
   },
   {
     name: 'Carfin',
-    code: 'CRF'
+    code: 'CRF',
   },
   {
     name: 'Cark & Cartmel',
-    code: 'CAK'
+    code: 'CAK',
   },
   {
     name: 'Carlisle',
-    code: 'CAR'
+    code: 'CAR',
   },
   {
     name: 'Carlton',
-    code: 'CTO'
+    code: 'CTO',
   },
   {
     name: 'Carluke',
-    code: 'CLU'
+    code: 'CLU',
   },
   {
     name: 'Carmarthen',
-    code: 'CMN'
+    code: 'CMN',
   },
   {
     name: 'Carmyle',
-    code: 'CML'
+    code: 'CML',
   },
   {
     name: 'Carnforth',
-    code: 'CNF'
+    code: 'CNF',
   },
   {
     name: 'Carnoustie',
-    code: 'CAN'
+    code: 'CAN',
   },
   {
     name: 'Carntyne',
-    code: 'CAY'
+    code: 'CAY',
   },
   {
     name: 'Carpenders Park',
-    code: 'CPK'
+    code: 'CPK',
   },
   {
     name: 'Carrbridge',
-    code: 'CAG'
+    code: 'CAG',
   },
   {
     name: 'Carshalton',
-    code: 'CSH'
+    code: 'CSH',
   },
   {
     name: 'Carshalton Beeches',
-    code: 'CSB'
+    code: 'CSB',
   },
   {
     name: 'Carstairs',
-    code: 'CRS'
+    code: 'CRS',
   },
   {
     name: 'Cartsdyke',
-    code: 'CDY'
+    code: 'CDY',
   },
   {
     name: 'Castle Bar Park',
-    code: 'CBP'
+    code: 'CBP',
   },
   {
     name: 'Castle Cary',
-    code: 'CLC'
+    code: 'CLC',
   },
   {
     name: 'Castleford',
-    code: 'CFD'
+    code: 'CFD',
   },
   {
     name: 'Castleton (Manchester)',
-    code: 'CAS'
+    code: 'CAS',
   },
   {
     name: 'Castleton Moor',
-    code: 'CSM'
+    code: 'CSM',
   },
   {
     name: 'Caterham',
-    code: 'CAT'
+    code: 'CAT',
   },
   {
     name: 'Catford',
-    code: 'CTF'
+    code: 'CTF',
   },
   {
     name: 'Catford Bridge',
-    code: 'CFB'
+    code: 'CFB',
   },
   {
     name: 'Cathays',
-    code: 'CYS'
+    code: 'CYS',
   },
   {
     name: 'Cathcart',
-    code: 'CCT'
+    code: 'CCT',
   },
   {
     name: 'Cattal',
-    code: 'CTL'
+    code: 'CTL',
   },
   {
     name: 'Causeland',
-    code: 'CAU'
+    code: 'CAU',
   },
   {
     name: 'Cefn-y-Bedd',
-    code: 'CYB'
+    code: 'CYB',
   },
   {
     name: 'Chadwell Heath',
-    code: 'CTH'
+    code: 'CTH',
   },
   {
     name: 'Chafford Hundred Lakeside',
-    code: 'CFH'
+    code: 'CFH',
   },
   {
     name: 'Chalfont & Latimer',
-    code: 'CFO'
+    code: 'CFO',
   },
   {
     name: 'Chalkwell',
-    code: 'CHW'
+    code: 'CHW',
   },
   {
     name: 'Chandlers Ford',
-    code: 'CFR'
+    code: 'CFR',
   },
   {
     name: 'Chapel-en-le-Frith',
-    code: 'CEF'
+    code: 'CEF',
   },
   {
     name: 'Chapelton (Devon)',
-    code: 'CPN'
+    code: 'CPN',
   },
   {
     name: 'Chapeltown (South Yorks)',
-    code: 'CLN'
+    code: 'CLN',
   },
   {
     name: 'Chappel & Wakes Colne',
-    code: 'CWC'
+    code: 'CWC',
   },
   {
     name: 'Charing (Kent)',
-    code: 'CHG'
+    code: 'CHG',
   },
   {
     name: 'Charing Cross (Glasgow)',
-    code: 'CHC'
+    code: 'CHC',
   },
   {
     name: 'Charlbury',
-    code: 'CBY'
+    code: 'CBY',
   },
   {
     name: 'Charlton',
-    code: 'CTN'
+    code: 'CTN',
   },
   {
     name: 'Chartham',
-    code: 'CRT'
+    code: 'CRT',
   },
   {
     name: 'Chassen Road',
-    code: 'CSR'
+    code: 'CSR',
   },
   {
     name: 'Chatelherault',
-    code: 'CTE'
+    code: 'CTE',
   },
   {
     name: 'Chatham',
-    code: 'CTM'
+    code: 'CTM',
   },
   {
     name: 'Chathill',
-    code: 'CHT'
+    code: 'CHT',
   },
   {
     name: 'Cheadle Hulme',
-    code: 'CHU'
+    code: 'CHU',
   },
   {
     name: 'Cheam',
-    code: 'CHE'
+    code: 'CHE',
   },
   {
     name: 'Cheddington',
-    code: 'CED'
+    code: 'CED',
   },
   {
     name: 'Chelford (Cheshire)',
-    code: 'CEL'
+    code: 'CEL',
   },
   {
     name: 'Chelmsford',
-    code: 'CHM'
+    code: 'CHM',
   },
   {
     name: 'Chelsfield',
-    code: 'CLD'
+    code: 'CLD',
   },
   {
     name: 'Cheltenham Spa',
-    code: 'CNM'
+    code: 'CNM',
   },
   {
     name: 'Chepstow',
-    code: 'CPW'
+    code: 'CPW',
   },
   {
     name: 'Cherry Tree',
-    code: 'CYT'
+    code: 'CYT',
   },
   {
     name: 'Chertsey',
-    code: 'CHY'
+    code: 'CHY',
   },
   {
     name: 'Cheshunt',
-    code: 'CHN'
+    code: 'CHN',
   },
   {
     name: 'Chessington North',
-    code: 'CSN'
+    code: 'CSN',
   },
   {
     name: 'Chessington South',
-    code: 'CSS'
+    code: 'CSS',
   },
   {
     name: 'Chester',
-    code: 'CTR'
+    code: 'CTR',
   },
   {
     name: 'Chester Road',
-    code: 'CRD'
+    code: 'CRD',
   },
   {
     name: 'Chesterfield',
-    code: 'CHD'
+    code: 'CHD',
   },
   {
     name: 'Chester-le-Street',
-    code: 'CLS'
+    code: 'CLS',
   },
   {
     name: 'Chestfield & Swalecliffe',
-    code: 'CSW'
+    code: 'CSW',
   },
   {
     name: 'Chetnole',
-    code: 'CNO'
+    code: 'CNO',
   },
   {
     name: 'Chichester',
-    code: 'CCH'
+    code: 'CCH',
   },
   {
     name: 'Chilham',
-    code: 'CIL'
+    code: 'CIL',
   },
   {
     name: 'Chilworth',
-    code: 'CHL'
+    code: 'CHL',
   },
   {
     name: 'Chingford',
-    code: 'CHI'
+    code: 'CHI',
   },
   {
     name: 'Chinley',
-    code: 'CLY'
+    code: 'CLY',
   },
   {
     name: 'Chippenham',
-    code: 'CPM'
+    code: 'CPM',
   },
   {
     name: 'Chipstead',
-    code: 'CHP'
+    code: 'CHP',
   },
   {
     name: 'Chirk',
-    code: 'CRK'
+    code: 'CRK',
   },
   {
     name: 'Chislehurst',
-    code: 'CIT'
+    code: 'CIT',
   },
   {
     name: 'Chiswick',
-    code: 'CHK'
+    code: 'CHK',
   },
   {
     name: 'Cholsey',
-    code: 'CHO'
+    code: 'CHO',
   },
   {
     name: 'Chorley',
-    code: 'CRL'
+    code: 'CRL',
   },
   {
     name: 'Chorleywood',
-    code: 'CLW'
+    code: 'CLW',
   },
   {
     name: 'Christchurch',
-    code: 'CHR'
+    code: 'CHR',
   },
   {
     name: 'Christs Hospital',
-    code: 'CHH'
+    code: 'CHH',
   },
   {
     name: 'Church & Oswaldtwistle',
-    code: 'CTW'
+    code: 'CTW',
   },
   {
     name: 'Church Fenton',
-    code: 'CHF'
+    code: 'CHF',
   },
   {
     name: 'Church Stretton',
-    code: 'CTT'
+    code: 'CTT',
   },
   {
     name: 'Cilmeri',
-    code: 'CIM'
+    code: 'CIM',
   },
   {
     name: 'City Thameslink',
-    code: 'CTK'
+    code: 'CTK',
   },
   {
     name: 'Clacton-on-Sea',
-    code: 'CLT'
+    code: 'CLT',
   },
   {
     name: 'Clandon',
-    code: 'CLA'
+    code: 'CLA',
   },
   {
     name: 'Clapham (North Yorkshire)',
-    code: 'CPY'
+    code: 'CPY',
   },
   {
     name: 'Clapham High Street',
-    code: 'CLP'
+    code: 'CLP',
   },
   {
     name: 'Clapham Junction',
-    code: 'CLJ'
+    code: 'CLJ',
   },
   {
     name: 'Clapton',
-    code: 'CPT'
+    code: 'CPT',
   },
   {
     name: 'Clarbeston Road',
-    code: 'CLR'
+    code: 'CLR',
   },
   {
     name: 'Clarkston',
-    code: 'CKS'
+    code: 'CKS',
   },
   {
     name: 'Claverdon',
-    code: 'CLV'
+    code: 'CLV',
   },
   {
     name: 'Claygate',
-    code: 'CLG'
+    code: 'CLG',
   },
   {
     name: 'Cleethorpes',
-    code: 'CLE'
+    code: 'CLE',
   },
   {
     name: 'Cleland',
-    code: 'CEA'
+    code: 'CEA',
   },
   {
     name: 'Clifton (Manchester)',
-    code: 'CLI'
+    code: 'CLI',
   },
   {
     name: 'Clifton Down',
-    code: 'CFN'
+    code: 'CFN',
   },
   {
     name: 'Clitheroe',
-    code: 'CLH'
+    code: 'CLH',
   },
   {
     name: 'Clock House',
-    code: 'CLK'
+    code: 'CLK',
   },
   {
     name: 'Clunderwen',
-    code: 'CUW'
+    code: 'CUW',
   },
   {
     name: 'Clydebank',
-    code: 'CYK'
+    code: 'CYK',
   },
   {
     name: 'Coatbridge Central',
-    code: 'CBC'
+    code: 'CBC',
   },
   {
     name: 'Coatbridge Sunnyside',
-    code: 'CBS'
+    code: 'CBS',
   },
   {
     name: 'Coatdyke',
-    code: 'COA'
+    code: 'COA',
   },
   {
     name: "Cobham & Stoke d'Abernon",
-    code: 'CSD'
+    code: 'CSD',
   },
   {
     name: 'Codsall',
-    code: 'CSL'
+    code: 'CSL',
   },
   {
     name: 'Cogan',
-    code: 'CGN'
+    code: 'CGN',
   },
   {
     name: 'Colchester',
-    code: 'COL'
+    code: 'COL',
   },
   {
     name: 'Colchester Town',
-    code: 'CET'
+    code: 'CET',
   },
   {
     name: 'Coleshill Parkway',
-    code: 'CEH'
+    code: 'CEH',
   },
   {
     name: 'Collingham',
-    code: 'CLM'
+    code: 'CLM',
   },
   {
     name: 'Collington',
-    code: 'CLL'
+    code: 'CLL',
   },
   {
     name: 'Colne',
-    code: 'CNE'
+    code: 'CNE',
   },
   {
     name: 'Colwall',
-    code: 'CWL'
+    code: 'CWL',
   },
   {
     name: 'Colwyn Bay',
-    code: 'CWB'
+    code: 'CWB',
   },
   {
     name: 'Combe (Oxon)',
-    code: 'CME'
+    code: 'CME',
   },
   {
     name: 'Commondale',
-    code: 'COM'
+    code: 'COM',
   },
   {
     name: 'Congleton',
-    code: 'CNG'
+    code: 'CNG',
   },
   {
     name: 'Conisbrough',
-    code: 'CNS'
+    code: 'CNS',
   },
   {
     name: 'Connel Ferry',
-    code: 'CON'
+    code: 'CON',
   },
   {
     name: 'Conon Bridge',
-    code: 'CBD'
+    code: 'CBD',
   },
   {
     name: 'Cononley',
-    code: 'CEY'
+    code: 'CEY',
   },
   {
     name: 'Conway Park',
-    code: 'CNP'
+    code: 'CNP',
   },
   {
     name: 'Conwy',
-    code: 'CNW'
+    code: 'CNW',
   },
   {
     name: 'Cooden Beach',
-    code: 'COB'
+    code: 'COB',
   },
   {
     name: 'Cookham',
-    code: 'COO'
+    code: 'COO',
   },
   {
     name: 'Cooksbridge',
-    code: 'CBR'
+    code: 'CBR',
   },
   {
     name: 'Coombe Junction Halt',
-    code: 'COE'
+    code: 'COE',
   },
   {
     name: 'Copplestone',
-    code: 'COP'
+    code: 'COP',
   },
   {
     name: 'Corbridge',
-    code: 'CRB'
+    code: 'CRB',
   },
   {
     name: 'Corby',
-    code: 'COR'
+    code: 'COR',
   },
   {
     name: 'Corkerhill',
-    code: 'CKH'
+    code: 'CKH',
   },
   {
     name: 'Corkickle',
-    code: 'CKL'
+    code: 'CKL',
   },
   {
     name: 'Corpach',
-    code: 'CPA'
+    code: 'CPA',
   },
   {
     name: 'Corrour',
-    code: 'CRR'
+    code: 'CRR',
   },
   {
     name: 'Coryton',
-    code: 'COY'
+    code: 'COY',
   },
   {
     name: 'Coseley',
-    code: 'CSY'
+    code: 'CSY',
   },
   {
     name: 'Cosford',
-    code: 'COS'
+    code: 'COS',
   },
   {
     name: 'Cosham',
-    code: 'CSA'
+    code: 'CSA',
   },
   {
     name: 'Cottingham',
-    code: 'CGM'
+    code: 'CGM',
   },
   {
     name: 'Cottingley',
-    code: 'COT'
+    code: 'COT',
   },
   {
     name: 'Coulsdon South',
-    code: 'CDS'
+    code: 'CDS',
   },
   {
     name: 'Coulsdon Town',
-    code: 'CDN'
+    code: 'CDN',
   },
   {
     name: 'Coventry',
-    code: 'COV'
+    code: 'COV',
   },
   {
     name: 'Coventry Arena',
-    code: 'CAA'
+    code: 'CAA',
   },
   {
     name: 'Cowden (Kent)',
-    code: 'CWN'
+    code: 'CWN',
   },
   {
     name: 'Cowdenbeath',
-    code: 'COW'
+    code: 'COW',
   },
   {
     name: 'Cradley Heath',
-    code: 'CRA'
+    code: 'CRA',
   },
   {
     name: 'Craigendoran',
-    code: 'CGD'
+    code: 'CGD',
   },
   {
     name: 'Cramlington',
-    code: 'CRM'
+    code: 'CRM',
   },
   {
     name: 'Cranbrook (Devon)',
-    code: 'CBK'
+    code: 'CBK',
   },
   {
     name: 'Craven Arms',
-    code: 'CRV'
+    code: 'CRV',
   },
   {
     name: 'Crawley',
-    code: 'CRW'
+    code: 'CRW',
   },
   {
     name: 'Crayford',
-    code: 'CRY'
+    code: 'CRY',
   },
   {
     name: 'Crediton',
-    code: 'CDI'
+    code: 'CDI',
   },
   {
     name: 'Cressing (Essex)',
-    code: 'CES'
+    code: 'CES',
   },
   {
     name: 'Cressington',
-    code: 'CSG'
+    code: 'CSG',
   },
   {
     name: 'Creswell',
-    code: 'CWD'
+    code: 'CWD',
   },
   {
     name: 'Crewe',
-    code: 'CRE'
+    code: 'CRE',
   },
   {
     name: 'Crewkerne',
-    code: 'CKN'
+    code: 'CKN',
   },
   {
     name: 'Crews Hill',
-    code: 'CWH'
+    code: 'CWH',
   },
   {
     name: 'Crianlarich',
-    code: 'CNR'
+    code: 'CNR',
   },
   {
     name: 'Criccieth',
-    code: 'CCC'
+    code: 'CCC',
   },
   {
     name: 'Cricklewood',
-    code: 'CRI'
+    code: 'CRI',
   },
   {
     name: 'Croftfoot',
-    code: 'CFF'
+    code: 'CFF',
   },
   {
     name: 'Crofton Park',
-    code: 'CFT'
+    code: 'CFT',
   },
   {
     name: 'Cromer',
-    code: 'CMR'
+    code: 'CMR',
   },
   {
     name: 'Cromford',
-    code: 'CMF'
+    code: 'CMF',
   },
   {
     name: 'Crookston',
-    code: 'CKT'
+    code: 'CKT',
   },
   {
     name: 'Cross Gates',
-    code: 'CRG'
+    code: 'CRG',
   },
   {
     name: 'Crossflatts',
-    code: 'CFL'
+    code: 'CFL',
   },
   {
     name: 'Crosshill',
-    code: 'COI'
+    code: 'COI',
   },
   {
     name: 'Crosskeys',
-    code: 'CKY'
+    code: 'CKY',
   },
   {
     name: 'Crossmyloof',
-    code: 'CMY'
+    code: 'CMY',
   },
   {
     name: 'Croston',
-    code: 'CSO'
+    code: 'CSO',
   },
   {
     name: 'Crouch Hill',
-    code: 'CRH'
+    code: 'CRH',
   },
   {
     name: 'Crowborough',
-    code: 'COH'
+    code: 'COH',
   },
   {
     name: 'Crowhurst',
-    code: 'CWU'
+    code: 'CWU',
   },
   {
     name: 'Crowle',
-    code: 'CWE'
+    code: 'CWE',
   },
   {
     name: 'Crowthorne',
-    code: 'CRN'
+    code: 'CRN',
   },
   {
     name: 'Croy',
-    code: 'CRO'
+    code: 'CRO',
   },
   {
     name: 'Crystal Palace',
-    code: 'CYP'
+    code: 'CYP',
   },
   {
     name: 'Cuddington',
-    code: 'CUD'
+    code: 'CUD',
   },
   {
     name: 'Cuffley',
-    code: 'CUF'
+    code: 'CUF',
   },
   {
     name: 'Culham',
-    code: 'CUM'
+    code: 'CUM',
   },
   {
     name: 'Culrain',
-    code: 'CUA'
+    code: 'CUA',
   },
   {
     name: 'Cumbernauld',
-    code: 'CUB'
+    code: 'CUB',
   },
   {
     name: 'Cupar',
-    code: 'CUP'
+    code: 'CUP',
   },
   {
     name: 'Curriehill',
-    code: 'CUH'
+    code: 'CUH',
   },
   {
     name: 'Cuxton',
-    code: 'CUX'
+    code: 'CUX',
   },
   {
     name: 'Cwmbach',
-    code: 'CMH'
+    code: 'CMH',
   },
   {
     name: 'Cwmbran',
-    code: 'CWM'
+    code: 'CWM',
   },
   {
     name: 'Cynghordy',
-    code: 'CYN'
+    code: 'CYN',
   },
   {
     name: 'Dagenham Dock',
-    code: 'DDK'
+    code: 'DDK',
   },
   {
     name: 'Daisy Hill',
-    code: 'DSY'
+    code: 'DSY',
   },
   {
     name: 'Dalgety Bay',
-    code: 'DAG'
+    code: 'DAG',
   },
   {
     name: 'Dalmally',
-    code: 'DAL'
+    code: 'DAL',
   },
   {
     name: 'Dalmarnock',
-    code: 'DAK'
+    code: 'DAK',
   },
   {
     name: 'Dalmeny',
-    code: 'DAM'
+    code: 'DAM',
   },
   {
     name: 'Dalmuir',
-    code: 'DMR'
+    code: 'DMR',
   },
   {
     name: 'Dalreoch',
-    code: 'DLR'
+    code: 'DLR',
   },
   {
     name: 'Dalry',
-    code: 'DLY'
+    code: 'DLY',
   },
   {
     name: 'Dalston (Cumbria)',
-    code: 'DLS'
+    code: 'DLS',
   },
   {
     name: 'Dalston Junction',
-    code: 'DLJ'
+    code: 'DLJ',
   },
   {
     name: 'Dalston Kingsland',
-    code: 'DLK'
+    code: 'DLK',
   },
   {
     name: 'Dalton (Cumbria)',
-    code: 'DLT'
+    code: 'DLT',
   },
   {
     name: 'Dalwhinnie',
-    code: 'DLW'
+    code: 'DLW',
   },
   {
     name: 'Danby',
-    code: 'DNY'
+    code: 'DNY',
   },
   {
     name: 'Danescourt',
-    code: 'DCT'
+    code: 'DCT',
   },
   {
     name: 'Danzey',
-    code: 'DZY'
+    code: 'DZY',
   },
   {
     name: 'Darlington',
-    code: 'DAR'
+    code: 'DAR',
   },
   {
     name: 'Darnall',
-    code: 'DAN'
+    code: 'DAN',
   },
   {
     name: 'Darsham',
-    code: 'DSM'
+    code: 'DSM',
   },
   {
     name: 'Dartford',
-    code: 'DFD'
+    code: 'DFD',
   },
   {
     name: 'Darton',
-    code: 'DRT'
+    code: 'DRT',
   },
   {
     name: 'Darwen',
-    code: 'DWN'
+    code: 'DWN',
   },
   {
     name: 'Datchet',
-    code: 'DAT'
+    code: 'DAT',
   },
   {
     name: 'Davenport',
-    code: 'DVN'
+    code: 'DVN',
   },
   {
     name: 'Dawlish',
-    code: 'DWL'
+    code: 'DWL',
   },
   {
     name: 'Dawlish Warren',
-    code: 'DWW'
+    code: 'DWW',
   },
   {
     name: 'Deal',
-    code: 'DEA'
+    code: 'DEA',
   },
   {
     name: 'Dean (Wilts)',
-    code: 'DEN'
+    code: 'DEN',
   },
   {
     name: 'Deansgate',
-    code: 'DGT'
+    code: 'DGT',
   },
   {
     name: 'Deganwy',
-    code: 'DGY'
+    code: 'DGY',
   },
   {
     name: 'Deighton',
-    code: 'DHN'
+    code: 'DHN',
   },
   {
     name: 'Delamere',
-    code: 'DLM'
+    code: 'DLM',
   },
   {
     name: 'Denby Dale',
-    code: 'DBD'
+    code: 'DBD',
   },
   {
     name: 'Denham',
-    code: 'DNM'
+    code: 'DNM',
   },
   {
     name: 'Denham Golf Club',
-    code: 'DGC'
+    code: 'DGC',
   },
   {
     name: 'Denmark Hill',
-    code: 'DMK'
+    code: 'DMK',
   },
   {
     name: 'Dent',
-    code: 'DNT'
+    code: 'DNT',
   },
   {
     name: 'Denton',
-    code: 'DTN'
+    code: 'DTN',
   },
   {
     name: 'Deptford',
-    code: 'DEP'
+    code: 'DEP',
   },
   {
     name: 'Derby',
-    code: 'DBY'
+    code: 'DBY',
   },
   {
     name: 'Derby Road (Ipswich)',
-    code: 'DBR'
+    code: 'DBR',
   },
   {
     name: 'Devonport (Devon)',
-    code: 'DPT'
+    code: 'DPT',
   },
   {
     name: 'Devonport Dockyard',
-    code: 'DOC'
+    code: 'DOC',
   },
   {
     name: 'Dewsbury',
-    code: 'DEW'
+    code: 'DEW',
   },
   {
     name: 'Didcot Parkway',
-    code: 'DID'
+    code: 'DID',
   },
   {
     name: 'Digby & Sowton',
-    code: 'DIG'
+    code: 'DIG',
   },
   {
     name: 'Dilton Marsh',
-    code: 'DMH'
+    code: 'DMH',
   },
   {
     name: 'Dinas (Rhondda)',
-    code: 'DMG'
+    code: 'DMG',
   },
   {
     name: 'Dinas Powys',
-    code: 'DNS'
+    code: 'DNS',
   },
   {
     name: 'Dingle Road',
-    code: 'DGL'
+    code: 'DGL',
   },
   {
     name: 'Dingwall',
-    code: 'DIN'
+    code: 'DIN',
   },
   {
     name: 'Dinsdale',
-    code: 'DND'
+    code: 'DND',
   },
   {
     name: 'Dinting',
-    code: 'DTG'
+    code: 'DTG',
   },
   {
     name: 'Disley',
-    code: 'DSL'
+    code: 'DSL',
   },
   {
     name: 'Diss',
-    code: 'DIS'
+    code: 'DIS',
   },
   {
     name: 'Dodworth',
-    code: 'DOD'
+    code: 'DOD',
   },
   {
     name: 'Dolau',
-    code: 'DOL'
+    code: 'DOL',
   },
   {
     name: 'Doleham',
-    code: 'DLH'
+    code: 'DLH',
   },
   {
     name: 'Dolgarrog',
-    code: 'DLG'
+    code: 'DLG',
   },
   {
     name: 'Dolwyddelan',
-    code: 'DWD'
+    code: 'DWD',
   },
   {
     name: 'Doncaster',
-    code: 'DON'
+    code: 'DON',
   },
   {
     name: 'Dorchester South',
-    code: 'DCH'
+    code: 'DCH',
   },
   {
     name: 'Dorchester West',
-    code: 'DCW'
+    code: 'DCW',
   },
   {
     name: 'Dore & Totley',
-    code: 'DOR'
+    code: 'DOR',
   },
   {
     name: 'Dorking (Main)',
-    code: 'DKG'
+    code: 'DKG',
   },
   {
     name: 'Dorking Deepdene',
-    code: 'DPD'
+    code: 'DPD',
   },
   {
     name: 'Dorking West',
-    code: 'DKT'
+    code: 'DKT',
   },
   {
     name: 'Dormans',
-    code: 'DMS'
+    code: 'DMS',
   },
   {
     name: 'Dorridge',
-    code: 'DDG'
+    code: 'DDG',
   },
   {
     name: 'Dove Holes',
-    code: 'DVH'
+    code: 'DVH',
   },
   {
     name: 'Dover Priory',
-    code: 'DVP'
+    code: 'DVP',
   },
   {
     name: 'Dovercourt',
-    code: 'DVC'
+    code: 'DVC',
   },
   {
     name: 'Dovey Junction',
-    code: 'DVY'
+    code: 'DVY',
   },
   {
     name: 'Downham Market',
-    code: 'DOW'
+    code: 'DOW',
   },
   {
     name: 'Drayton Green',
-    code: 'DRG'
+    code: 'DRG',
   },
   {
     name: 'Drayton Park',
-    code: 'DYP'
+    code: 'DYP',
   },
   {
     name: 'Drem',
-    code: 'DRM'
+    code: 'DRM',
   },
   {
     name: 'Driffield',
-    code: 'DRF'
+    code: 'DRF',
   },
   {
     name: 'Drigg',
-    code: 'DRI'
+    code: 'DRI',
   },
   {
     name: 'Droitwich Spa',
-    code: 'DTW'
+    code: 'DTW',
   },
   {
     name: 'Dronfield',
-    code: 'DRO'
+    code: 'DRO',
   },
   {
     name: 'Drumchapel',
-    code: 'DMC'
+    code: 'DMC',
   },
   {
     name: 'Drumfrochar',
-    code: 'DFR'
+    code: 'DFR',
   },
   {
     name: 'Drumgelloch',
-    code: 'DRU'
+    code: 'DRU',
   },
   {
     name: 'Drumry',
-    code: 'DMY'
+    code: 'DMY',
   },
   {
     name: 'Dublin Ferryport',
-    code: 'DFP'
+    code: 'DFP',
   },
   {
     name: 'Dublin Port - Stena',
-    code: 'DPS'
+    code: 'DPS',
   },
   {
     name: 'Duddeston',
-    code: 'DUD'
+    code: 'DUD',
   },
   {
     name: 'Dudley Port',
-    code: 'DDP'
+    code: 'DDP',
   },
   {
     name: 'Duffield',
-    code: 'DFI'
+    code: 'DFI',
   },
   {
     name: 'Duirinish',
-    code: 'DRN'
+    code: 'DRN',
   },
   {
     name: 'Duke Street',
-    code: 'DST'
+    code: 'DST',
   },
   {
     name: 'Dullingham',
-    code: 'DUL'
+    code: 'DUL',
   },
   {
     name: 'Dumbarton Central',
-    code: 'DBC'
+    code: 'DBC',
   },
   {
     name: 'Dumbarton East',
-    code: 'DBE'
+    code: 'DBE',
   },
   {
     name: 'Dumbreck',
-    code: 'DUM'
+    code: 'DUM',
   },
   {
     name: 'Dumfries',
-    code: 'DMF'
+    code: 'DMF',
   },
   {
     name: 'Dumpton Park',
-    code: 'DMP'
+    code: 'DMP',
   },
   {
     name: 'Dunbar',
-    code: 'DUN'
+    code: 'DUN',
   },
   {
     name: 'Dunblane',
-    code: 'DBL'
+    code: 'DBL',
   },
   {
     name: 'Duncraig',
-    code: 'DCG'
+    code: 'DCG',
   },
   {
     name: 'Dundee',
-    code: 'DEE'
+    code: 'DEE',
   },
   {
     name: 'Dunfermline Queen Margaret',
-    code: 'DFL'
+    code: 'DFL',
   },
   {
     name: 'Dunfermline Town',
-    code: 'DFE'
+    code: 'DFE',
   },
   {
     name: 'Dunkeld & Birnam',
-    code: 'DKD'
+    code: 'DKD',
   },
   {
     name: 'Dunlop',
-    code: 'DNL'
+    code: 'DNL',
   },
   {
     name: 'Dunrobin Castle',
-    code: 'DNO'
+    code: 'DNO',
   },
   {
     name: 'Dunston',
-    code: 'DOT'
+    code: 'DOT',
   },
   {
     name: 'Dunton Green',
-    code: 'DNG'
+    code: 'DNG',
   },
   {
     name: 'Durham',
-    code: 'DHM'
+    code: 'DHM',
   },
   {
     name: 'Durrington-on-Sea',
-    code: 'DUR'
+    code: 'DUR',
   },
   {
     name: 'Dyce',
-    code: 'DYC'
+    code: 'DYC',
   },
   {
     name: 'Dyffryn Ardudwy',
-    code: 'DYF'
+    code: 'DYF',
   },
   {
     name: 'Eaglescliffe',
-    code: 'EAG'
+    code: 'EAG',
   },
   {
     name: 'Ealing Broadway',
-    code: 'EAL'
+    code: 'EAL',
   },
   {
     name: 'Earlestown',
-    code: 'ERL'
+    code: 'ERL',
   },
   {
     name: 'Earley',
-    code: 'EAR'
+    code: 'EAR',
   },
   {
     name: 'Earlsfield',
-    code: 'EAD'
+    code: 'EAD',
   },
   {
     name: 'Earlswood (Surrey)',
-    code: 'ELD'
+    code: 'ELD',
   },
   {
     name: 'Earlswood (West Midlands)',
-    code: 'EWD'
+    code: 'EWD',
   },
   {
     name: 'East Croydon',
-    code: 'ECR'
+    code: 'ECR',
   },
   {
     name: 'East Didsbury',
-    code: 'EDY'
+    code: 'EDY',
   },
   {
     name: 'East Dulwich',
-    code: 'EDW'
+    code: 'EDW',
   },
   {
     name: 'East Farleigh',
-    code: 'EFL'
+    code: 'EFL',
   },
   {
     name: 'East Garforth',
-    code: 'EGF'
+    code: 'EGF',
   },
   {
     name: 'East Grinstead',
-    code: 'EGR'
+    code: 'EGR',
   },
   {
     name: 'East Kilbride',
-    code: 'EKL'
+    code: 'EKL',
   },
   {
     name: 'East Malling',
-    code: 'EML'
+    code: 'EML',
   },
   {
     name: 'East Midlands Parkway',
-    code: 'EMD'
+    code: 'EMD',
   },
   {
     name: 'East Tilbury',
-    code: 'ETL'
+    code: 'ETL',
   },
   {
     name: 'East Worthing',
-    code: 'EWR'
+    code: 'EWR',
   },
   {
     name: 'Eastbourne',
-    code: 'EBN'
+    code: 'EBN',
   },
   {
     name: 'Eastbrook',
-    code: 'EBK'
+    code: 'EBK',
   },
   {
     name: 'Easterhouse',
-    code: 'EST'
+    code: 'EST',
   },
   {
     name: 'Eastham Rake',
-    code: 'ERA'
+    code: 'ERA',
   },
   {
     name: 'Eastleigh',
-    code: 'ESL'
+    code: 'ESL',
   },
   {
     name: 'Eastrington',
-    code: 'EGN'
+    code: 'EGN',
   },
   {
     name: 'Ebbsfleet International',
-    code: 'EBD'
+    code: 'EBD',
   },
   {
     name: 'Ebbw Vale Parkway',
-    code: 'EBV'
+    code: 'EBV',
   },
   {
     name: 'Ebbw Vale Town',
-    code: 'EBB'
+    code: 'EBB',
   },
   {
     name: 'Eccles (Manchester)',
-    code: 'ECC'
+    code: 'ECC',
   },
   {
     name: 'Eccles Road',
-    code: 'ECS'
+    code: 'ECS',
   },
   {
     name: 'Eccleston Park',
-    code: 'ECL'
+    code: 'ECL',
   },
   {
     name: 'Edale',
-    code: 'EDL'
+    code: 'EDL',
   },
   {
     name: 'Eden Park',
-    code: 'EDN'
+    code: 'EDN',
   },
   {
     name: 'Edenbridge',
-    code: 'EBR'
+    code: 'EBR',
   },
   {
     name: 'Edenbridge Town',
-    code: 'EBT'
+    code: 'EBT',
   },
   {
     name: 'Edge Hill',
-    code: 'EDG'
+    code: 'EDG',
   },
   {
     name: 'Edinburgh',
-    code: 'EDB'
+    code: 'EDB',
   },
   {
     name: 'Edinburgh Gateway',
-    code: 'EGY'
+    code: 'EGY',
   },
   {
     name: 'Edinburgh Park',
-    code: 'EDP'
+    code: 'EDP',
   },
   {
     name: 'Edmonton Green',
-    code: 'EDR'
+    code: 'EDR',
   },
   {
     name: 'Effingham Junction',
-    code: 'EFF'
+    code: 'EFF',
   },
   {
     name: 'Eggesford',
-    code: 'EGG'
+    code: 'EGG',
   },
   {
     name: 'Egham',
-    code: 'EGH'
+    code: 'EGH',
   },
   {
     name: 'Egton',
-    code: 'EGT'
+    code: 'EGT',
   },
   {
     name: 'Elephant & Castle',
-    code: 'EPH'
+    code: 'EPH',
   },
   {
     name: 'Elephant & Castle (Underground)',
-    code: 'ZEL'
+    code: 'ZEL',
   },
   {
     name: 'Elgin',
-    code: 'ELG'
+    code: 'ELG',
   },
   {
     name: 'Ellesmere Port',
-    code: 'ELP'
+    code: 'ELP',
   },
   {
     name: 'Elmers End',
-    code: 'ELE'
+    code: 'ELE',
   },
   {
     name: 'Elmstead Woods',
-    code: 'ESD'
+    code: 'ESD',
   },
   {
     name: 'Elmswell',
-    code: 'ESW'
+    code: 'ESW',
   },
   {
     name: 'Elsecar',
-    code: 'ELR'
+    code: 'ELR',
   },
   {
     name: 'Elsenham (Essex)',
-    code: 'ESM'
+    code: 'ESM',
   },
   {
     name: 'Elstree & Borehamwood',
-    code: 'ELS'
+    code: 'ELS',
   },
   {
     name: 'Eltham',
-    code: 'ELW'
+    code: 'ELW',
   },
   {
     name: 'Elton & Orston',
-    code: 'ELO'
+    code: 'ELO',
   },
   {
     name: 'Ely',
-    code: 'ELY'
+    code: 'ELY',
   },
   {
     name: 'Emerson Park',
-    code: 'EMP'
+    code: 'EMP',
   },
   {
     name: 'Emsworth',
-    code: 'EMS'
+    code: 'EMS',
   },
   {
     name: 'Energlyn & Churchill Park',
-    code: 'ECP'
+    code: 'ECP',
   },
   {
     name: 'Enfield Chase',
-    code: 'ENC'
+    code: 'ENC',
   },
   {
     name: 'Enfield Lock',
-    code: 'ENL'
+    code: 'ENL',
   },
   {
     name: 'Enfield Town',
-    code: 'ENF'
+    code: 'ENF',
   },
   {
     name: 'Entwistle',
-    code: 'ENT'
+    code: 'ENT',
   },
   {
     name: 'Epsom (Surrey)',
-    code: 'EPS'
+    code: 'EPS',
   },
   {
     name: 'Epsom Downs',
-    code: 'EPD'
+    code: 'EPD',
   },
   {
     name: 'Erdington',
-    code: 'ERD'
+    code: 'ERD',
   },
   {
     name: 'Eridge',
-    code: 'ERI'
+    code: 'ERI',
   },
   {
     name: 'Erith',
-    code: 'ERH'
+    code: 'ERH',
   },
   {
     name: 'Esher',
-    code: 'ESH'
+    code: 'ESH',
   },
   {
     name: 'Eskbank',
-    code: 'EKB'
+    code: 'EKB',
   },
   {
     name: 'Essex Road',
-    code: 'EXR'
+    code: 'EXR',
   },
   {
     name: 'Etchingham',
-    code: 'ETC'
+    code: 'ETC',
   },
   {
     name: 'Euxton Balshaw Lane',
-    code: 'EBA'
+    code: 'EBA',
   },
   {
     name: 'Evesham',
-    code: 'EVE'
+    code: 'EVE',
   },
   {
     name: 'Ewell East',
-    code: 'EWE'
+    code: 'EWE',
   },
   {
     name: 'Ewell West',
-    code: 'EWW'
+    code: 'EWW',
   },
   {
     name: 'Exeter Central',
-    code: 'EXC'
+    code: 'EXC',
   },
   {
     name: "Exeter St David's",
-    code: 'EXD'
+    code: 'EXD',
   },
   {
     name: 'Exeter St Thomas',
-    code: 'EXT'
+    code: 'EXT',
   },
   {
     name: 'Exhibition Centre (Glasgow)',
-    code: 'EXG'
+    code: 'EXG',
   },
   {
     name: 'Exmouth',
-    code: 'EXM'
+    code: 'EXM',
   },
   {
     name: 'Exton',
-    code: 'EXN'
+    code: 'EXN',
   },
   {
     name: 'Eynsford',
-    code: 'EYN'
+    code: 'EYN',
   },
   {
     name: 'Fairbourne',
-    code: 'FRB'
+    code: 'FRB',
   },
   {
     name: 'Fairfield',
-    code: 'FRF'
+    code: 'FRF',
   },
   {
     name: 'Fairlie',
-    code: 'FRL'
+    code: 'FRL',
   },
   {
     name: 'Fairwater',
-    code: 'FRW'
+    code: 'FRW',
   },
   {
     name: 'Falconwood',
-    code: 'FCN'
+    code: 'FCN',
   },
   {
     name: 'Falkirk Grahamston',
-    code: 'FKG'
+    code: 'FKG',
   },
   {
     name: 'Falkirk High',
-    code: 'FKK'
+    code: 'FKK',
   },
   {
     name: 'Falls of Cruachan',
-    code: 'FOC'
+    code: 'FOC',
   },
   {
     name: 'Falmer',
-    code: 'FMR'
+    code: 'FMR',
   },
   {
     name: 'Falmouth Docks',
-    code: 'FAL'
+    code: 'FAL',
   },
   {
     name: 'Falmouth Town',
-    code: 'FMT'
+    code: 'FMT',
   },
   {
     name: 'Fareham',
-    code: 'FRM'
+    code: 'FRM',
   },
   {
     name: 'Farnborough (Main)',
-    code: 'FNB'
+    code: 'FNB',
   },
   {
     name: 'Farnborough North',
-    code: 'FNN'
+    code: 'FNN',
   },
   {
     name: 'Farncombe',
-    code: 'FNC'
+    code: 'FNC',
   },
   {
     name: 'Farnham',
-    code: 'FNH'
+    code: 'FNH',
   },
   {
     name: 'Farningham Road',
-    code: 'FNR'
+    code: 'FNR',
   },
   {
     name: 'Farnworth',
-    code: 'FNW'
+    code: 'FNW',
   },
   {
     name: 'Farringdon',
-    code: 'ZFD'
+    code: 'ZFD',
   },
   {
     name: 'Fauldhouse',
-    code: 'FLD'
+    code: 'FLD',
   },
   {
     name: 'Faversham',
-    code: 'FAV'
+    code: 'FAV',
   },
   {
     name: 'Faygate',
-    code: 'FGT'
+    code: 'FGT',
   },
   {
     name: 'Fazakerley',
-    code: 'FAZ'
+    code: 'FAZ',
   },
   {
     name: 'Fearn',
-    code: 'FRN'
+    code: 'FRN',
   },
   {
     name: 'Featherstone',
-    code: 'FEA'
+    code: 'FEA',
   },
   {
     name: 'Felixstowe',
-    code: 'FLX'
+    code: 'FLX',
   },
   {
     name: 'Feltham',
-    code: 'FEL'
+    code: 'FEL',
   },
   {
     name: 'Feniton',
-    code: 'FNT'
+    code: 'FNT',
   },
   {
     name: 'Fenny Stratford',
-    code: 'FEN'
+    code: 'FEN',
   },
   {
     name: 'Fernhill',
-    code: 'FER'
+    code: 'FER',
   },
   {
     name: 'Ferriby',
-    code: 'FRY'
+    code: 'FRY',
   },
   {
     name: 'Ferryside',
-    code: 'FYS'
+    code: 'FYS',
   },
   {
     name: 'Ffairfach',
-    code: 'FFA'
+    code: 'FFA',
   },
   {
     name: 'Filey',
-    code: 'FIL'
+    code: 'FIL',
   },
   {
     name: 'Filton Abbey Wood',
-    code: 'FIT'
+    code: 'FIT',
   },
   {
     name: 'Finchley Road & Frognal',
-    code: 'FNY'
+    code: 'FNY',
   },
   {
     name: 'Finsbury Park',
-    code: 'FPK'
+    code: 'FPK',
   },
   {
     name: 'Finstock',
-    code: 'FIN'
+    code: 'FIN',
   },
   {
     name: 'Fishbourne (Sussex)',
-    code: 'FSB'
+    code: 'FSB',
   },
   {
     name: 'Fishersgate',
-    code: 'FSG'
+    code: 'FSG',
   },
   {
     name: 'Fishguard & Goodwick',
-    code: 'FGW'
+    code: 'FGW',
   },
   {
     name: 'Fishguard Harbour',
-    code: 'FGH'
+    code: 'FGH',
   },
   {
     name: 'Fiskerton',
-    code: 'FSK'
+    code: 'FSK',
   },
   {
     name: 'Fitzwilliam',
-    code: 'FZW'
+    code: 'FZW',
   },
   {
     name: 'Five Ways',
-    code: 'FWY'
+    code: 'FWY',
   },
   {
     name: 'Fleet',
-    code: 'FLE'
+    code: 'FLE',
   },
   {
     name: 'Flimby',
-    code: 'FLM'
+    code: 'FLM',
   },
   {
     name: 'Flint',
-    code: 'FLN'
+    code: 'FLN',
   },
   {
     name: 'Flitwick',
-    code: 'FLT'
+    code: 'FLT',
   },
   {
     name: 'Flixton',
-    code: 'FLI'
+    code: 'FLI',
   },
   {
     name: 'Flowery Field',
-    code: 'FLF'
+    code: 'FLF',
   },
   {
     name: 'Folkestone Central',
-    code: 'FKC'
+    code: 'FKC',
   },
   {
     name: 'Folkestone West',
-    code: 'FKW'
+    code: 'FKW',
   },
   {
     name: 'Ford',
-    code: 'FOD'
+    code: 'FOD',
   },
   {
     name: 'Forest Gate',
-    code: 'FOG'
+    code: 'FOG',
   },
   {
     name: 'Forest Hill',
-    code: 'FOH'
+    code: 'FOH',
   },
   {
     name: 'Formby',
-    code: 'FBY'
+    code: 'FBY',
   },
   {
     name: 'Forres',
-    code: 'FOR'
+    code: 'FOR',
   },
   {
     name: 'Forsinard',
-    code: 'FRS'
+    code: 'FRS',
   },
   {
     name: 'Fort Matilda',
-    code: 'FTM'
+    code: 'FTM',
   },
   {
     name: 'Fort William',
-    code: 'FTW'
+    code: 'FTW',
   },
   {
     name: 'Four Oaks',
-    code: 'FOK'
+    code: 'FOK',
   },
   {
     name: 'Foxfield',
-    code: 'FOX'
+    code: 'FOX',
   },
   {
     name: 'Foxton',
-    code: 'FXN'
+    code: 'FXN',
   },
   {
     name: 'Frant',
-    code: 'FRT'
+    code: 'FRT',
   },
   {
     name: 'Fratton',
-    code: 'FTN'
+    code: 'FTN',
   },
   {
     name: 'Freshfield',
-    code: 'FRE'
+    code: 'FRE',
   },
   {
     name: 'Freshford',
-    code: 'FFD'
+    code: 'FFD',
   },
   {
     name: 'Frimley',
-    code: 'FML'
+    code: 'FML',
   },
   {
     name: 'Frinton-on-Sea',
-    code: 'FRI'
+    code: 'FRI',
   },
   {
     name: 'Frizinghall',
-    code: 'FZH'
+    code: 'FZH',
   },
   {
     name: 'Frodsham',
-    code: 'FRD'
+    code: 'FRD',
   },
   {
     name: 'Frome',
-    code: 'FRO'
+    code: 'FRO',
   },
   {
     name: 'Fulwell',
-    code: 'FLW'
+    code: 'FLW',
   },
   {
     name: 'Furness Vale',
-    code: 'FNV'
+    code: 'FNV',
   },
   {
     name: 'Furze Platt',
-    code: 'FZP'
+    code: 'FZP',
   },
   {
     name: 'Gainsborough Central',
-    code: 'GNB'
+    code: 'GNB',
   },
   {
     name: 'Gainsborough Lea Road',
-    code: 'GBL'
+    code: 'GBL',
   },
   {
     name: 'Galashiels',
-    code: 'GAL'
+    code: 'GAL',
   },
   {
     name: 'Garelochhead',
-    code: 'GCH'
+    code: 'GCH',
   },
   {
     name: 'Garforth',
-    code: 'GRF'
+    code: 'GRF',
   },
   {
     name: 'Gargrave',
-    code: 'GGV'
+    code: 'GGV',
   },
   {
     name: 'Garrowhill',
-    code: 'GAR'
+    code: 'GAR',
   },
   {
     name: 'Garscadden',
-    code: 'GRS'
+    code: 'GRS',
   },
   {
     name: 'Garsdale',
-    code: 'GSD'
+    code: 'GSD',
   },
   {
     name: 'Garston (Hertfordshire)',
-    code: 'GSN'
+    code: 'GSN',
   },
   {
     name: 'Garswood',
-    code: 'GSW'
+    code: 'GSW',
   },
   {
     name: 'Gartcosh',
-    code: 'GRH'
+    code: 'GRH',
   },
   {
     name: 'Garth (Mid Glamorgan)',
-    code: 'GMG'
+    code: 'GMG',
   },
   {
     name: 'Garth (Powys)',
-    code: 'GTH'
+    code: 'GTH',
   },
   {
     name: 'Garve',
-    code: 'GVE'
+    code: 'GVE',
   },
   {
     name: 'Gathurst',
-    code: 'GST'
+    code: 'GST',
   },
   {
     name: 'Gatley',
-    code: 'GTY'
+    code: 'GTY',
   },
   {
     name: 'Gatwick Airport',
-    code: 'GTW'
+    code: 'GTW',
   },
   {
     name: 'Georgemas Junction',
-    code: 'GGJ'
+    code: 'GGJ',
   },
   {
     name: 'Gerrards Cross',
-    code: 'GER'
+    code: 'GER',
   },
   {
     name: 'Gidea Park',
-    code: 'GDP'
+    code: 'GDP',
   },
   {
     name: 'Giffnock',
-    code: 'GFN'
+    code: 'GFN',
   },
   {
     name: 'Giggleswick',
-    code: 'GIG'
+    code: 'GIG',
   },
   {
     name: 'Gilberdyke',
-    code: 'GBD'
+    code: 'GBD',
   },
   {
     name: 'Gilfach Fargoed',
-    code: 'GFF'
+    code: 'GFF',
   },
   {
     name: 'Gillingham (Dorset)',
-    code: 'GIL'
+    code: 'GIL',
   },
   {
     name: 'Gillingham (Kent)',
-    code: 'GLM'
+    code: 'GLM',
   },
   {
     name: 'Gilshochill',
-    code: 'GSC'
+    code: 'GSC',
   },
   {
     name: 'Gipsy Hill',
-    code: 'GIP'
+    code: 'GIP',
   },
   {
     name: 'Girvan',
-    code: 'GIR'
+    code: 'GIR',
   },
   {
     name: 'Glaisdale',
-    code: 'GLS'
+    code: 'GLS',
   },
   {
     name: 'Glan Conwy',
-    code: 'GCW'
+    code: 'GCW',
   },
   {
     name: 'Glasgow Central',
-    code: 'GLC'
+    code: 'GLC',
   },
   {
     name: 'Glasgow Queen Street',
-    code: 'GLQ'
+    code: 'GLQ',
   },
   {
     name: 'Glasshoughton',
-    code: 'GLH'
+    code: 'GLH',
   },
   {
     name: 'Glazebrook',
-    code: 'GLZ'
+    code: 'GLZ',
   },
   {
     name: 'Gleneagles',
-    code: 'GLE'
+    code: 'GLE',
   },
   {
     name: 'Glenfinnan',
-    code: 'GLF'
+    code: 'GLF',
   },
   {
     name: 'Glengarnock',
-    code: 'GLG'
+    code: 'GLG',
   },
   {
     name: 'Glenrothes with Thornton',
-    code: 'GLT'
+    code: 'GLT',
   },
   {
     name: 'Glossop',
-    code: 'GLO'
+    code: 'GLO',
   },
   {
     name: 'Gloucester',
-    code: 'GCR'
+    code: 'GCR',
   },
   {
     name: 'Glynde',
-    code: 'GLY'
+    code: 'GLY',
   },
   {
     name: 'Gobowen',
-    code: 'GOB'
+    code: 'GOB',
   },
   {
     name: 'Godalming',
-    code: 'GOD'
+    code: 'GOD',
   },
   {
     name: 'Godley',
-    code: 'GDL'
+    code: 'GDL',
   },
   {
     name: 'Godstone',
-    code: 'GDN'
+    code: 'GDN',
   },
   {
     name: 'Goldthorpe',
-    code: 'GOE'
+    code: 'GOE',
   },
   {
     name: 'Golf Street',
-    code: 'GOF'
+    code: 'GOF',
   },
   {
     name: 'Golspie',
-    code: 'GOL'
+    code: 'GOL',
   },
   {
     name: 'Gomshall',
-    code: 'GOM'
+    code: 'GOM',
   },
   {
     name: 'Goodmayes',
-    code: 'GMY'
+    code: 'GMY',
   },
   {
     name: 'Goole',
-    code: 'GOO'
+    code: 'GOO',
   },
   {
     name: 'Goostrey',
-    code: 'GTR'
+    code: 'GTR',
   },
   {
     name: 'Gordon Hill',
-    code: 'GDH'
+    code: 'GDH',
   },
   {
     name: 'Gorebridge',
-    code: 'GBG'
+    code: 'GBG',
   },
   {
     name: 'Goring & Streatley',
-    code: 'GOR'
+    code: 'GOR',
   },
   {
     name: 'Goring-by-Sea',
-    code: 'GBS'
+    code: 'GBS',
   },
   {
     name: 'Gorton',
-    code: 'GTO'
+    code: 'GTO',
   },
   {
     name: 'Gospel Oak',
-    code: 'GPO'
+    code: 'GPO',
   },
   {
     name: 'Gourock',
-    code: 'GRK'
+    code: 'GRK',
   },
   {
     name: 'Gowerton',
-    code: 'GWN'
+    code: 'GWN',
   },
   {
     name: 'Goxhill',
-    code: 'GOX'
+    code: 'GOX',
   },
   {
     name: 'Grange Park',
-    code: 'GPK'
+    code: 'GPK',
   },
   {
     name: 'Grange-Over-Sands',
-    code: 'GOS'
+    code: 'GOS',
   },
   {
     name: 'Grangetown (Cardiff)',
-    code: 'GTN'
+    code: 'GTN',
   },
   {
     name: 'Grantham',
-    code: 'GRA'
+    code: 'GRA',
   },
   {
     name: 'Grateley',
-    code: 'GRT'
+    code: 'GRT',
   },
   {
     name: 'Gravelly Hill',
-    code: 'GVH'
+    code: 'GVH',
   },
   {
     name: 'Gravesend',
-    code: 'GRV'
+    code: 'GRV',
   },
   {
     name: 'Grays',
-    code: 'GRY'
+    code: 'GRY',
   },
   {
     name: 'Great Ayton',
-    code: 'GTA'
+    code: 'GTA',
   },
   {
     name: 'Great Bentley',
-    code: 'GRB'
+    code: 'GRB',
   },
   {
     name: 'Great Chesterford',
-    code: 'GRC'
+    code: 'GRC',
   },
   {
     name: 'Great Coates',
-    code: 'GCT'
+    code: 'GCT',
   },
   {
     name: 'Great Malvern',
-    code: 'GMV'
+    code: 'GMV',
   },
   {
     name: 'Great Missenden',
-    code: 'GMN'
+    code: 'GMN',
   },
   {
     name: 'Great Yarmouth',
-    code: 'GYM'
+    code: 'GYM',
   },
   {
     name: 'Green Lane',
-    code: 'GNL'
+    code: 'GNL',
   },
   {
     name: 'Green Road',
-    code: 'GNR'
+    code: 'GNR',
   },
   {
     name: 'Greenbank',
-    code: 'GBK'
+    code: 'GBK',
   },
   {
     name: 'Greenfaulds',
-    code: 'GRL'
+    code: 'GRL',
   },
   {
     name: 'Greenfield',
-    code: 'GNF'
+    code: 'GNF',
   },
   {
     name: 'Greenford',
-    code: 'GFD'
+    code: 'GFD',
   },
   {
     name: 'Greenhithe',
-    code: 'GNH'
+    code: 'GNH',
   },
   {
     name: 'Greenock Central',
-    code: 'GKC'
+    code: 'GKC',
   },
   {
     name: 'Greenock West',
-    code: 'GKW'
+    code: 'GKW',
   },
   {
     name: 'Greenwich',
-    code: 'GNW'
+    code: 'GNW',
   },
   {
     name: 'Gretna Green',
-    code: 'GEA'
+    code: 'GEA',
   },
   {
     name: 'Grimsby Docks',
-    code: 'GMD'
+    code: 'GMD',
   },
   {
     name: 'Grimsby Town',
-    code: 'GMB'
+    code: 'GMB',
   },
   {
     name: 'Grindleford',
-    code: 'GRN'
+    code: 'GRN',
   },
   {
     name: 'Grosmont',
-    code: 'GMT'
+    code: 'GMT',
   },
   {
     name: 'Grove Park',
-    code: 'GRP'
+    code: 'GRP',
   },
   {
     name: 'Guide Bridge',
-    code: 'GUI'
+    code: 'GUI',
   },
   {
     name: 'Guildford',
-    code: 'GLD'
+    code: 'GLD',
   },
   {
     name: 'Guiseley',
-    code: 'GSY'
+    code: 'GSY',
   },
   {
     name: 'Gunnersbury',
-    code: 'GUN'
+    code: 'GUN',
   },
   {
     name: 'Gunnislake',
-    code: 'GSL'
+    code: 'GSL',
   },
   {
     name: 'Gunton',
-    code: 'GNT'
+    code: 'GNT',
   },
   {
     name: 'Gwersyllt',
-    code: 'GWE'
+    code: 'GWE',
   },
   {
     name: 'Gypsy Lane',
-    code: 'GYP'
+    code: 'GYP',
   },
   {
     name: 'Habrough',
-    code: 'HAB'
+    code: 'HAB',
   },
   {
     name: 'Hackbridge',
-    code: 'HCB'
+    code: 'HCB',
   },
   {
     name: 'Hackney Central',
-    code: 'HKC'
+    code: 'HKC',
   },
   {
     name: 'Hackney Downs',
-    code: 'HAC'
+    code: 'HAC',
   },
   {
     name: 'Hackney Wick',
-    code: 'HKW'
+    code: 'HKW',
   },
   {
     name: 'Haddenham & Thame Parkway',
-    code: 'HDM'
+    code: 'HDM',
   },
   {
     name: 'Haddiscoe',
-    code: 'HAD'
+    code: 'HAD',
   },
   {
     name: 'Hadfield',
-    code: 'HDF'
+    code: 'HDF',
   },
   {
     name: 'Hadley Wood',
-    code: 'HDW'
+    code: 'HDW',
   },
   {
     name: 'Hag Fold',
-    code: 'HGF'
+    code: 'HGF',
   },
   {
     name: 'Haggerston',
-    code: 'HGG'
+    code: 'HGG',
   },
   {
     name: 'Hagley',
-    code: 'HAG'
+    code: 'HAG',
   },
   {
     name: 'Hairmyres',
-    code: 'HMY'
+    code: 'HMY',
   },
   {
     name: 'Hale (Manchester)',
-    code: 'HAL'
+    code: 'HAL',
   },
   {
     name: 'Halesworth',
-    code: 'HAS'
+    code: 'HAS',
   },
   {
     name: 'Halewood',
-    code: 'HED'
+    code: 'HED',
   },
   {
     name: 'Halifax',
-    code: 'HFX'
+    code: 'HFX',
   },
   {
     name: 'Hall Green',
-    code: 'HLG'
+    code: 'HLG',
   },
   {
     name: 'Hall Road',
-    code: 'HLR'
+    code: 'HLR',
   },
   {
     name: 'Halling',
-    code: 'HAI'
+    code: 'HAI',
   },
   {
     name: "Hall-i'-th'-Wood",
-    code: 'HID'
+    code: 'HID',
   },
   {
     name: 'Haltwhistle',
-    code: 'HWH'
+    code: 'HWH',
   },
   {
     name: 'Ham Street',
-    code: 'HMT'
+    code: 'HMT',
   },
   {
     name: 'Hamble',
-    code: 'HME'
+    code: 'HME',
   },
   {
     name: 'Hamilton Central',
-    code: 'HNC'
+    code: 'HNC',
   },
   {
     name: 'Hamilton West',
-    code: 'HNW'
+    code: 'HNW',
   },
   {
     name: 'Hammerton',
-    code: 'HMM'
+    code: 'HMM',
   },
   {
     name: 'Hampden Park (Sussex)',
-    code: 'HMD'
+    code: 'HMD',
   },
   {
     name: 'Hampstead Heath',
-    code: 'HDH'
+    code: 'HDH',
   },
   {
     name: 'Hampton (London)',
-    code: 'HMP'
+    code: 'HMP',
   },
   {
     name: 'Hampton Court',
-    code: 'HMC'
+    code: 'HMC',
   },
   {
     name: 'Hampton Wick',
-    code: 'HMW'
+    code: 'HMW',
   },
   {
     name: 'Hampton-in-Arden',
-    code: 'HIA'
+    code: 'HIA',
   },
   {
     name: 'Hamstead (Birmingham)',
-    code: 'HSD'
+    code: 'HSD',
   },
   {
     name: 'Hamworthy',
-    code: 'HAM'
+    code: 'HAM',
   },
   {
     name: 'Hanborough',
-    code: 'HND'
+    code: 'HND',
   },
   {
     name: 'Handforth',
-    code: 'HTH'
+    code: 'HTH',
   },
   {
     name: 'Hanwell',
-    code: 'HAN'
+    code: 'HAN',
   },
   {
     name: 'Hapton',
-    code: 'HPN'
+    code: 'HPN',
   },
   {
     name: 'Harlech',
-    code: 'HRL'
+    code: 'HRL',
   },
   {
     name: 'Harlesden',
-    code: 'HDN'
+    code: 'HDN',
   },
   {
     name: 'Harling Road',
-    code: 'HRD'
+    code: 'HRD',
   },
   {
     name: 'Harlington (Beds)',
-    code: 'HLN'
+    code: 'HLN',
   },
   {
     name: 'Harlow Mill',
-    code: 'HWM'
+    code: 'HWM',
   },
   {
     name: 'Harlow Town',
-    code: 'HWN'
+    code: 'HWN',
   },
   {
     name: 'Harold Wood',
-    code: 'HRO'
+    code: 'HRO',
   },
   {
     name: 'Harpenden',
-    code: 'HPD'
+    code: 'HPD',
   },
   {
     name: 'Harrietsham',
-    code: 'HRM'
+    code: 'HRM',
   },
   {
     name: 'Harringay',
-    code: 'HGY'
+    code: 'HGY',
   },
   {
     name: 'Harringay Green Lanes',
-    code: 'HRY'
+    code: 'HRY',
   },
   {
     name: 'Harrington',
-    code: 'HRR'
+    code: 'HRR',
   },
   {
     name: 'Harrogate',
-    code: 'HGT'
+    code: 'HGT',
   },
   {
     name: 'Harrow & Wealdstone',
-    code: 'HRW'
+    code: 'HRW',
   },
   {
     name: 'Harrow-on-the-Hill',
-    code: 'HOH'
+    code: 'HOH',
   },
   {
     name: 'Hartford (Cheshire)',
-    code: 'HTF'
+    code: 'HTF',
   },
   {
     name: 'Hartlebury',
-    code: 'HBY'
+    code: 'HBY',
   },
   {
     name: 'Hartlepool',
-    code: 'HPL'
+    code: 'HPL',
   },
   {
     name: 'Hartwood',
-    code: 'HTW'
+    code: 'HTW',
   },
   {
     name: 'Harwich International',
-    code: 'HPQ'
+    code: 'HPQ',
   },
   {
     name: 'Harwich Town',
-    code: 'HWC'
+    code: 'HWC',
   },
   {
     name: 'Haslemere',
-    code: 'HSL'
+    code: 'HSL',
   },
   {
     name: 'Hassocks',
-    code: 'HSK'
+    code: 'HSK',
   },
   {
     name: 'Hastings',
-    code: 'HGS'
+    code: 'HGS',
   },
   {
     name: 'Hatch End',
-    code: 'HTE'
+    code: 'HTE',
   },
   {
     name: 'Hatfield & Stainforth',
-    code: 'HFS'
+    code: 'HFS',
   },
   {
     name: 'Hatfield (Herts)',
-    code: 'HAT'
+    code: 'HAT',
   },
   {
     name: 'Hatfield Peverel',
-    code: 'HAP'
+    code: 'HAP',
   },
   {
     name: 'Hathersage',
-    code: 'HSG'
+    code: 'HSG',
   },
   {
     name: 'Hattersley',
-    code: 'HTY'
+    code: 'HTY',
   },
   {
     name: 'Hatton',
-    code: 'HTN'
+    code: 'HTN',
   },
   {
     name: 'Havant',
-    code: 'HAV'
+    code: 'HAV',
   },
   {
     name: 'Havenhouse',
-    code: 'HVN'
+    code: 'HVN',
   },
   {
     name: 'Haverfordwest',
-    code: 'HVF'
+    code: 'HVF',
   },
   {
     name: 'Hawarden',
-    code: 'HWD'
+    code: 'HWD',
   },
   {
     name: 'Hawarden Bridge',
-    code: 'HWB'
+    code: 'HWB',
   },
   {
     name: 'Hawkhead',
-    code: 'HKH'
+    code: 'HKH',
   },
   {
     name: 'Haydon Bridge',
-    code: 'HDB'
+    code: 'HDB',
   },
   {
     name: 'Haydons Road',
-    code: 'HYR'
+    code: 'HYR',
   },
   {
     name: 'Hayes & Harlington',
-    code: 'HAY'
+    code: 'HAY',
   },
   {
     name: 'Hayes (Kent)',
-    code: 'HYS'
+    code: 'HYS',
   },
   {
     name: 'Hayle',
-    code: 'HYL'
+    code: 'HYL',
   },
   {
     name: 'Haymarket',
-    code: 'HYM'
+    code: 'HYM',
   },
   {
     name: 'Haywards Heath',
-    code: 'HHE'
+    code: 'HHE',
   },
   {
     name: 'Hazel Grove',
-    code: 'HAZ'
+    code: 'HAZ',
   },
   {
     name: 'Headcorn',
-    code: 'HCN'
+    code: 'HCN',
   },
   {
     name: 'Headingley',
-    code: 'HDY'
+    code: 'HDY',
   },
   {
     name: 'Headstone Lane',
-    code: 'HDL'
+    code: 'HDL',
   },
   {
     name: 'Heald Green',
-    code: 'HDG'
+    code: 'HDG',
   },
   {
     name: 'Healing',
-    code: 'HLI'
+    code: 'HLI',
   },
   {
     name: 'Heath High Level',
-    code: 'HHL'
+    code: 'HHL',
   },
   {
     name: 'Heath Low Level',
-    code: 'HLL'
+    code: 'HLL',
   },
   {
     name: 'Heathrow Airport Terminal 4',
-    code: 'HAF'
+    code: 'HAF',
   },
   {
     name: 'Heathrow Airport Terminal 5',
-    code: 'HWV'
+    code: 'HWV',
   },
   {
     name: 'Heathrow Airport Terminals 1, 2 and 3',
-    code: 'HXX'
+    code: 'HXX',
   },
   {
     name: 'Heaton Chapel',
-    code: 'HTC'
+    code: 'HTC',
   },
   {
     name: 'Hebden Bridge',
-    code: 'HBD'
+    code: 'HBD',
   },
   {
     name: 'Heckington',
-    code: 'HEC'
+    code: 'HEC',
   },
   {
     name: 'Hedge End',
-    code: 'HDE'
+    code: 'HDE',
   },
   {
     name: 'Hednesford',
-    code: 'HNF'
+    code: 'HNF',
   },
   {
     name: 'Heighington',
-    code: 'HEI'
+    code: 'HEI',
   },
   {
     name: 'Helensburgh Central',
-    code: 'HLC'
+    code: 'HLC',
   },
   {
     name: 'Helensburgh Upper',
-    code: 'HLU'
+    code: 'HLU',
   },
   {
     name: 'Hellifield',
-    code: 'HLD'
+    code: 'HLD',
   },
   {
     name: 'Helmsdale',
-    code: 'HMS'
+    code: 'HMS',
   },
   {
     name: 'Helsby',
-    code: 'HSB'
+    code: 'HSB',
   },
   {
     name: 'Hemel Hempstead',
-    code: 'HML'
+    code: 'HML',
   },
   {
     name: 'Hendon',
-    code: 'HEN'
+    code: 'HEN',
   },
   {
     name: 'Hengoed',
-    code: 'HNG'
+    code: 'HNG',
   },
   {
     name: 'Henley-in-Arden',
-    code: 'HNL'
+    code: 'HNL',
   },
   {
     name: 'Henley-on-Thames',
-    code: 'HOT'
+    code: 'HOT',
   },
   {
     name: 'Hensall',
-    code: 'HEL'
+    code: 'HEL',
   },
   {
     name: 'Hereford',
-    code: 'HFD'
+    code: 'HFD',
   },
   {
     name: 'Herne Bay',
-    code: 'HNB'
+    code: 'HNB',
   },
   {
     name: 'Herne Hill',
-    code: 'HNH'
+    code: 'HNH',
   },
   {
     name: 'Hersham',
-    code: 'HER'
+    code: 'HER',
   },
   {
     name: 'Hertford East',
-    code: 'HFE'
+    code: 'HFE',
   },
   {
     name: 'Hertford North',
-    code: 'HFN'
+    code: 'HFN',
   },
   {
     name: 'Hessle',
-    code: 'HES'
+    code: 'HES',
   },
   {
     name: 'Heswall',
-    code: 'HSW'
+    code: 'HSW',
   },
   {
     name: 'Hever',
-    code: 'HEV'
+    code: 'HEV',
   },
   {
     name: 'Heworth',
-    code: 'HEW'
+    code: 'HEW',
   },
   {
     name: 'Hexham',
-    code: 'HEX'
+    code: 'HEX',
   },
   {
     name: 'Heyford',
-    code: 'HYD'
+    code: 'HYD',
   },
   {
     name: 'Heysham Port',
-    code: 'HHB'
+    code: 'HHB',
   },
   {
     name: 'High Brooms',
-    code: 'HIB'
+    code: 'HIB',
   },
   {
     name: 'High Street (Glasgow)',
-    code: 'HST'
+    code: 'HST',
   },
   {
     name: 'High Street Kensington Underground',
-    code: 'ZHS'
+    code: 'ZHS',
   },
   {
     name: 'High Wycombe',
-    code: 'HWY'
+    code: 'HWY',
   },
   {
     name: 'Higham (Kent)',
-    code: 'HGM'
+    code: 'HGM',
   },
   {
     name: 'Highams Park',
-    code: 'HIP'
+    code: 'HIP',
   },
   {
     name: 'Highbridge & Burnham',
-    code: 'HIG'
+    code: 'HIG',
   },
   {
     name: 'Highbury & Islington',
-    code: 'HHY'
+    code: 'HHY',
   },
   {
     name: 'Hightown',
-    code: 'HTO'
+    code: 'HTO',
   },
   {
     name: 'Hildenborough',
-    code: 'HLB'
+    code: 'HLB',
   },
   {
     name: 'Hillfoot',
-    code: 'HLF'
+    code: 'HLF',
   },
   {
     name: 'Hillington East',
-    code: 'HLE'
+    code: 'HLE',
   },
   {
     name: 'Hillington West',
-    code: 'HLW'
+    code: 'HLW',
   },
   {
     name: 'Hillside',
-    code: 'HIL'
+    code: 'HIL',
   },
   {
     name: 'Hilsea',
-    code: 'HLS'
+    code: 'HLS',
   },
   {
     name: 'Hinchley Wood',
-    code: 'HYW'
+    code: 'HYW',
   },
   {
     name: 'Hinckley (Leics)',
-    code: 'HNK'
+    code: 'HNK',
   },
   {
     name: 'Hindley',
-    code: 'HIN'
+    code: 'HIN',
   },
   {
     name: 'Hinton Admiral',
-    code: 'HNA'
+    code: 'HNA',
   },
   {
     name: 'Hitchin',
-    code: 'HIT'
+    code: 'HIT',
   },
   {
     name: 'Hither Green',
-    code: 'HGR'
+    code: 'HGR',
   },
   {
     name: 'Hockley',
-    code: 'HOC'
+    code: 'HOC',
   },
   {
     name: 'Hollingbourne',
-    code: 'HBN'
+    code: 'HBN',
   },
   {
     name: 'Holmes Chapel',
-    code: 'HCH'
+    code: 'HCH',
   },
   {
     name: 'Holmwood',
-    code: 'HLM'
+    code: 'HLM',
   },
   {
     name: 'Holton Heath',
-    code: 'HOL'
+    code: 'HOL',
   },
   {
     name: 'Holyhead',
-    code: 'HHD'
+    code: 'HHD',
   },
   {
     name: 'Holytown',
-    code: 'HLY'
+    code: 'HLY',
   },
   {
     name: 'Homerton',
-    code: 'HMN'
+    code: 'HMN',
   },
   {
     name: 'Honeybourne',
-    code: 'HYB'
+    code: 'HYB',
   },
   {
     name: 'Honiton',
-    code: 'HON'
+    code: 'HON',
   },
   {
     name: 'Honley',
-    code: 'HOY'
+    code: 'HOY',
   },
   {
     name: 'Honor Oak Park',
-    code: 'HPA'
+    code: 'HPA',
   },
   {
     name: 'Hook',
-    code: 'HOK'
+    code: 'HOK',
   },
   {
     name: 'Hooton',
-    code: 'HOO'
+    code: 'HOO',
   },
   {
     name: 'Hope (Derbyshire)',
-    code: 'HOP'
+    code: 'HOP',
   },
   {
     name: 'Hope (Flintshire)',
-    code: 'HPE'
+    code: 'HPE',
   },
   {
     name: 'Hopton Heath',
-    code: 'HPT'
+    code: 'HPT',
   },
   {
     name: 'Horley',
-    code: 'HOR'
+    code: 'HOR',
   },
   {
     name: 'Hornbeam Park',
-    code: 'HBP'
+    code: 'HBP',
   },
   {
     name: 'Hornsey',
-    code: 'HRN'
+    code: 'HRN',
   },
   {
     name: 'Horsforth',
-    code: 'HRS'
+    code: 'HRS',
   },
   {
     name: 'Horsham',
-    code: 'HRH'
+    code: 'HRH',
   },
   {
     name: 'Horsley',
-    code: 'HSY'
+    code: 'HSY',
   },
   {
     name: 'Horton-in-Ribblesdale',
-    code: 'HIR'
+    code: 'HIR',
   },
   {
     name: 'Horwich Parkway',
-    code: 'HWI'
+    code: 'HWI',
   },
   {
     name: 'Hoscar',
-    code: 'HSC'
+    code: 'HSC',
   },
   {
     name: 'Hough Green',
-    code: 'HGN'
+    code: 'HGN',
   },
   {
     name: 'Hounslow',
-    code: 'HOU'
+    code: 'HOU',
   },
   {
     name: 'Hove',
-    code: 'HOV'
+    code: 'HOV',
   },
   {
     name: 'Hoveton & Wroxham',
-    code: 'HXM'
+    code: 'HXM',
   },
   {
     name: 'How Wood (Herts)',
-    code: 'HWW'
+    code: 'HWW',
   },
   {
     name: 'Howden',
-    code: 'HOW'
+    code: 'HOW',
   },
   {
     name: 'Howwood (Renfrewshire)',
-    code: 'HOZ'
+    code: 'HOZ',
   },
   {
     name: 'Hoxton',
-    code: 'HOX'
+    code: 'HOX',
   },
   {
     name: 'Hoylake',
-    code: 'HYK'
+    code: 'HYK',
   },
   {
     name: 'Hubberts Bridge',
-    code: 'HBB'
+    code: 'HBB',
   },
   {
     name: 'Hucknall',
-    code: 'HKN'
+    code: 'HKN',
   },
   {
     name: 'Huddersfield',
-    code: 'HUD'
+    code: 'HUD',
   },
   {
     name: 'Hull',
-    code: 'HUL'
+    code: 'HUL',
   },
   {
     name: 'Humphrey Park',
-    code: 'HUP'
+    code: 'HUP',
   },
   {
     name: 'Huncoat',
-    code: 'HCT'
+    code: 'HCT',
   },
   {
     name: 'Hungerford',
-    code: 'HGD'
+    code: 'HGD',
   },
   {
     name: 'Hunmanby',
-    code: 'HUB'
+    code: 'HUB',
   },
   {
     name: 'Huntingdon',
-    code: 'HUN'
+    code: 'HUN',
   },
   {
     name: 'Huntly',
-    code: 'HNT'
+    code: 'HNT',
   },
   {
     name: 'Hunts Cross',
-    code: 'HNX'
+    code: 'HNX',
   },
   {
     name: 'Hurst Green',
-    code: 'HUR'
+    code: 'HUR',
   },
   {
     name: 'Hutton Cranswick',
-    code: 'HUT'
+    code: 'HUT',
   },
   {
     name: 'Huyton',
-    code: 'HUY'
+    code: 'HUY',
   },
   {
     name: 'Hyde Central',
-    code: 'HYC'
+    code: 'HYC',
   },
   {
     name: 'Hyde North',
-    code: 'HYT'
+    code: 'HYT',
   },
   {
     name: 'Hykeham',
-    code: 'HKM'
+    code: 'HKM',
   },
   {
     name: 'Hyndland',
-    code: 'HYN'
+    code: 'HYN',
   },
   {
     name: 'Hythe (Essex)',
-    code: 'HYH'
+    code: 'HYH',
   },
   {
     name: 'IBM Halt',
-    code: 'IBM'
+    code: 'IBM',
   },
   {
     name: 'Ifield',
-    code: 'IFI'
+    code: 'IFI',
   },
   {
     name: 'Ilford',
-    code: 'IFD'
+    code: 'IFD',
   },
   {
     name: 'Ilkley',
-    code: 'ILK'
+    code: 'ILK',
   },
   {
     name: 'Imperial Wharf',
-    code: 'IMW'
+    code: 'IMW',
   },
   {
     name: 'Ince & Elton',
-    code: 'INE'
+    code: 'INE',
   },
   {
     name: 'Ince (Manchester)',
-    code: 'INC'
+    code: 'INC',
   },
   {
     name: 'Ingatestone',
-    code: 'INT'
+    code: 'INT',
   },
   {
     name: 'Insch',
-    code: 'INS'
+    code: 'INS',
   },
   {
     name: 'Invergordon',
-    code: 'IGD'
+    code: 'IGD',
   },
   {
     name: 'Invergowrie',
-    code: 'ING'
+    code: 'ING',
   },
   {
     name: 'Inverkeithing',
-    code: 'INK'
+    code: 'INK',
   },
   {
     name: 'Inverkip',
-    code: 'INP'
+    code: 'INP',
   },
   {
     name: 'Inverness',
-    code: 'INV'
+    code: 'INV',
   },
   {
     name: 'Invershin',
-    code: 'INH'
+    code: 'INH',
   },
   {
     name: 'Inverurie',
-    code: 'INR'
+    code: 'INR',
   },
   {
     name: 'Ipswich',
-    code: 'IPS'
+    code: 'IPS',
   },
   {
     name: 'Irlam',
-    code: 'IRL'
+    code: 'IRL',
   },
   {
     name: 'Irvine',
-    code: 'IRV'
+    code: 'IRV',
   },
   {
     name: 'Isleworth',
-    code: 'ISL'
+    code: 'ISL',
   },
   {
     name: 'Islip',
-    code: 'ISP'
+    code: 'ISP',
   },
   {
     name: 'Iver',
-    code: 'IVR'
+    code: 'IVR',
   },
   {
     name: 'Ivybridge',
-    code: 'IVY'
+    code: 'IVY',
   },
   {
     name: 'James Cook',
-    code: 'JCH'
+    code: 'JCH',
   },
   {
     name: 'Jewellery Quarter',
-    code: 'JEQ'
+    code: 'JEQ',
   },
   {
     name: 'Johnston (Pembs)',
-    code: 'JOH'
+    code: 'JOH',
   },
   {
     name: 'Johnstone (Strathclyde)',
-    code: 'JHN'
+    code: 'JHN',
   },
   {
     name: 'Jordanhill',
-    code: 'JOR'
+    code: 'JOR',
   },
   {
     name: 'Kearsley (Manchester)',
-    code: 'KSL'
+    code: 'KSL',
   },
   {
     name: 'Kearsney (Kent)',
-    code: 'KSN'
+    code: 'KSN',
   },
   {
     name: 'Keighley',
-    code: 'KEI'
+    code: 'KEI',
   },
   {
     name: 'Keith',
-    code: 'KEH'
+    code: 'KEH',
   },
   {
     name: 'Kelvedon',
-    code: 'KEL'
+    code: 'KEL',
   },
   {
     name: 'Kelvindale',
-    code: 'KVD'
+    code: 'KVD',
   },
   {
     name: 'Kemble',
-    code: 'KEM'
+    code: 'KEM',
   },
   {
     name: 'Kempston Hardwick',
-    code: 'KMH'
+    code: 'KMH',
   },
   {
     name: 'Kempton Park Racecourse',
-    code: 'KMP'
+    code: 'KMP',
   },
   {
     name: 'Kemsing',
-    code: 'KMS'
+    code: 'KMS',
   },
   {
     name: 'Kemsley',
-    code: 'KML'
+    code: 'KML',
   },
   {
     name: 'Kendal',
-    code: 'KEN'
+    code: 'KEN',
   },
   {
     name: 'Kenley',
-    code: 'KLY'
+    code: 'KLY',
   },
   {
     name: 'Kennett',
-    code: 'KNE'
+    code: 'KNE',
   },
   {
     name: 'Kennishead',
-    code: 'KNS'
+    code: 'KNS',
   },
   {
     name: 'Kensal Green',
-    code: 'KNL'
+    code: 'KNL',
   },
   {
     name: 'Kensal Rise',
-    code: 'KNR'
+    code: 'KNR',
   },
   {
     name: 'Kensington Olympia',
-    code: 'KPA'
+    code: 'KPA',
   },
   {
     name: 'Kent House',
-    code: 'KTH'
+    code: 'KTH',
   },
   {
     name: 'Kentish Town',
-    code: 'KTN'
+    code: 'KTN',
   },
   {
     name: 'Kentish Town West',
-    code: 'KTW'
+    code: 'KTW',
   },
   {
     name: 'Kenton',
-    code: 'KNT'
+    code: 'KNT',
   },
   {
     name: 'Kents Bank',
-    code: 'KBK'
+    code: 'KBK',
   },
   {
     name: 'Kettering',
-    code: 'KET'
+    code: 'KET',
   },
   {
     name: 'Kew Bridge',
-    code: 'KWB'
+    code: 'KWB',
   },
   {
     name: 'Kew Gardens',
-    code: 'KWG'
+    code: 'KWG',
   },
   {
     name: 'Keyham',
-    code: 'KEY'
+    code: 'KEY',
   },
   {
     name: 'Keynsham',
-    code: 'KYN'
+    code: 'KYN',
   },
   {
     name: 'Kidbrooke',
-    code: 'KDB'
+    code: 'KDB',
   },
   {
     name: 'Kidderminster',
-    code: 'KID'
+    code: 'KID',
   },
   {
     name: 'Kidsgrove',
-    code: 'KDG'
+    code: 'KDG',
   },
   {
     name: 'Kidwelly',
-    code: 'KWL'
+    code: 'KWL',
   },
   {
     name: 'Kilburn High Road',
-    code: 'KBN'
+    code: 'KBN',
   },
   {
     name: 'Kildale',
-    code: 'KLD'
+    code: 'KLD',
   },
   {
     name: 'Kildonan',
-    code: 'KIL'
+    code: 'KIL',
   },
   {
     name: 'Kilgetty',
-    code: 'KGT'
+    code: 'KGT',
   },
   {
     name: 'Kilmarnock',
-    code: 'KMK'
+    code: 'KMK',
   },
   {
     name: 'Kilmaurs',
-    code: 'KLM'
+    code: 'KLM',
   },
   {
     name: 'Kilpatrick',
-    code: 'KPT'
+    code: 'KPT',
   },
   {
     name: 'Kilwinning',
-    code: 'KWN'
+    code: 'KWN',
   },
   {
     name: 'Kinbrace',
-    code: 'KBC'
+    code: 'KBC',
   },
   {
     name: 'Kingham',
-    code: 'KGM'
+    code: 'KGM',
   },
   {
     name: 'Kinghorn',
-    code: 'KGH'
+    code: 'KGH',
   },
   {
     name: 'Kings Langley',
-    code: 'KGL'
+    code: 'KGL',
   },
   {
     name: 'Kings Lynn',
-    code: 'KLN'
+    code: 'KLN',
   },
   {
     name: 'Kings Norton',
-    code: 'KNN'
+    code: 'KNN',
   },
   {
     name: 'Kings Nympton',
-    code: 'KGN'
+    code: 'KGN',
   },
   {
     name: 'Kings Park',
-    code: 'KGP'
+    code: 'KGP',
   },
   {
     name: 'Kings Sutton',
-    code: 'KGS'
+    code: 'KGS',
   },
   {
     name: 'Kingsknowe',
-    code: 'KGE'
+    code: 'KGE',
   },
   {
     name: 'Kingston',
-    code: 'KNG'
+    code: 'KNG',
   },
   {
     name: 'Kingswood',
-    code: 'KND'
+    code: 'KND',
   },
   {
     name: 'Kingussie',
-    code: 'KIN'
+    code: 'KIN',
   },
   {
     name: 'Kintbury',
-    code: 'KIT'
+    code: 'KIT',
   },
   {
     name: 'Kirby Cross',
-    code: 'KBX'
+    code: 'KBX',
   },
   {
     name: 'Kirk Sandall',
-    code: 'KKS'
+    code: 'KKS',
   },
   {
     name: 'Kirkby (Merseyside)',
-    code: 'KIR'
+    code: 'KIR',
   },
   {
     name: 'Kirkby Stephen',
-    code: 'KSW'
+    code: 'KSW',
   },
   {
     name: 'Kirkby-in-Ashfield',
-    code: 'KKB'
+    code: 'KKB',
   },
   {
     name: 'Kirkby-in-Furness',
-    code: 'KBF'
+    code: 'KBF',
   },
   {
     name: 'Kirkcaldy',
-    code: 'KDY'
+    code: 'KDY',
   },
   {
     name: 'Kirkconnel',
-    code: 'KRK'
+    code: 'KRK',
   },
   {
     name: 'Kirkdale',
-    code: 'KKD'
+    code: 'KKD',
   },
   {
     name: 'Kirkham & Wesham',
-    code: 'KKM'
+    code: 'KKM',
   },
   {
     name: 'Kirkhill',
-    code: 'KKH'
+    code: 'KKH',
   },
   {
     name: 'Kirknewton',
-    code: 'KKN'
+    code: 'KKN',
   },
   {
     name: 'Kirkstall Forge',
-    code: 'KLF'
+    code: 'KLF',
   },
   {
     name: 'Kirkwood',
-    code: 'KWD'
+    code: 'KWD',
   },
   {
     name: 'Kirton Lindsey',
-    code: 'KTL'
+    code: 'KTL',
   },
   {
     name: 'Kiveton Bridge',
-    code: 'KIV'
+    code: 'KIV',
   },
   {
     name: 'Kiveton Park',
-    code: 'KVP'
+    code: 'KVP',
   },
   {
     name: 'Knaresborough',
-    code: 'KNA'
+    code: 'KNA',
   },
   {
     name: 'Knebworth',
-    code: 'KBW'
+    code: 'KBW',
   },
   {
     name: 'Knighton',
-    code: 'KNI'
+    code: 'KNI',
   },
   {
     name: 'Knockholt',
-    code: 'KCK'
+    code: 'KCK',
   },
   {
     name: 'Knottingley',
-    code: 'KNO'
+    code: 'KNO',
   },
   {
     name: 'Knucklas',
-    code: 'KNU'
+    code: 'KNU',
   },
   {
     name: 'Knutsford',
-    code: 'KNF'
+    code: 'KNF',
   },
   {
     name: 'Kyle of Lochalsh',
-    code: 'KYL'
+    code: 'KYL',
   },
   {
     name: 'Ladybank',
-    code: 'LDY'
+    code: 'LDY',
   },
   {
     name: 'Ladywell',
-    code: 'LAD'
+    code: 'LAD',
   },
   {
     name: 'Laindon',
-    code: 'LAI'
+    code: 'LAI',
   },
   {
     name: 'Lairg',
-    code: 'LRG'
+    code: 'LRG',
   },
   {
     name: 'Lake',
-    code: 'LKE'
+    code: 'LKE',
   },
   {
     name: 'Lakenheath',
-    code: 'LAK'
+    code: 'LAK',
   },
   {
     name: 'Lamphey',
-    code: 'LAM'
+    code: 'LAM',
   },
   {
     name: 'Lanark',
-    code: 'LNK'
+    code: 'LNK',
   },
   {
     name: 'Lancaster',
-    code: 'LAN'
+    code: 'LAN',
   },
   {
     name: 'Lancing',
-    code: 'LAC'
+    code: 'LAC',
   },
   {
     name: 'Landywood',
-    code: 'LAW'
+    code: 'LAW',
   },
   {
     name: 'Langbank',
-    code: 'LGB'
+    code: 'LGB',
   },
   {
     name: 'Langho',
-    code: 'LHO'
+    code: 'LHO',
   },
   {
     name: 'Langley (Berks)',
-    code: 'LNY'
+    code: 'LNY',
   },
   {
     name: 'Langley Green',
-    code: 'LGG'
+    code: 'LGG',
   },
   {
     name: 'Langley Mill',
-    code: 'LGM'
+    code: 'LGM',
   },
   {
     name: 'Langside',
-    code: 'LGS'
+    code: 'LGS',
   },
   {
     name: 'Langwathby',
-    code: 'LGW'
+    code: 'LGW',
   },
   {
     name: 'Langwith-Whaley Thorns',
-    code: 'LAG'
+    code: 'LAG',
   },
   {
     name: 'Lapford',
-    code: 'LAP'
+    code: 'LAP',
   },
   {
     name: 'Lapworth',
-    code: 'LPW'
+    code: 'LPW',
   },
   {
     name: 'Larbert',
-    code: 'LBT'
+    code: 'LBT',
   },
   {
     name: 'Largs',
-    code: 'LAR'
+    code: 'LAR',
   },
   {
     name: 'Larkhall',
-    code: 'LRH'
+    code: 'LRH',
   },
   {
     name: 'Laurencekirk',
-    code: 'LAU'
+    code: 'LAU',
   },
   {
     name: 'Lawrence Hill',
-    code: 'LWH'
+    code: 'LWH',
   },
   {
     name: 'Layton (Lancs)',
-    code: 'LAY'
+    code: 'LAY',
   },
   {
     name: 'Lazonby & Kirkoswald',
-    code: 'LZB'
+    code: 'LZB',
   },
   {
     name: 'Lea Bridge',
-    code: 'LEB'
+    code: 'LEB',
   },
   {
     name: 'Lea Green',
-    code: 'LEG'
+    code: 'LEG',
   },
   {
     name: 'Lea Hall',
-    code: 'LEH'
+    code: 'LEH',
   },
   {
     name: 'Leagrave',
-    code: 'LEA'
+    code: 'LEA',
   },
   {
     name: 'Lealholm',
-    code: 'LHM'
+    code: 'LHM',
   },
   {
     name: 'Leamington Spa',
-    code: 'LMS'
+    code: 'LMS',
   },
   {
     name: 'Leasowe',
-    code: 'LSW'
+    code: 'LSW',
   },
   {
     name: 'Leatherhead',
-    code: 'LHD'
+    code: 'LHD',
   },
   {
     name: 'Ledbury',
-    code: 'LED'
+    code: 'LED',
   },
   {
     name: 'Lee (London)',
-    code: 'LEE'
+    code: 'LEE',
   },
   {
     name: 'Leeds',
-    code: 'LDS'
+    code: 'LDS',
   },
   {
     name: 'Leicester',
-    code: 'LEI'
+    code: 'LEI',
   },
   {
     name: 'Leigh (Kent)',
-    code: 'LIH'
+    code: 'LIH',
   },
   {
     name: 'Leigh-on-Sea',
-    code: 'LES'
+    code: 'LES',
   },
   {
     name: 'Leighton Buzzard',
-    code: 'LBZ'
+    code: 'LBZ',
   },
   {
     name: 'Lelant',
-    code: 'LEL'
+    code: 'LEL',
   },
   {
     name: 'Lelant Saltings',
-    code: 'LTS'
+    code: 'LTS',
   },
   {
     name: 'Lenham',
-    code: 'LEN'
+    code: 'LEN',
   },
   {
     name: 'Lenzie',
-    code: 'LNZ'
+    code: 'LNZ',
   },
   {
     name: 'Leominster',
-    code: 'LEO'
+    code: 'LEO',
   },
   {
     name: 'Letchworth Garden City',
-    code: 'LET'
+    code: 'LET',
   },
   {
     name: 'Leuchars (for St. Andrews)',
-    code: 'LEU'
+    code: 'LEU',
   },
   {
     name: 'Levenshulme',
-    code: 'LVM'
+    code: 'LVM',
   },
   {
     name: 'Lewes',
-    code: 'LWS'
+    code: 'LWS',
   },
   {
     name: 'Lewisham',
-    code: 'LEW'
+    code: 'LEW',
   },
   {
     name: 'Leyland',
-    code: 'LEY'
+    code: 'LEY',
   },
   {
     name: 'Leyton Midland Road',
-    code: 'LEM'
+    code: 'LEM',
   },
   {
     name: 'Leytonstone High Road',
-    code: 'LER'
+    code: 'LER',
   },
   {
     name: 'Lichfield City',
-    code: 'LIC'
+    code: 'LIC',
   },
   {
     name: 'Lichfield Trent Valley',
-    code: 'LTV'
+    code: 'LTV',
   },
   {
     name: 'Lidlington',
-    code: 'LID'
+    code: 'LID',
   },
   {
     name: 'Limehouse',
-    code: 'LHS'
+    code: 'LHS',
   },
   {
     name: 'Lincoln Central',
-    code: 'LCN'
+    code: 'LCN',
   },
   {
     name: 'Lingfield',
-    code: 'LFD'
+    code: 'LFD',
   },
   {
     name: 'Lingwood',
-    code: 'LGD'
+    code: 'LGD',
   },
   {
     name: 'Linlithgow',
-    code: 'LIN'
+    code: 'LIN',
   },
   {
     name: 'Liphook',
-    code: 'LIP'
+    code: 'LIP',
   },
   {
     name: 'Liskeard',
-    code: 'LSK'
+    code: 'LSK',
   },
   {
     name: 'Liss',
-    code: 'LIS'
+    code: 'LIS',
   },
   {
     name: 'Lisvane & Thornhill',
-    code: 'LVT'
+    code: 'LVT',
   },
   {
     name: 'Little Kimble',
-    code: 'LTK'
+    code: 'LTK',
   },
   {
     name: 'Little Sutton',
-    code: 'LTT'
+    code: 'LTT',
   },
   {
     name: 'Littleborough',
-    code: 'LTL'
+    code: 'LTL',
   },
   {
     name: 'Littlehampton',
-    code: 'LIT'
+    code: 'LIT',
   },
   {
     name: 'Littlehaven',
-    code: 'LVN'
+    code: 'LVN',
   },
   {
     name: 'Littleport',
-    code: 'LTP'
+    code: 'LTP',
   },
   {
     name: 'Liverpool Central',
-    code: 'LVC'
+    code: 'LVC',
   },
   {
     name: 'Liverpool James Street',
-    code: 'LVJ'
+    code: 'LVJ',
   },
   {
     name: 'Liverpool Lime Street',
-    code: 'LIV'
+    code: 'LIV',
   },
   {
     name: 'Liverpool South Parkway',
-    code: 'LPY'
+    code: 'LPY',
   },
   {
     name: 'Livingston North',
-    code: 'LSN'
+    code: 'LSN',
   },
   {
     name: 'Livingston South',
-    code: 'LVG'
+    code: 'LVG',
   },
   {
     name: 'Llanaber',
-    code: 'LLA'
+    code: 'LLA',
   },
   {
     name: 'Llanbedr',
-    code: 'LBR'
+    code: 'LBR',
   },
   {
     name: 'Llanbister Road',
-    code: 'LLT'
+    code: 'LLT',
   },
   {
     name: 'Llanbradach',
-    code: 'LNB'
+    code: 'LNB',
   },
   {
     name: 'Llandaf',
-    code: 'LLN'
+    code: 'LLN',
   },
   {
     name: 'Llandanwg',
-    code: 'LDN'
+    code: 'LDN',
   },
   {
     name: 'Llandecwyn',
-    code: 'LLC'
+    code: 'LLC',
   },
   {
     name: 'Llandeilo',
-    code: 'LLL'
+    code: 'LLL',
   },
   {
     name: 'Llandovery',
-    code: 'LLV'
+    code: 'LLV',
   },
   {
     name: 'Llandrindod',
-    code: 'LLO'
+    code: 'LLO',
   },
   {
     name: 'Llandudno',
-    code: 'LLD'
+    code: 'LLD',
   },
   {
     name: 'Llandudno Junction',
-    code: 'LLJ'
+    code: 'LLJ',
   },
   {
     name: 'Llandybie',
-    code: 'LLI'
+    code: 'LLI',
   },
   {
     name: 'Llanelli',
-    code: 'LLE'
+    code: 'LLE',
   },
   {
     name: 'Llanfairfechan',
-    code: 'LLF'
+    code: 'LLF',
   },
   {
     name: 'Llanfairpwll',
-    code: 'LPG'
+    code: 'LPG',
   },
   {
     name: 'Llangadog',
-    code: 'LLG'
+    code: 'LLG',
   },
   {
     name: 'Llangammarch',
-    code: 'LLM'
+    code: 'LLM',
   },
   {
     name: 'Llangennech',
-    code: 'LLH'
+    code: 'LLH',
   },
   {
     name: 'Llangynllo',
-    code: 'LGO'
+    code: 'LGO',
   },
   {
     name: 'Llanharan',
-    code: 'LLR'
+    code: 'LLR',
   },
   {
     name: 'Llanhilleth',
-    code: 'LTH'
+    code: 'LTH',
   },
   {
     name: 'Llanishen',
-    code: 'LLS'
+    code: 'LLS',
   },
   {
     name: 'Llanrwst',
-    code: 'LWR'
+    code: 'LWR',
   },
   {
     name: 'Llansamlet',
-    code: 'LAS'
+    code: 'LAS',
   },
   {
     name: 'Llantwit Major',
-    code: 'LWM'
+    code: 'LWM',
   },
   {
     name: 'Llanwrda',
-    code: 'LNR'
+    code: 'LNR',
   },
   {
     name: 'Llanwrtyd',
-    code: 'LNW'
+    code: 'LNW',
   },
   {
     name: 'Llwyngwril',
-    code: 'LLW'
+    code: 'LLW',
   },
   {
     name: 'Llwynypia',
-    code: 'LLY'
+    code: 'LLY',
   },
   {
     name: 'Loch Awe',
-    code: 'LHA'
+    code: 'LHA',
   },
   {
     name: 'Loch Eil Outward Bound',
-    code: 'LHE'
+    code: 'LHE',
   },
   {
     name: 'Lochailort',
-    code: 'LCL'
+    code: 'LCL',
   },
   {
     name: 'Locheilside',
-    code: 'LCS'
+    code: 'LCS',
   },
   {
     name: 'Lochgelly',
-    code: 'LCG'
+    code: 'LCG',
   },
   {
     name: 'Lochluichart',
-    code: 'LCC'
+    code: 'LCC',
   },
   {
     name: 'Lochwinnoch',
-    code: 'LHW'
+    code: 'LHW',
   },
   {
     name: 'Lockerbie',
-    code: 'LOC'
+    code: 'LOC',
   },
   {
     name: 'Lockwood',
-    code: 'LCK'
+    code: 'LCK',
   },
   {
     name: 'London Blackfriars',
-    code: 'BFR'
+    code: 'BFR',
   },
   {
     name: 'London Bridge',
-    code: 'LBG'
+    code: 'LBG',
   },
   {
     name: 'London Cannon Street',
-    code: 'CST'
+    code: 'CST',
   },
   {
     name: 'London Charing Cross',
-    code: 'CHX'
+    code: 'CHX',
   },
   {
     name: 'London Euston',
-    code: 'EUS'
+    code: 'EUS',
   },
   {
     name: 'London Fenchurch Street',
-    code: 'FST'
+    code: 'FST',
   },
   {
     name: 'London Fields',
-    code: 'LOF'
+    code: 'LOF',
   },
   {
     name: 'London Kings Cross',
-    code: 'KGX'
+    code: 'KGX',
   },
   {
     name: 'London Liverpool Street',
-    code: 'LST'
+    code: 'LST',
   },
   {
     name: 'London Marylebone',
-    code: 'MYB'
+    code: 'MYB',
   },
   {
     name: 'London Paddington',
-    code: 'PAD'
+    code: 'PAD',
   },
   {
     name: 'London Road (Brighton)',
-    code: 'LRB'
+    code: 'LRB',
   },
   {
     name: 'London Road (Guildford)',
-    code: 'LRD'
+    code: 'LRD',
   },
   {
     name: 'London St Pancras (Intl)',
-    code: 'SPX'
+    code: 'SPX',
   },
   {
     name: 'London St Pancras International',
-    code: 'STP'
+    code: 'STP',
   },
   {
     name: 'London Victoria',
-    code: 'VIC'
+    code: 'VIC',
   },
   {
     name: 'London Waterloo',
-    code: 'WAT'
+    code: 'WAT',
   },
   {
     name: 'London Waterloo East',
-    code: 'WAE'
+    code: 'WAE',
   },
   {
     name: 'Long Buckby',
-    code: 'LBK'
+    code: 'LBK',
   },
   {
     name: 'Long Eaton',
-    code: 'LGE'
+    code: 'LGE',
   },
   {
     name: 'Long Preston',
-    code: 'LPR'
+    code: 'LPR',
   },
   {
     name: 'Longbeck',
-    code: 'LGK'
+    code: 'LGK',
   },
   {
     name: 'Longbridge',
-    code: 'LOB'
+    code: 'LOB',
   },
   {
     name: 'Longcross',
-    code: 'LNG'
+    code: 'LNG',
   },
   {
     name: 'Longfield',
-    code: 'LGF'
+    code: 'LGF',
   },
   {
     name: 'Longniddry',
-    code: 'LND'
+    code: 'LND',
   },
   {
     name: 'Longport',
-    code: 'LPT'
+    code: 'LPT',
   },
   {
     name: 'Longton',
-    code: 'LGN'
+    code: 'LGN',
   },
   {
     name: 'Looe',
-    code: 'LOO'
+    code: 'LOO',
   },
   {
     name: 'Lostock',
-    code: 'LOT'
+    code: 'LOT',
   },
   {
     name: 'Lostock Gralam',
-    code: 'LTG'
+    code: 'LTG',
   },
   {
     name: 'Lostock Hall',
-    code: 'LOH'
+    code: 'LOH',
   },
   {
     name: 'Lostwithiel',
-    code: 'LOS'
+    code: 'LOS',
   },
   {
     name: 'Loughborough',
-    code: 'LBO'
+    code: 'LBO',
   },
   {
     name: 'Loughborough Junction',
-    code: 'LGJ'
+    code: 'LGJ',
   },
   {
     name: 'Lowdham',
-    code: 'LOW'
+    code: 'LOW',
   },
   {
     name: 'Lower Sydenham',
-    code: 'LSY'
+    code: 'LSY',
   },
   {
     name: 'Lowestoft',
-    code: 'LWT'
+    code: 'LWT',
   },
   {
     name: 'Ludlow',
-    code: 'LUD'
+    code: 'LUD',
   },
   {
     name: 'Luton',
-    code: 'LUT'
+    code: 'LUT',
   },
   {
     name: 'Luton Airport Parkway',
-    code: 'LTN'
+    code: 'LTN',
   },
   {
     name: 'Luxulyan',
-    code: 'LUX'
+    code: 'LUX',
   },
   {
     name: 'Lydney',
-    code: 'LYD'
+    code: 'LYD',
   },
   {
     name: 'Lye (West Midlands)',
-    code: 'LYE'
+    code: 'LYE',
   },
   {
     name: 'Lymington Pier',
-    code: 'LYP'
+    code: 'LYP',
   },
   {
     name: 'Lymington Town',
-    code: 'LYT'
+    code: 'LYT',
   },
   {
     name: 'Lympstone Commando',
-    code: 'LYC'
+    code: 'LYC',
   },
   {
     name: 'Lympstone Village',
-    code: 'LYM'
+    code: 'LYM',
   },
   {
     name: 'Lytham',
-    code: 'LTM'
+    code: 'LTM',
   },
   {
     name: 'Macclesfield',
-    code: 'MAC'
+    code: 'MAC',
   },
   {
     name: 'Machynlleth',
-    code: 'MCN'
+    code: 'MCN',
   },
   {
     name: 'Maesteg',
-    code: 'MST'
+    code: 'MST',
   },
   {
     name: 'Maesteg (Ewenny Road)',
-    code: 'MEW'
+    code: 'MEW',
   },
   {
     name: 'Maghull',
-    code: 'MAG'
+    code: 'MAG',
   },
   {
     name: 'Maiden Newton',
-    code: 'MDN'
+    code: 'MDN',
   },
   {
     name: 'Maidenhead',
-    code: 'MAI'
+    code: 'MAI',
   },
   {
     name: 'Maidstone Barracks',
-    code: 'MDB'
+    code: 'MDB',
   },
   {
     name: 'Maidstone East',
-    code: 'MDE'
+    code: 'MDE',
   },
   {
     name: 'Maidstone West',
-    code: 'MDW'
+    code: 'MDW',
   },
   {
     name: 'Malden Manor',
-    code: 'MAL'
+    code: 'MAL',
   },
   {
     name: 'Mallaig',
-    code: 'MLG'
+    code: 'MLG',
   },
   {
     name: 'Malton',
-    code: 'MLT'
+    code: 'MLT',
   },
   {
     name: 'Malvern Link',
-    code: 'MVL'
+    code: 'MVL',
   },
   {
     name: 'Manchester Airport',
-    code: 'MIA'
+    code: 'MIA',
   },
   {
     name: 'Manchester Oxford Road',
-    code: 'MCO'
+    code: 'MCO',
   },
   {
     name: 'Manchester Piccadilly',
-    code: 'MAN'
+    code: 'MAN',
   },
   {
     name: 'Manchester United Football Ground',
-    code: 'MUF'
+    code: 'MUF',
   },
   {
     name: 'Manchester Victoria',
-    code: 'MCV'
+    code: 'MCV',
   },
   {
     name: 'Manea',
-    code: 'MNE'
+    code: 'MNE',
   },
   {
     name: 'Manningtree',
-    code: 'MNG'
+    code: 'MNG',
   },
   {
     name: 'Manor Park',
-    code: 'MNP'
+    code: 'MNP',
   },
   {
     name: 'Manor Road',
-    code: 'MNR'
+    code: 'MNR',
   },
   {
     name: 'Manorbier',
-    code: 'MRB'
+    code: 'MRB',
   },
   {
     name: 'Manors',
-    code: 'MAS'
+    code: 'MAS',
   },
   {
     name: 'Mansfield',
-    code: 'MFT'
+    code: 'MFT',
   },
   {
     name: 'Mansfield Woodhouse',
-    code: 'MSW'
+    code: 'MSW',
   },
   {
     name: 'March',
-    code: 'MCH'
+    code: 'MCH',
   },
   {
     name: 'Marden (Kent)',
-    code: 'MRN'
+    code: 'MRN',
   },
   {
     name: 'Margate',
-    code: 'MAR'
+    code: 'MAR',
   },
   {
     name: 'Market Harborough',
-    code: 'MHR'
+    code: 'MHR',
   },
   {
     name: 'Market Rasen',
-    code: 'MKR'
+    code: 'MKR',
   },
   {
     name: 'Markinch',
-    code: 'MNC'
+    code: 'MNC',
   },
   {
     name: 'Marks Tey',
-    code: 'MKT'
+    code: 'MKT',
   },
   {
     name: 'Marlow',
-    code: 'MLW'
+    code: 'MLW',
   },
   {
     name: 'Marple',
-    code: 'MPL'
+    code: 'MPL',
   },
   {
     name: 'Marsden (Yorks)',
-    code: 'MSN'
+    code: 'MSN',
   },
   {
     name: 'Marske',
-    code: 'MSK'
+    code: 'MSK',
   },
   {
     name: 'Marston Green',
-    code: 'MGN'
+    code: 'MGN',
   },
   {
     name: 'Martin Mill',
-    code: 'MTM'
+    code: 'MTM',
   },
   {
     name: 'Martins Heron',
-    code: 'MAO'
+    code: 'MAO',
   },
   {
     name: 'Marton',
-    code: 'MTO'
+    code: 'MTO',
   },
   {
     name: 'Maryhill',
-    code: 'MYH'
+    code: 'MYH',
   },
   {
     name: 'Maryland',
-    code: 'MYL'
+    code: 'MYL',
   },
   {
     name: 'Maryport',
-    code: 'MRY'
+    code: 'MRY',
   },
   {
     name: 'Matlock',
-    code: 'MAT'
+    code: 'MAT',
   },
   {
     name: 'Matlock Bath',
-    code: 'MTB'
+    code: 'MTB',
   },
   {
     name: 'Mauldeth Road',
-    code: 'MAU'
+    code: 'MAU',
   },
   {
     name: 'Maxwell Park',
-    code: 'MAX'
+    code: 'MAX',
   },
   {
     name: 'Maybole',
-    code: 'MAY'
+    code: 'MAY',
   },
   {
     name: 'Maze Hill',
-    code: 'MZH'
+    code: 'MZH',
   },
   {
     name: 'Meadowhall',
-    code: 'MHS'
+    code: 'MHS',
   },
   {
     name: 'Meldreth',
-    code: 'MEL'
+    code: 'MEL',
   },
   {
     name: 'Melksham',
-    code: 'MKM'
+    code: 'MKM',
   },
   {
     name: 'Melton (Suffolk)',
-    code: 'MES'
+    code: 'MES',
   },
   {
     name: 'Melton Mowbray',
-    code: 'MMO'
+    code: 'MMO',
   },
   {
     name: 'Menheniot',
-    code: 'MEN'
+    code: 'MEN',
   },
   {
     name: 'Menston',
-    code: 'MNN'
+    code: 'MNN',
   },
   {
     name: 'Meols',
-    code: 'MEO'
+    code: 'MEO',
   },
   {
     name: 'Meols Cop',
-    code: 'MEC'
+    code: 'MEC',
   },
   {
     name: 'Meopham',
-    code: 'MEP'
+    code: 'MEP',
   },
   {
     name: 'Merryton',
-    code: 'MEY'
+    code: 'MEY',
   },
   {
     name: 'Merstham',
-    code: 'MHM'
+    code: 'MHM',
   },
   {
     name: 'Merthyr Tydfil',
-    code: 'MER'
+    code: 'MER',
   },
   {
     name: 'Merthyr Vale',
-    code: 'MEV'
+    code: 'MEV',
   },
   {
     name: 'Metheringham',
-    code: 'MGM'
+    code: 'MGM',
   },
   {
     name: 'MetroCentre',
-    code: 'MCE'
+    code: 'MCE',
   },
   {
     name: 'Mexborough',
-    code: 'MEX'
+    code: 'MEX',
   },
   {
     name: 'Micheldever',
-    code: 'MIC'
+    code: 'MIC',
   },
   {
     name: 'Micklefield',
-    code: 'MIK'
+    code: 'MIK',
   },
   {
     name: 'Middlesbrough',
-    code: 'MBR'
+    code: 'MBR',
   },
   {
     name: 'Middlewood',
-    code: 'MDL'
+    code: 'MDL',
   },
   {
     name: 'Midgham',
-    code: 'MDG'
+    code: 'MDG',
   },
   {
     name: 'Milford (Surrey)',
-    code: 'MLF'
+    code: 'MLF',
   },
   {
     name: 'Milford Haven',
-    code: 'MFH'
+    code: 'MFH',
   },
   {
     name: 'Mill Hill (Lancs)',
-    code: 'MLH'
+    code: 'MLH',
   },
   {
     name: 'Mill Hill Broadway',
-    code: 'MIL'
+    code: 'MIL',
   },
   {
     name: 'Millbrook (Beds)',
-    code: 'MLB'
+    code: 'MLB',
   },
   {
     name: 'Millbrook (Hants)',
-    code: 'MBK'
+    code: 'MBK',
   },
   {
     name: 'Milliken Park',
-    code: 'MIN'
+    code: 'MIN',
   },
   {
     name: 'Millom',
-    code: 'MLM'
+    code: 'MLM',
   },
   {
     name: 'Mills Hill (Manchester)',
-    code: 'MIH'
+    code: 'MIH',
   },
   {
     name: 'Milngavie',
-    code: 'MLN'
+    code: 'MLN',
   },
   {
     name: 'Milton Keynes Central',
-    code: 'MKC'
+    code: 'MKC',
   },
   {
     name: 'Minffordd',
-    code: 'MFF'
+    code: 'MFF',
   },
   {
     name: 'Minster',
-    code: 'MSR'
+    code: 'MSR',
   },
   {
     name: 'Mirfield',
-    code: 'MIR'
+    code: 'MIR',
   },
   {
     name: 'Mistley',
-    code: 'MIS'
+    code: 'MIS',
   },
   {
     name: 'Mitcham Eastfields',
-    code: 'MTC'
+    code: 'MTC',
   },
   {
     name: 'Mitcham Junction',
-    code: 'MIJ'
+    code: 'MIJ',
   },
   {
     name: 'Mobberley',
-    code: 'MOB'
+    code: 'MOB',
   },
   {
     name: 'Monifieth',
-    code: 'MON'
+    code: 'MON',
   },
   {
     name: 'Monks Risborough',
-    code: 'MRS'
+    code: 'MRS',
   },
   {
     name: 'Montpelier',
-    code: 'MTP'
+    code: 'MTP',
   },
   {
     name: 'Montrose',
-    code: 'MTS'
+    code: 'MTS',
   },
   {
     name: 'Moorfields',
-    code: 'MRF'
+    code: 'MRF',
   },
   {
     name: 'Moorgate',
-    code: 'MOG'
+    code: 'MOG',
   },
   {
     name: 'Moorside',
-    code: 'MSD'
+    code: 'MSD',
   },
   {
     name: 'Moorthorpe',
-    code: 'MRP'
+    code: 'MRP',
   },
   {
     name: 'Morar',
-    code: 'MRR'
+    code: 'MRR',
   },
   {
     name: 'Morchard Road',
-    code: 'MRD'
+    code: 'MRD',
   },
   {
     name: 'Morden South',
-    code: 'MDS'
+    code: 'MDS',
   },
   {
     name: 'Morecambe',
-    code: 'MCM'
+    code: 'MCM',
   },
   {
     name: 'Moreton (Dorset)',
-    code: 'MTN'
+    code: 'MTN',
   },
   {
     name: 'Moreton (Merseyside)',
-    code: 'MRT'
+    code: 'MRT',
   },
   {
     name: 'Moreton-in-Marsh',
-    code: 'MIM'
+    code: 'MIM',
   },
   {
     name: 'Morfa Mawddach',
-    code: 'MFA'
+    code: 'MFA',
   },
   {
     name: 'Morley',
-    code: 'MLY'
+    code: 'MLY',
   },
   {
     name: 'Morpeth',
-    code: 'MPT'
+    code: 'MPT',
   },
   {
     name: 'Mortimer',
-    code: 'MOR'
+    code: 'MOR',
   },
   {
     name: 'Mortlake',
-    code: 'MTL'
+    code: 'MTL',
   },
   {
     name: 'Moses Gate',
-    code: 'MSS'
+    code: 'MSS',
   },
   {
     name: 'Moss Side',
-    code: 'MOS'
+    code: 'MOS',
   },
   {
     name: 'Mossley (Manchester)',
-    code: 'MSL'
+    code: 'MSL',
   },
   {
     name: 'Mossley Hill',
-    code: 'MSH'
+    code: 'MSH',
   },
   {
     name: 'Mosspark',
-    code: 'MPK'
+    code: 'MPK',
   },
   {
     name: 'Moston',
-    code: 'MSO'
+    code: 'MSO',
   },
   {
     name: 'Motherwell',
-    code: 'MTH'
+    code: 'MTH',
   },
   {
     name: 'Motspur Park',
-    code: 'MOT'
+    code: 'MOT',
   },
   {
     name: 'Mottingham',
-    code: 'MTG'
+    code: 'MTG',
   },
   {
     name: 'Mottisfont & Dunbridge',
-    code: 'DBG'
+    code: 'DBG',
   },
   {
     name: 'Mouldsworth',
-    code: 'MLD'
+    code: 'MLD',
   },
   {
     name: 'Moulsecoomb',
-    code: 'MCB'
+    code: 'MCB',
   },
   {
     name: 'Mount Florida',
-    code: 'MFL'
+    code: 'MFL',
   },
   {
     name: 'Mount Vernon',
-    code: 'MTV'
+    code: 'MTV',
   },
   {
     name: 'Mountain Ash',
-    code: 'MTA'
+    code: 'MTA',
   },
   {
     name: 'Muir of Ord',
-    code: 'MOO'
+    code: 'MOO',
   },
   {
     name: 'Muirend',
-    code: 'MUI'
+    code: 'MUI',
   },
   {
     name: 'Musselburgh',
-    code: 'MUB'
+    code: 'MUB',
   },
   {
     name: 'Mytholmroyd',
-    code: 'MYT'
+    code: 'MYT',
   },
   {
     name: 'Nafferton',
-    code: 'NFN'
+    code: 'NFN',
   },
   {
     name: 'Nailsea & Backwell',
-    code: 'NLS'
+    code: 'NLS',
   },
   {
     name: 'Nairn',
-    code: 'NRN'
+    code: 'NRN',
   },
   {
     name: 'Nantwich',
-    code: 'NAN'
+    code: 'NAN',
   },
   {
     name: 'Narberth',
-    code: 'NAR'
+    code: 'NAR',
   },
   {
     name: 'Narborough',
-    code: 'NBR'
+    code: 'NBR',
   },
   {
     name: 'Navigation Road',
-    code: 'NVR'
+    code: 'NVR',
   },
   {
     name: 'Neath',
-    code: 'NTH'
+    code: 'NTH',
   },
   {
     name: 'Needham Market',
-    code: 'NMT'
+    code: 'NMT',
   },
   {
     name: 'Neilston',
-    code: 'NEI'
+    code: 'NEI',
   },
   {
     name: 'Nelson',
-    code: 'NEL'
+    code: 'NEL',
   },
   {
     name: 'Neston',
-    code: 'NES'
+    code: 'NES',
   },
   {
     name: 'Netherfield',
-    code: 'NET'
+    code: 'NET',
   },
   {
     name: 'Nethertown',
-    code: 'NRT'
+    code: 'NRT',
   },
   {
     name: 'Netley',
-    code: 'NTL'
+    code: 'NTL',
   },
   {
     name: 'New Barnet',
-    code: 'NBA'
+    code: 'NBA',
   },
   {
     name: 'New Beckenham',
-    code: 'NBC'
+    code: 'NBC',
   },
   {
     name: 'New Brighton',
-    code: 'NBN'
+    code: 'NBN',
   },
   {
     name: 'New Clee',
-    code: 'NCE'
+    code: 'NCE',
   },
   {
     name: 'New Cross',
-    code: 'NWX'
+    code: 'NWX',
   },
   {
     name: 'New Cross Gate',
-    code: 'NXG'
+    code: 'NXG',
   },
   {
     name: 'New Cumnock',
-    code: 'NCK'
+    code: 'NCK',
   },
   {
     name: 'New Eltham',
-    code: 'NEH'
+    code: 'NEH',
   },
   {
     name: 'New Holland',
-    code: 'NHL'
+    code: 'NHL',
   },
   {
     name: 'New Hythe',
-    code: 'NHE'
+    code: 'NHE',
   },
   {
     name: 'New Lane',
-    code: 'NLN'
+    code: 'NLN',
   },
   {
     name: 'New Malden',
-    code: 'NEM'
+    code: 'NEM',
   },
   {
     name: 'New Mills Central',
-    code: 'NMC'
+    code: 'NMC',
   },
   {
     name: 'New Mills Newtown',
-    code: 'NMN'
+    code: 'NMN',
   },
   {
     name: 'New Milton',
-    code: 'NWM'
+    code: 'NWM',
   },
   {
     name: 'New Pudsey',
-    code: 'NPD'
+    code: 'NPD',
   },
   {
     name: 'New Southgate',
-    code: 'NSG'
+    code: 'NSG',
   },
   {
     name: 'Newark Castle',
-    code: 'NCT'
+    code: 'NCT',
   },
   {
     name: 'Newark North Gate',
-    code: 'NNG'
+    code: 'NNG',
   },
   {
     name: 'Newbridge',
-    code: 'NBE'
+    code: 'NBE',
   },
   {
     name: 'Newbury',
-    code: 'NBY'
+    code: 'NBY',
   },
   {
     name: 'Newbury Racecourse',
-    code: 'NRC'
+    code: 'NRC',
   },
   {
     name: 'Newcastle',
-    code: 'NCL'
+    code: 'NCL',
   },
   {
     name: 'Newcourt',
-    code: 'NCO'
+    code: 'NCO',
   },
   {
     name: 'Newcraighall',
-    code: 'NEW'
+    code: 'NEW',
   },
   {
     name: 'Newhaven Harbour',
-    code: 'NVH'
+    code: 'NVH',
   },
   {
     name: 'Newhaven Town',
-    code: 'NVN'
+    code: 'NVN',
   },
   {
     name: 'Newington',
-    code: 'NGT'
+    code: 'NGT',
   },
   {
     name: 'Newmarket',
-    code: 'NMK'
+    code: 'NMK',
   },
   {
     name: 'Newport (Essex)',
-    code: 'NWE'
+    code: 'NWE',
   },
   {
     name: 'Newport (South Wales)',
-    code: 'NWP'
+    code: 'NWP',
   },
   {
     name: 'Newquay',
-    code: 'NQY'
+    code: 'NQY',
   },
   {
     name: 'Newstead',
-    code: 'NSD'
+    code: 'NSD',
   },
   {
     name: 'Newton (Lanark)',
-    code: 'NTN'
+    code: 'NTN',
   },
   {
     name: 'Newton Abbot',
-    code: 'NTA'
+    code: 'NTA',
   },
   {
     name: 'Newton Aycliffe',
-    code: 'NAY'
+    code: 'NAY',
   },
   {
     name: 'Newton for Hyde',
-    code: 'NWN'
+    code: 'NWN',
   },
   {
     name: 'Newton St Cyres',
-    code: 'NTC'
+    code: 'NTC',
   },
   {
     name: 'Newtongrange',
-    code: 'NEG'
+    code: 'NEG',
   },
   {
     name: 'Newton-le-Willows',
-    code: 'NLW'
+    code: 'NLW',
   },
   {
     name: 'Newtonmore',
-    code: 'NWR'
+    code: 'NWR',
   },
   {
     name: 'Newton-on-Ayr',
-    code: 'NOA'
+    code: 'NOA',
   },
   {
     name: 'Newtown (Powys)',
-    code: 'NWT'
+    code: 'NWT',
   },
   {
     name: 'Ninian Park',
-    code: 'NNP'
+    code: 'NNP',
   },
   {
     name: 'Nitshill',
-    code: 'NIT'
+    code: 'NIT',
   },
   {
     name: 'Norbiton',
-    code: 'NBT'
+    code: 'NBT',
   },
   {
     name: 'Norbury',
-    code: 'NRB'
+    code: 'NRB',
   },
   {
     name: 'Normans Bay',
-    code: 'NSB'
+    code: 'NSB',
   },
   {
     name: 'Normanton',
-    code: 'NOR'
+    code: 'NOR',
   },
   {
     name: 'North Berwick',
-    code: 'NBW'
+    code: 'NBW',
   },
   {
     name: 'North Camp',
-    code: 'NCM'
+    code: 'NCM',
   },
   {
     name: 'North Dulwich',
-    code: 'NDL'
+    code: 'NDL',
   },
   {
     name: 'North Fambridge',
-    code: 'NFA'
+    code: 'NFA',
   },
   {
     name: 'North Llanrwst',
-    code: 'NLR'
+    code: 'NLR',
   },
   {
     name: 'North Queensferry',
-    code: 'NQU'
+    code: 'NQU',
   },
   {
     name: 'North Road (Darlington)',
-    code: 'NRD'
+    code: 'NRD',
   },
   {
     name: 'North Sheen',
-    code: 'NSH'
+    code: 'NSH',
   },
   {
     name: 'North Walsham',
-    code: 'NWA'
+    code: 'NWA',
   },
   {
     name: 'North Wembley',
-    code: 'NWB'
+    code: 'NWB',
   },
   {
     name: 'Northallerton',
-    code: 'NTR'
+    code: 'NTR',
   },
   {
     name: 'Northampton',
-    code: 'NMP'
+    code: 'NMP',
   },
   {
     name: 'Northfield',
-    code: 'NFD'
+    code: 'NFD',
   },
   {
     name: 'Northfleet',
-    code: 'NFL'
+    code: 'NFL',
   },
   {
     name: 'Northolt Park',
-    code: 'NLT'
+    code: 'NLT',
   },
   {
     name: 'Northumberland Park',
-    code: 'NUM'
+    code: 'NUM',
   },
   {
     name: 'Northwich',
-    code: 'NWI'
+    code: 'NWI',
   },
   {
     name: 'Norton Bridge',
-    code: 'NTB'
+    code: 'NTB',
   },
   {
     name: 'Norwich',
-    code: 'NRW'
+    code: 'NRW',
   },
   {
     name: 'Norwood Junction',
-    code: 'NWD'
+    code: 'NWD',
   },
   {
     name: 'Nottingham',
-    code: 'NOT'
+    code: 'NOT',
   },
   {
     name: 'Nuneaton',
-    code: 'NUN'
+    code: 'NUN',
   },
   {
     name: 'Nunhead',
-    code: 'NHD'
+    code: 'NHD',
   },
   {
     name: 'Nunthorpe',
-    code: 'NNT'
+    code: 'NNT',
   },
   {
     name: 'Nutbourne',
-    code: 'NUT'
+    code: 'NUT',
   },
   {
     name: 'Nutfield',
-    code: 'NUF'
+    code: 'NUF',
   },
   {
     name: 'Oakengates',
-    code: 'OKN'
+    code: 'OKN',
   },
   {
     name: 'Oakham',
-    code: 'OKM'
+    code: 'OKM',
   },
   {
     name: 'Oakleigh Park',
-    code: 'OKL'
+    code: 'OKL',
   },
   {
     name: 'Oban',
-    code: 'OBN'
+    code: 'OBN',
   },
   {
     name: 'Ockendon',
-    code: 'OCK'
+    code: 'OCK',
   },
   {
     name: 'Ockley',
-    code: 'OLY'
+    code: 'OLY',
   },
   {
     name: 'Okehampton',
-    code: 'OKE'
+    code: 'OKE',
   },
   {
     name: 'Old Hill',
-    code: 'OHL'
+    code: 'OHL',
   },
   {
     name: 'Old Roan',
-    code: 'ORN'
+    code: 'ORN',
   },
   {
     name: 'Old Street',
-    code: 'OLD'
+    code: 'OLD',
   },
   {
     name: 'Oldfield Park',
-    code: 'OLF'
+    code: 'OLF',
   },
   {
     name: 'Olton',
-    code: 'OLT'
+    code: 'OLT',
   },
   {
     name: 'Ore',
-    code: 'ORE'
+    code: 'ORE',
   },
   {
     name: 'Ormskirk',
-    code: 'OMS'
+    code: 'OMS',
   },
   {
     name: 'Orpington',
-    code: 'ORP'
+    code: 'ORP',
   },
   {
     name: 'Orrell',
-    code: 'ORR'
+    code: 'ORR',
   },
   {
     name: 'Orrell Park',
-    code: 'OPK'
+    code: 'OPK',
   },
   {
     name: 'Otford',
-    code: 'OTF'
+    code: 'OTF',
   },
   {
     name: 'Oulton Broad North',
-    code: 'OUN'
+    code: 'OUN',
   },
   {
     name: 'Oulton Broad South',
-    code: 'OUS'
+    code: 'OUS',
   },
   {
     name: 'Outwood',
-    code: 'OUT'
+    code: 'OUT',
   },
   {
     name: 'Overpool',
-    code: 'OVE'
+    code: 'OVE',
   },
   {
     name: 'Overton',
-    code: 'OVR'
+    code: 'OVR',
   },
   {
     name: 'Oxenholme Lake District',
-    code: 'OXN'
+    code: 'OXN',
   },
   {
     name: 'Oxford',
-    code: 'OXF'
+    code: 'OXF',
   },
   {
     name: 'Oxford Parkway',
-    code: 'OXP'
+    code: 'OXP',
   },
   {
     name: 'Oxshott',
-    code: 'OXS'
+    code: 'OXS',
   },
   {
     name: 'Oxted',
-    code: 'OXT'
+    code: 'OXT',
   },
   {
     name: 'Paddock Wood',
-    code: 'PDW'
+    code: 'PDW',
   },
   {
     name: 'Padgate',
-    code: 'PDG'
+    code: 'PDG',
   },
   {
     name: 'Paignton',
-    code: 'PGN'
+    code: 'PGN',
   },
   {
     name: 'Paisley Canal',
-    code: 'PCN'
+    code: 'PCN',
   },
   {
     name: 'Paisley Gilmour Street',
-    code: 'PYG'
+    code: 'PYG',
   },
   {
     name: 'Paisley St James',
-    code: 'PYJ'
+    code: 'PYJ',
   },
   {
     name: 'Palmers Green',
-    code: 'PAL'
+    code: 'PAL',
   },
   {
     name: 'Pangbourne',
-    code: 'PAN'
+    code: 'PAN',
   },
   {
     name: 'Pannal',
-    code: 'PNL'
+    code: 'PNL',
   },
   {
     name: 'Pantyffynnon',
-    code: 'PTF'
+    code: 'PTF',
   },
   {
     name: 'Par',
-    code: 'PAR'
+    code: 'PAR',
   },
   {
     name: 'Parbold',
-    code: 'PBL'
+    code: 'PBL',
   },
   {
     name: 'Park Street',
-    code: 'PKT'
+    code: 'PKT',
   },
   {
     name: 'Parkstone (Dorset)',
-    code: 'PKS'
+    code: 'PKS',
   },
   {
     name: 'Parson Street',
-    code: 'PSN'
+    code: 'PSN',
   },
   {
     name: 'Partick',
-    code: 'PTK'
+    code: 'PTK',
   },
   {
     name: 'Parton',
-    code: 'PRN'
+    code: 'PRN',
   },
   {
     name: 'Patchway',
-    code: 'PWY'
+    code: 'PWY',
   },
   {
     name: 'Patricroft',
-    code: 'PAT'
+    code: 'PAT',
   },
   {
     name: 'Patterton',
-    code: 'PTT'
+    code: 'PTT',
   },
   {
     name: 'Peartree',
-    code: 'PEA'
+    code: 'PEA',
   },
   {
     name: 'Peckham Rye',
-    code: 'PMR'
+    code: 'PMR',
   },
   {
     name: 'Pegswood',
-    code: 'PEG'
+    code: 'PEG',
   },
   {
     name: 'Pemberton',
-    code: 'PEM'
+    code: 'PEM',
   },
   {
     name: 'Pembrey & Burry Port',
-    code: 'PBY'
+    code: 'PBY',
   },
   {
     name: 'Pembroke',
-    code: 'PMB'
+    code: 'PMB',
   },
   {
     name: 'Pembroke Dock',
-    code: 'PMD'
+    code: 'PMD',
   },
   {
     name: 'Penally',
-    code: 'PNA'
+    code: 'PNA',
   },
   {
     name: 'Penarth',
-    code: 'PEN'
+    code: 'PEN',
   },
   {
     name: 'Pencoed',
-    code: 'PCD'
+    code: 'PCD',
   },
   {
     name: 'Pengam',
-    code: 'PGM'
+    code: 'PGM',
   },
   {
     name: 'Penge East',
-    code: 'PNE'
+    code: 'PNE',
   },
   {
     name: 'Penge West',
-    code: 'PNW'
+    code: 'PNW',
   },
   {
     name: 'Penhelig',
-    code: 'PHG'
+    code: 'PHG',
   },
   {
     name: 'Penistone',
-    code: 'PNS'
+    code: 'PNS',
   },
   {
     name: 'Penkridge',
-    code: 'PKG'
+    code: 'PKG',
   },
   {
     name: 'Penmaenmawr',
-    code: 'PMW'
+    code: 'PMW',
   },
   {
     name: 'Penmere',
-    code: 'PNM'
+    code: 'PNM',
   },
   {
     name: 'Penrhiwceiber',
-    code: 'PER'
+    code: 'PER',
   },
   {
     name: 'Penrhyndeudraeth',
-    code: 'PRH'
+    code: 'PRH',
   },
   {
     name: 'Penrith (North Lakes)',
-    code: 'PNR'
+    code: 'PNR',
   },
   {
     name: 'Penryn (Cornwall)',
-    code: 'PYN'
+    code: 'PYN',
   },
   {
     name: 'Pensarn (Gwynedd)',
-    code: 'PES'
+    code: 'PES',
   },
   {
     name: 'Penshurst',
-    code: 'PHR'
+    code: 'PHR',
   },
   {
     name: 'Pentre-Bach',
-    code: 'PTB'
+    code: 'PTB',
   },
   {
     name: 'Pen-y-Bont',
-    code: 'PNY'
+    code: 'PNY',
   },
   {
     name: 'Penychain',
-    code: 'PNC'
+    code: 'PNC',
   },
   {
     name: 'Penyffordd',
-    code: 'PNF'
+    code: 'PNF',
   },
   {
     name: 'Penzance',
-    code: 'PNZ'
+    code: 'PNZ',
   },
   {
     name: 'Perranwell',
-    code: 'PRW'
+    code: 'PRW',
   },
   {
     name: 'Perry Barr',
-    code: 'PRY'
+    code: 'PRY',
   },
   {
     name: 'Pershore',
-    code: 'PSH'
+    code: 'PSH',
   },
   {
     name: 'Perth',
-    code: 'PTH'
+    code: 'PTH',
   },
   {
     name: 'Peterborough',
-    code: 'PBO'
+    code: 'PBO',
   },
   {
     name: 'Petersfield',
-    code: 'PTR'
+    code: 'PTR',
   },
   {
     name: 'Petts Wood',
-    code: 'PET'
+    code: 'PET',
   },
   {
     name: 'Pevensey & Westham',
-    code: 'PEV'
+    code: 'PEV',
   },
   {
     name: 'Pevensey Bay',
-    code: 'PEB'
+    code: 'PEB',
   },
   {
     name: 'Pewsey',
-    code: 'PEW'
+    code: 'PEW',
   },
   {
     name: 'Pilning',
-    code: 'PIL'
+    code: 'PIL',
   },
   {
     name: 'Pinhoe',
-    code: 'PIN'
+    code: 'PIN',
   },
   {
     name: 'Pitlochry',
-    code: 'PIT'
+    code: 'PIT',
   },
   {
     name: 'Pitsea',
-    code: 'PSE'
+    code: 'PSE',
   },
   {
     name: 'Pleasington',
-    code: 'PLS'
+    code: 'PLS',
   },
   {
     name: 'Plockton',
-    code: 'PLK'
+    code: 'PLK',
   },
   {
     name: 'Pluckley',
-    code: 'PLC'
+    code: 'PLC',
   },
   {
     name: 'Plumley',
-    code: 'PLM'
+    code: 'PLM',
   },
   {
     name: 'Plumpton',
-    code: 'PMP'
+    code: 'PMP',
   },
   {
     name: 'Plumstead',
-    code: 'PLU'
+    code: 'PLU',
   },
   {
     name: 'Plymouth',
-    code: 'PLY'
+    code: 'PLY',
   },
   {
     name: 'Pokesdown',
-    code: 'POK'
+    code: 'POK',
   },
   {
     name: 'Polegate',
-    code: 'PLG'
+    code: 'PLG',
   },
   {
     name: 'Polesworth',
-    code: 'PSW'
+    code: 'PSW',
   },
   {
     name: 'Pollokshaws East',
-    code: 'PWE'
+    code: 'PWE',
   },
   {
     name: 'Pollokshaws West',
-    code: 'PWW'
+    code: 'PWW',
   },
   {
     name: 'Pollokshields East',
-    code: 'PLE'
+    code: 'PLE',
   },
   {
     name: 'Pollokshields West',
-    code: 'PLW'
+    code: 'PLW',
   },
   {
     name: 'Polmont',
-    code: 'PMT'
+    code: 'PMT',
   },
   {
     name: 'Polsloe Bridge',
-    code: 'POL'
+    code: 'POL',
   },
   {
     name: 'Ponders End',
-    code: 'PON'
+    code: 'PON',
   },
   {
     name: 'Pontarddulais',
-    code: 'PTD'
+    code: 'PTD',
   },
   {
     name: 'Pontefract Baghill',
-    code: 'PFR'
+    code: 'PFR',
   },
   {
     name: 'Pontefract Monkhill',
-    code: 'PFM'
+    code: 'PFM',
   },
   {
     name: 'Pontefract Tanshelf',
-    code: 'POT'
+    code: 'POT',
   },
   {
     name: 'Pontlottyn',
-    code: 'PLT'
+    code: 'PLT',
   },
   {
     name: 'Pontyclun',
-    code: 'PYC'
+    code: 'PYC',
   },
   {
     name: 'Pont-y-Pant',
-    code: 'PYP'
+    code: 'PYP',
   },
   {
     name: 'Pontypool & New Inn',
-    code: 'PPL'
+    code: 'PPL',
   },
   {
     name: 'Pontypridd',
-    code: 'PPD'
+    code: 'PPD',
   },
   {
     name: 'Poole',
-    code: 'POO'
+    code: 'POO',
   },
   {
     name: 'Poppleton',
-    code: 'POP'
+    code: 'POP',
   },
   {
     name: 'Port Glasgow',
-    code: 'PTG'
+    code: 'PTG',
   },
   {
     name: 'Port Sunlight',
-    code: 'PSL'
+    code: 'PSL',
   },
   {
     name: 'Port Talbot Parkway',
-    code: 'PTA'
+    code: 'PTA',
   },
   {
     name: 'Portchester',
-    code: 'PTC'
+    code: 'PTC',
   },
   {
     name: 'Porth',
-    code: 'POR'
+    code: 'POR',
   },
   {
     name: 'Porthmadog',
-    code: 'PTM'
+    code: 'PTM',
   },
   {
     name: 'Portlethen',
-    code: 'PLN'
+    code: 'PLN',
   },
   {
     name: 'Portslade',
-    code: 'PLD'
+    code: 'PLD',
   },
   {
     name: 'Portsmouth & Southsea',
-    code: 'PMS'
+    code: 'PMS',
   },
   {
     name: 'Portsmouth Arms',
-    code: 'PMA'
+    code: 'PMA',
   },
   {
     name: 'Portsmouth Harbour',
-    code: 'PMH'
+    code: 'PMH',
   },
   {
     name: 'Possilpark & Parkhouse',
-    code: 'PPK'
+    code: 'PPK',
   },
   {
     name: 'Potters Bar',
-    code: 'PBR'
+    code: 'PBR',
   },
   {
     name: 'Poulton-le-Fylde',
-    code: 'PFY'
+    code: 'PFY',
   },
   {
     name: 'Poynton',
-    code: 'PYT'
+    code: 'PYT',
   },
   {
     name: 'Prees',
-    code: 'PRS'
+    code: 'PRS',
   },
   {
     name: 'Prescot',
-    code: 'PSC'
+    code: 'PSC',
   },
   {
     name: 'Prestatyn',
-    code: 'PRT'
+    code: 'PRT',
   },
   {
     name: 'Prestbury',
-    code: 'PRB'
+    code: 'PRB',
   },
   {
     name: 'Preston (Lancs)',
-    code: 'PRE'
+    code: 'PRE',
   },
   {
     name: 'Preston Park',
-    code: 'PRP'
+    code: 'PRP',
   },
   {
     name: 'Prestonpans',
-    code: 'PST'
+    code: 'PST',
   },
   {
     name: 'Prestwick International Airport',
-    code: 'PRA'
+    code: 'PRA',
   },
   {
     name: 'Prestwick Town',
-    code: 'PTW'
+    code: 'PTW',
   },
   {
     name: 'Priesthill & Darnley',
-    code: 'PTL'
+    code: 'PTL',
   },
   {
     name: 'Princes Risborough',
-    code: 'PRR'
+    code: 'PRR',
   },
   {
     name: 'Prittlewell',
-    code: 'PRL'
+    code: 'PRL',
   },
   {
     name: 'Prudhoe',
-    code: 'PRU'
+    code: 'PRU',
   },
   {
     name: 'Pulborough',
-    code: 'PUL'
+    code: 'PUL',
   },
   {
     name: 'Purfleet',
-    code: 'PFL'
+    code: 'PFL',
   },
   {
     name: 'Purley',
-    code: 'PUR'
+    code: 'PUR',
   },
   {
     name: 'Purley Oaks',
-    code: 'PUO'
+    code: 'PUO',
   },
   {
     name: 'Putney',
-    code: 'PUT'
+    code: 'PUT',
   },
   {
     name: 'Pwllheli',
-    code: 'PWL'
+    code: 'PWL',
   },
   {
     name: 'Pye Corner',
-    code: 'PYE'
+    code: 'PYE',
   },
   {
     name: 'Pyle',
-    code: 'PYL'
+    code: 'PYL',
   },
   {
     name: 'Quakers Yard',
-    code: 'QYD'
+    code: 'QYD',
   },
   {
     name: 'Queenborough',
-    code: 'QBR'
+    code: 'QBR',
   },
   {
     name: 'Queens Park (Glasgow)',
-    code: 'QPK'
+    code: 'QPK',
   },
   {
     name: 'Queens Park (London)',
-    code: 'QPW'
+    code: 'QPW',
   },
   {
     name: 'Queens Road (Peckham)',
-    code: 'QRP'
+    code: 'QRP',
   },
   {
     name: 'Queenstown Road (Battersea)',
-    code: 'QRB'
+    code: 'QRB',
   },
   {
     name: 'Quintrell Downs',
-    code: 'QUI'
+    code: 'QUI',
   },
   {
     name: 'Radcliffe-on-Trent',
-    code: 'RDF'
+    code: 'RDF',
   },
   {
     name: 'Radlett',
-    code: 'RDT'
+    code: 'RDT',
   },
   {
     name: 'Radley',
-    code: 'RAD'
+    code: 'RAD',
   },
   {
     name: 'Radyr',
-    code: 'RDR'
+    code: 'RDR',
   },
   {
     name: 'Rainford',
-    code: 'RNF'
+    code: 'RNF',
   },
   {
     name: 'Rainham (Essex)',
-    code: 'RNM'
+    code: 'RNM',
   },
   {
     name: 'Rainham (Kent)',
-    code: 'RAI'
+    code: 'RAI',
   },
   {
     name: 'Rainhill',
-    code: 'RNH'
+    code: 'RNH',
   },
   {
     name: 'Ramsgate',
-    code: 'RAM'
+    code: 'RAM',
   },
   {
     name: 'Ramsgreave & Wilpshire',
-    code: 'RGW'
+    code: 'RGW',
   },
   {
     name: 'Rannoch',
-    code: 'RAN'
+    code: 'RAN',
   },
   {
     name: 'Rauceby',
-    code: 'RAU'
+    code: 'RAU',
   },
   {
     name: 'Ravenglass for Eskdale',
-    code: 'RAV'
+    code: 'RAV',
   },
   {
     name: 'Ravensbourne',
-    code: 'RVB'
+    code: 'RVB',
   },
   {
     name: 'Ravensthorpe',
-    code: 'RVN'
+    code: 'RVN',
   },
   {
     name: 'Rawcliffe',
-    code: 'RWC'
+    code: 'RWC',
   },
   {
     name: 'Rayleigh',
-    code: 'RLG'
+    code: 'RLG',
   },
   {
     name: 'Raynes Park',
-    code: 'RAY'
+    code: 'RAY',
   },
   {
     name: 'Reading',
-    code: 'RDG'
+    code: 'RDG',
   },
   {
     name: 'Reading West',
-    code: 'RDW'
+    code: 'RDW',
   },
   {
     name: 'Rectory Road',
-    code: 'REC'
+    code: 'REC',
   },
   {
     name: 'Redbridge',
-    code: 'RDB'
+    code: 'RDB',
   },
   {
     name: 'Redcar British Steel',
-    code: 'RBS'
+    code: 'RBS',
   },
   {
     name: 'Redcar Central',
-    code: 'RCC'
+    code: 'RCC',
   },
   {
     name: 'Redcar East',
-    code: 'RCE'
+    code: 'RCE',
   },
   {
     name: 'Reddish North',
-    code: 'RDN'
+    code: 'RDN',
   },
   {
     name: 'Reddish South',
-    code: 'RDS'
+    code: 'RDS',
   },
   {
     name: 'Redditch',
-    code: 'RDC'
+    code: 'RDC',
   },
   {
     name: 'Redhill',
-    code: 'RDH'
+    code: 'RDH',
   },
   {
     name: 'Redland',
-    code: 'RDA'
+    code: 'RDA',
   },
   {
     name: 'Redruth',
-    code: 'RED'
+    code: 'RED',
   },
   {
     name: 'Reedham (Norfolk)',
-    code: 'REE'
+    code: 'REE',
   },
   {
     name: 'Reedham (Surrey)',
-    code: 'RHM'
+    code: 'RHM',
   },
   {
     name: 'Reigate',
-    code: 'REI'
+    code: 'REI',
   },
   {
     name: 'Renton',
-    code: 'RTN'
+    code: 'RTN',
   },
   {
     name: 'Retford',
-    code: 'RET'
+    code: 'RET',
   },
   {
     name: 'Rhiwbina',
-    code: 'RHI'
+    code: 'RHI',
   },
   {
     name: 'Rhoose Cardiff International Airport',
-    code: 'RIA'
+    code: 'RIA',
   },
   {
     name: 'Rhosneigr',
-    code: 'RHO'
+    code: 'RHO',
   },
   {
     name: 'Rhyl',
-    code: 'RHL'
+    code: 'RHL',
   },
   {
     name: 'Rhymney',
-    code: 'RHY'
+    code: 'RHY',
   },
   {
     name: 'Ribblehead',
-    code: 'RHD'
+    code: 'RHD',
   },
   {
     name: 'Rice Lane',
-    code: 'RIL'
+    code: 'RIL',
   },
   {
     name: 'Richmond (London)',
-    code: 'RMD'
+    code: 'RMD',
   },
   {
     name: 'Rickmansworth',
-    code: 'RIC'
+    code: 'RIC',
   },
   {
     name: 'Riddlesdown',
-    code: 'RDD'
+    code: 'RDD',
   },
   {
     name: 'Ridgmont',
-    code: 'RID'
+    code: 'RID',
   },
   {
     name: 'Riding Mill',
-    code: 'RDM'
+    code: 'RDM',
   },
   {
     name: 'Risca & Pontymister',
-    code: 'RCA'
+    code: 'RCA',
   },
   {
     name: 'Rishton',
-    code: 'RIS'
+    code: 'RIS',
   },
   {
     name: 'Robertsbridge',
-    code: 'RBR'
+    code: 'RBR',
   },
   {
     name: 'Roby',
-    code: 'ROB'
+    code: 'ROB',
   },
   {
     name: 'Rochdale',
-    code: 'RCD'
+    code: 'RCD',
   },
   {
     name: 'Roche',
-    code: 'ROC'
+    code: 'ROC',
   },
   {
     name: 'Rochester',
-    code: 'RTR'
+    code: 'RTR',
   },
   {
     name: 'Rochford',
-    code: 'RFD'
+    code: 'RFD',
   },
   {
     name: 'Rock Ferry',
-    code: 'RFY'
+    code: 'RFY',
   },
   {
     name: 'Rogart',
-    code: 'ROG'
+    code: 'ROG',
   },
   {
     name: 'Rogerstone',
-    code: 'ROR'
+    code: 'ROR',
   },
   {
     name: 'Rolleston',
-    code: 'ROL'
+    code: 'ROL',
   },
   {
     name: 'Roman Bridge',
-    code: 'RMB'
+    code: 'RMB',
   },
   {
     name: 'Romford',
-    code: 'RMF'
+    code: 'RMF',
   },
   {
     name: 'Romiley',
-    code: 'RML'
+    code: 'RML',
   },
   {
     name: 'Romsey',
-    code: 'ROM'
+    code: 'ROM',
   },
   {
     name: 'Roose',
-    code: 'ROO'
+    code: 'ROO',
   },
   {
     name: 'Rose Grove',
-    code: 'RSG'
+    code: 'RSG',
   },
   {
     name: 'Rose Hill Marple',
-    code: 'RSH'
+    code: 'RSH',
   },
   {
     name: 'Rosyth',
-    code: 'ROS'
+    code: 'ROS',
   },
   {
     name: 'Rotherham Central',
-    code: 'RMC'
+    code: 'RMC',
   },
   {
     name: 'Rotherhithe',
-    code: 'ROE'
+    code: 'ROE',
   },
   {
     name: 'Roughton Road',
-    code: 'RNR'
+    code: 'RNR',
   },
   {
     name: 'Rowlands Castle',
-    code: 'RLN'
+    code: 'RLN',
   },
   {
     name: 'Rowley Regis',
-    code: 'ROW'
+    code: 'ROW',
   },
   {
     name: 'Roy Bridge',
-    code: 'RYB'
+    code: 'RYB',
   },
   {
     name: 'Roydon',
-    code: 'RYN'
+    code: 'RYN',
   },
   {
     name: 'Royston',
-    code: 'RYS'
+    code: 'RYS',
   },
   {
     name: 'Ruabon',
-    code: 'RUA'
+    code: 'RUA',
   },
   {
     name: 'Rufford',
-    code: 'RUF'
+    code: 'RUF',
   },
   {
     name: 'Rugby',
-    code: 'RUG'
+    code: 'RUG',
   },
   {
     name: 'Rugeley Town',
-    code: 'RGT'
+    code: 'RGT',
   },
   {
     name: 'Rugeley Trent Valley',
-    code: 'RGL'
+    code: 'RGL',
   },
   {
     name: 'Runcorn',
-    code: 'RUN'
+    code: 'RUN',
   },
   {
     name: 'Runcorn East',
-    code: 'RUE'
+    code: 'RUE',
   },
   {
     name: 'Ruskington',
-    code: 'RKT'
+    code: 'RKT',
   },
   {
     name: 'Ruswarp',
-    code: 'RUS'
+    code: 'RUS',
   },
   {
     name: 'Rutherglen',
-    code: 'RUT'
+    code: 'RUT',
   },
   {
     name: 'Ryde Esplanade',
-    code: 'RYD'
+    code: 'RYD',
   },
   {
     name: 'Ryde Pier Head',
-    code: 'RYP'
+    code: 'RYP',
   },
   {
     name: 'Ryde St Johns Road',
-    code: 'RYR'
+    code: 'RYR',
   },
   {
     name: 'Ryder Brow',
-    code: 'RRB'
+    code: 'RRB',
   },
   {
     name: 'Rye (Sussex)',
-    code: 'RYE'
+    code: 'RYE',
   },
   {
     name: 'Rye House',
-    code: 'RYH'
+    code: 'RYH',
   },
   {
     name: 'Salford Central',
-    code: 'SFD'
+    code: 'SFD',
   },
   {
     name: 'Salford Crescent',
-    code: 'SLD'
+    code: 'SLD',
   },
   {
     name: 'Salfords (Surrey)',
-    code: 'SAF'
+    code: 'SAF',
   },
   {
     name: 'Salhouse',
-    code: 'SAH'
+    code: 'SAH',
   },
   {
     name: 'Salisbury',
-    code: 'SAL'
+    code: 'SAL',
   },
   {
     name: 'Saltaire',
-    code: 'SAE'
+    code: 'SAE',
   },
   {
     name: 'Saltash',
-    code: 'STS'
+    code: 'STS',
   },
   {
     name: 'Saltburn',
-    code: 'SLB'
+    code: 'SLB',
   },
   {
     name: 'Saltcoats',
-    code: 'SLT'
+    code: 'SLT',
   },
   {
     name: 'Saltmarshe',
-    code: 'SAM'
+    code: 'SAM',
   },
   {
     name: 'Salwick',
-    code: 'SLW'
+    code: 'SLW',
   },
   {
     name: 'Sampford Courtenay',
-    code: 'SMC'
+    code: 'SMC',
   },
   {
     name: 'Sandal & Agbrigg',
-    code: 'SNA'
+    code: 'SNA',
   },
   {
     name: 'Sandbach',
-    code: 'SDB'
+    code: 'SDB',
   },
   {
     name: 'Sanderstead',
-    code: 'SNR'
+    code: 'SNR',
   },
   {
     name: 'Sandhills',
-    code: 'SDL'
+    code: 'SDL',
   },
   {
     name: 'Sandhurst (Berks)',
-    code: 'SND'
+    code: 'SND',
   },
   {
     name: 'Sandling',
-    code: 'SDG'
+    code: 'SDG',
   },
   {
     name: 'Sandown',
-    code: 'SAN'
+    code: 'SAN',
   },
   {
     name: 'Sandplace',
-    code: 'SDP'
+    code: 'SDP',
   },
   {
     name: 'Sandwell & Dudley',
-    code: 'SAD'
+    code: 'SAD',
   },
   {
     name: 'Sandwich',
-    code: 'SDW'
+    code: 'SDW',
   },
   {
     name: 'Sandy',
-    code: 'SDY'
+    code: 'SDY',
   },
   {
     name: 'Sankey for Penketh',
-    code: 'SNK'
+    code: 'SNK',
   },
   {
     name: 'Sanquhar',
-    code: 'SQH'
+    code: 'SQH',
   },
   {
     name: 'Sarn',
-    code: 'SRR'
+    code: 'SRR',
   },
   {
     name: 'Saundersfoot',
-    code: 'SDF'
+    code: 'SDF',
   },
   {
     name: 'Saunderton',
-    code: 'SDR'
+    code: 'SDR',
   },
   {
     name: 'Sawbridgeworth',
-    code: 'SAW'
+    code: 'SAW',
   },
   {
     name: 'Saxilby',
-    code: 'SXY'
+    code: 'SXY',
   },
   {
     name: 'Saxmundham',
-    code: 'SAX'
+    code: 'SAX',
   },
   {
     name: 'Scarborough',
-    code: 'SCA'
+    code: 'SCA',
   },
   {
     name: 'Scotscalder',
-    code: 'SCT'
+    code: 'SCT',
   },
   {
     name: 'Scotstounhill',
-    code: 'SCH'
+    code: 'SCH',
   },
   {
     name: 'Scunthorpe',
-    code: 'SCU'
+    code: 'SCU',
   },
   {
     name: 'Sea Mills',
-    code: 'SML'
+    code: 'SML',
   },
   {
     name: 'Seaford (Sussex)',
-    code: 'SEF'
+    code: 'SEF',
   },
   {
     name: 'Seaforth & Litherland',
-    code: 'SFL'
+    code: 'SFL',
   },
   {
     name: 'Seaham',
-    code: 'SEA'
+    code: 'SEA',
   },
   {
     name: 'Seamer',
-    code: 'SEM'
+    code: 'SEM',
   },
   {
     name: 'Seascale',
-    code: 'SSC'
+    code: 'SSC',
   },
   {
     name: 'Seaton Carew',
-    code: 'SEC'
+    code: 'SEC',
   },
   {
     name: 'Seer Green & Jordans',
-    code: 'SRG'
+    code: 'SRG',
   },
   {
     name: 'Selby',
-    code: 'SBY'
+    code: 'SBY',
   },
   {
     name: 'Selhurst',
-    code: 'SRS'
+    code: 'SRS',
   },
   {
     name: 'Sellafield',
-    code: 'SEL'
+    code: 'SEL',
   },
   {
     name: 'Selling',
-    code: 'SEG'
+    code: 'SEG',
   },
   {
     name: 'Selly Oak',
-    code: 'SLY'
+    code: 'SLY',
   },
   {
     name: 'Settle',
-    code: 'SET'
+    code: 'SET',
   },
   {
     name: 'Seven Kings',
-    code: 'SVK'
+    code: 'SVK',
   },
   {
     name: 'Seven Sisters',
-    code: 'SVS'
+    code: 'SVS',
   },
   {
     name: 'Sevenoaks',
-    code: 'SEV'
+    code: 'SEV',
   },
   {
     name: 'Severn Beach',
-    code: 'SVB'
+    code: 'SVB',
   },
   {
     name: 'Severn Tunnel Junction',
-    code: 'STJ'
+    code: 'STJ',
   },
   {
     name: 'Shadwell',
-    code: 'SDE'
+    code: 'SDE',
   },
   {
     name: 'Shalford (Surrey)',
-    code: 'SFR'
+    code: 'SFR',
   },
   {
     name: 'Shanklin',
-    code: 'SHN'
+    code: 'SHN',
   },
   {
     name: 'Shawfair',
-    code: 'SFI'
+    code: 'SFI',
   },
   {
     name: 'Shawford',
-    code: 'SHW'
+    code: 'SHW',
   },
   {
     name: 'Shawlands',
-    code: 'SHL'
+    code: 'SHL',
   },
   {
     name: 'Sheerness-on-Sea',
-    code: 'SSS'
+    code: 'SSS',
   },
   {
     name: 'Sheffield',
-    code: 'SHF'
+    code: 'SHF',
   },
   {
     name: 'Shelford (Cambs)',
-    code: 'SED'
+    code: 'SED',
   },
   {
     name: 'Shenfield',
-    code: 'SNF'
+    code: 'SNF',
   },
   {
     name: 'Shenstone',
-    code: 'SEN'
+    code: 'SEN',
   },
   {
     name: "Shepherd's Bush",
-    code: 'SPB'
+    code: 'SPB',
   },
   {
     name: 'Shepherds Well',
-    code: 'SPH'
+    code: 'SPH',
   },
   {
     name: 'Shepley',
-    code: 'SPY'
+    code: 'SPY',
   },
   {
     name: 'Shepperton',
-    code: 'SHP'
+    code: 'SHP',
   },
   {
     name: 'Shepreth',
-    code: 'STH'
+    code: 'STH',
   },
   {
     name: 'Sherborne',
-    code: 'SHE'
+    code: 'SHE',
   },
   {
     name: 'Sherburn-in-Elmet',
-    code: 'SIE'
+    code: 'SIE',
   },
   {
     name: 'Sheringham',
-    code: 'SHM'
+    code: 'SHM',
   },
   {
     name: 'Shettleston',
-    code: 'SLS'
+    code: 'SLS',
   },
   {
     name: 'Shieldmuir',
-    code: 'SDM'
+    code: 'SDM',
   },
   {
     name: 'Shifnal',
-    code: 'SFN'
+    code: 'SFN',
   },
   {
     name: 'Shildon',
-    code: 'SHD'
+    code: 'SHD',
   },
   {
     name: 'Shiplake',
-    code: 'SHI'
+    code: 'SHI',
   },
   {
     name: 'Shipley (Yorks)',
-    code: 'SHY'
+    code: 'SHY',
   },
   {
     name: 'Shippea Hill',
-    code: 'SPP'
+    code: 'SPP',
   },
   {
     name: 'Shipton',
-    code: 'SIP'
+    code: 'SIP',
   },
   {
     name: 'Shirebrook',
-    code: 'SHB'
+    code: 'SHB',
   },
   {
     name: 'Shirehampton',
-    code: 'SHH'
+    code: 'SHH',
   },
   {
     name: 'Shireoaks',
-    code: 'SRO'
+    code: 'SRO',
   },
   {
     name: 'Shirley',
-    code: 'SRL'
+    code: 'SRL',
   },
   {
     name: 'Shoeburyness',
-    code: 'SRY'
+    code: 'SRY',
   },
   {
     name: 'Sholing',
-    code: 'SHO'
+    code: 'SHO',
   },
   {
     name: 'Shoreditch High Street',
-    code: 'SDC'
+    code: 'SDC',
   },
   {
     name: 'Shoreham (Kent)',
-    code: 'SEH'
+    code: 'SEH',
   },
   {
     name: 'Shoreham-by-Sea',
-    code: 'SSE'
+    code: 'SSE',
   },
   {
     name: 'Shortlands',
-    code: 'SRT'
+    code: 'SRT',
   },
   {
     name: 'Shotton',
-    code: 'SHT'
+    code: 'SHT',
   },
   {
     name: 'Shotts',
-    code: 'SHS'
+    code: 'SHS',
   },
   {
     name: 'Shrewsbury',
-    code: 'SHR'
+    code: 'SHR',
   },
   {
     name: 'Sidcup',
-    code: 'SID'
+    code: 'SID',
   },
   {
     name: 'Sileby',
-    code: 'SIL'
+    code: 'SIL',
   },
   {
     name: 'Silecroft',
-    code: 'SIC'
+    code: 'SIC',
   },
   {
     name: 'Silkstone Common',
-    code: 'SLK'
+    code: 'SLK',
   },
   {
     name: 'Silver Street',
-    code: 'SLV'
+    code: 'SLV',
   },
   {
     name: 'Silverdale',
-    code: 'SVR'
+    code: 'SVR',
   },
   {
     name: 'Singer',
-    code: 'SIN'
+    code: 'SIN',
   },
   {
     name: 'Sittingbourne',
-    code: 'SIT'
+    code: 'SIT',
   },
   {
     name: 'Skegness',
-    code: 'SKG'
+    code: 'SKG',
   },
   {
     name: 'Skewen',
-    code: 'SKE'
+    code: 'SKE',
   },
   {
     name: 'Skipton',
-    code: 'SKI'
+    code: 'SKI',
   },
   {
     name: 'Slade Green',
-    code: 'SGR'
+    code: 'SGR',
   },
   {
     name: 'Slaithwaite',
-    code: 'SWT'
+    code: 'SWT',
   },
   {
     name: 'Slateford',
-    code: 'SLA'
+    code: 'SLA',
   },
   {
     name: 'Sleaford',
-    code: 'SLR'
+    code: 'SLR',
   },
   {
     name: 'Sleights',
-    code: 'SLH'
+    code: 'SLH',
   },
   {
     name: 'Slough',
-    code: 'SLO'
+    code: 'SLO',
   },
   {
     name: 'Small Heath',
-    code: 'SMA'
+    code: 'SMA',
   },
   {
     name: 'Smallbrook Junction',
-    code: 'SAB'
+    code: 'SAB',
   },
   {
     name: 'Smethwick Galton Bridge',
-    code: 'SGB'
+    code: 'SGB',
   },
   {
     name: 'Smethwick Rolfe Street',
-    code: 'SMR'
+    code: 'SMR',
   },
   {
     name: 'Smithy Bridge',
-    code: 'SMB'
+    code: 'SMB',
   },
   {
     name: 'Snaith',
-    code: 'SNI'
+    code: 'SNI',
   },
   {
     name: 'Snodland',
-    code: 'SDA'
+    code: 'SDA',
   },
   {
     name: 'Snowdown',
-    code: 'SWO'
+    code: 'SWO',
   },
   {
     name: 'Sole Street',
-    code: 'SOR'
+    code: 'SOR',
   },
   {
     name: 'Solihull',
-    code: 'SOL'
+    code: 'SOL',
   },
   {
     name: 'Somerleyton',
-    code: 'SYT'
+    code: 'SYT',
   },
   {
     name: 'South Acton',
-    code: 'SAT'
+    code: 'SAT',
   },
   {
     name: 'South Bank',
-    code: 'SBK'
+    code: 'SBK',
   },
   {
     name: 'South Bermondsey',
-    code: 'SBM'
+    code: 'SBM',
   },
   {
     name: 'South Croydon',
-    code: 'SCY'
+    code: 'SCY',
   },
   {
     name: 'South Elmsall',
-    code: 'SES'
+    code: 'SES',
   },
   {
     name: 'South Greenford',
-    code: 'SGN'
+    code: 'SGN',
   },
   {
     name: 'South Gyle',
-    code: 'SGL'
+    code: 'SGL',
   },
   {
     name: 'South Hampstead',
-    code: 'SOH'
+    code: 'SOH',
   },
   {
     name: 'South Kenton',
-    code: 'SOK'
+    code: 'SOK',
   },
   {
     name: 'South Merton',
-    code: 'SMO'
+    code: 'SMO',
   },
   {
     name: 'South Milford',
-    code: 'SOM'
+    code: 'SOM',
   },
   {
     name: 'South Ruislip',
-    code: 'SRU'
+    code: 'SRU',
   },
   {
     name: 'South Tottenham',
-    code: 'STO'
+    code: 'STO',
   },
   {
     name: 'South Wigston',
-    code: 'SWS'
+    code: 'SWS',
   },
   {
     name: 'South Woodham Ferrers',
-    code: 'SOF'
+    code: 'SOF',
   },
   {
     name: 'Southall',
-    code: 'STL'
+    code: 'STL',
   },
   {
     name: 'Southampton Airport Parkway',
-    code: 'SOA'
+    code: 'SOA',
   },
   {
     name: 'Southampton Central',
-    code: 'SOU'
+    code: 'SOU',
   },
   {
     name: 'Southbourne',
-    code: 'SOB'
+    code: 'SOB',
   },
   {
     name: 'Southbury',
-    code: 'SBU'
+    code: 'SBU',
   },
   {
     name: 'Southease',
-    code: 'SEE'
+    code: 'SEE',
   },
   {
     name: 'Southend Airport',
-    code: 'SIA'
+    code: 'SIA',
   },
   {
     name: 'Southend Central',
-    code: 'SOC'
+    code: 'SOC',
   },
   {
     name: 'Southend East',
-    code: 'SOE'
+    code: 'SOE',
   },
   {
     name: 'Southend Victoria',
-    code: 'SOV'
+    code: 'SOV',
   },
   {
     name: 'Southminster',
-    code: 'SMN'
+    code: 'SMN',
   },
   {
     name: 'Southport',
-    code: 'SOP'
+    code: 'SOP',
   },
   {
     name: 'Southwick',
-    code: 'SWK'
+    code: 'SWK',
   },
   {
     name: 'Sowerby Bridge',
-    code: 'SOW'
+    code: 'SOW',
   },
   {
     name: 'Spalding',
-    code: 'SPA'
+    code: 'SPA',
   },
   {
     name: 'Spean Bridge',
-    code: 'SBR'
+    code: 'SBR',
   },
   {
     name: 'Spital',
-    code: 'SPI'
+    code: 'SPI',
   },
   {
     name: 'Spondon',
-    code: 'SPO'
+    code: 'SPO',
   },
   {
     name: 'Spooner Row',
-    code: 'SPN'
+    code: 'SPN',
   },
   {
     name: 'Spring Road',
-    code: 'SRI'
+    code: 'SRI',
   },
   {
     name: 'Springburn',
-    code: 'SPR'
+    code: 'SPR',
   },
   {
     name: 'Springfield',
-    code: 'SPF'
+    code: 'SPF',
   },
   {
     name: 'Squires Gate',
-    code: 'SQU'
+    code: 'SQU',
   },
   {
     name: 'St Albans Abbey',
-    code: 'SAA'
+    code: 'SAA',
   },
   {
     name: 'St Albans City',
-    code: 'SAC'
+    code: 'SAC',
   },
   {
     name: 'St Andrews Road',
-    code: 'SAR'
+    code: 'SAR',
   },
   {
     name: 'St Annes-on-Sea',
-    code: 'SAS'
+    code: 'SAS',
   },
   {
     name: 'St Austell',
-    code: 'SAU'
+    code: 'SAU',
   },
   {
     name: 'St Bees',
-    code: 'SBS'
+    code: 'SBS',
   },
   {
     name: 'St Budeaux Ferry Road',
-    code: 'SBF'
+    code: 'SBF',
   },
   {
     name: 'St Budeaux Victoria Road',
-    code: 'SBV'
+    code: 'SBV',
   },
   {
     name: 'St Columb Road',
-    code: 'SCR'
+    code: 'SCR',
   },
   {
     name: 'St Denys',
-    code: 'SDN'
+    code: 'SDN',
   },
   {
     name: 'St Erth',
-    code: 'SER'
+    code: 'SER',
   },
   {
     name: 'St Germans',
-    code: 'SGM'
+    code: 'SGM',
   },
   {
     name: 'St Helens Central',
-    code: 'SNH'
+    code: 'SNH',
   },
   {
     name: 'St Helens Junction',
-    code: 'SHJ'
+    code: 'SHJ',
   },
   {
     name: 'St Helier (Surrey)',
-    code: 'SIH'
+    code: 'SIH',
   },
   {
     name: 'St Ives (Cornwall)',
-    code: 'SIV'
+    code: 'SIV',
   },
   {
     name: 'St James Park (Exeter)',
-    code: 'SJP'
+    code: 'SJP',
   },
   {
     name: 'St James Street (Walthamstow)',
-    code: 'SJS'
+    code: 'SJS',
   },
   {
     name: 'St Johns (London)',
-    code: 'SAJ'
+    code: 'SAJ',
   },
   {
     name: 'St Keyne Wishing Well Halt',
-    code: 'SKN'
+    code: 'SKN',
   },
   {
     name: 'St Leonards Warrior Square',
-    code: 'SLQ'
+    code: 'SLQ',
   },
   {
     name: 'St Margarets (Herts)',
-    code: 'SMT'
+    code: 'SMT',
   },
   {
     name: 'St Margarets (London)',
-    code: 'SMG'
+    code: 'SMG',
   },
   {
     name: 'St Mary Cray',
-    code: 'SMY'
+    code: 'SMY',
   },
   {
     name: 'St Michaels',
-    code: 'STM'
+    code: 'STM',
   },
   {
     name: 'St Neots',
-    code: 'SNO'
+    code: 'SNO',
   },
   {
     name: 'Stafford',
-    code: 'STA'
+    code: 'STA',
   },
   {
     name: 'Staines',
-    code: 'SNS'
+    code: 'SNS',
   },
   {
     name: 'Stallingborough',
-    code: 'SLL'
+    code: 'SLL',
   },
   {
     name: 'Stalybridge',
-    code: 'SYB'
+    code: 'SYB',
   },
   {
     name: 'Stamford (Lincs)',
-    code: 'SMD'
+    code: 'SMD',
   },
   {
     name: 'Stamford Hill',
-    code: 'SMH'
+    code: 'SMH',
   },
   {
     name: 'Stanford-le-Hope',
-    code: 'SFO'
+    code: 'SFO',
   },
   {
     name: 'Stanlow & Thornton',
-    code: 'SNT'
+    code: 'SNT',
   },
   {
     name: 'Stansted Airport',
-    code: 'SSD'
+    code: 'SSD',
   },
   {
     name: 'Stansted Mountfitchet',
-    code: 'SST'
+    code: 'SST',
   },
   {
     name: 'Staplehurst',
-    code: 'SPU'
+    code: 'SPU',
   },
   {
     name: 'Stapleton Road',
-    code: 'SRD'
+    code: 'SRD',
   },
   {
     name: 'Starbeck',
-    code: 'SBE'
+    code: 'SBE',
   },
   {
     name: 'Starcross',
-    code: 'SCS'
+    code: 'SCS',
   },
   {
     name: 'Staveley (Cumbria)',
-    code: 'SVL'
+    code: 'SVL',
   },
   {
     name: 'Stechford',
-    code: 'SCF'
+    code: 'SCF',
   },
   {
     name: 'Steeton & Silsden',
-    code: 'SON'
+    code: 'SON',
   },
   {
     name: 'Stepps',
-    code: 'SPS'
+    code: 'SPS',
   },
   {
     name: 'Stevenage',
-    code: 'SVG'
+    code: 'SVG',
   },
   {
     name: 'Stevenston',
-    code: 'STV'
+    code: 'STV',
   },
   {
     name: 'Stewartby',
-    code: 'SWR'
+    code: 'SWR',
   },
   {
     name: 'Stewarton',
-    code: 'STT'
+    code: 'STT',
   },
   {
     name: 'Stirling',
-    code: 'STG'
+    code: 'STG',
   },
   {
     name: 'Stockport',
-    code: 'SPT'
+    code: 'SPT',
   },
   {
     name: 'Stocksfield',
-    code: 'SKS'
+    code: 'SKS',
   },
   {
     name: 'Stocksmoor',
-    code: 'SSM'
+    code: 'SSM',
   },
   {
     name: 'Stockton',
-    code: 'STK'
+    code: 'STK',
   },
   {
     name: 'Stoke Mandeville',
-    code: 'SKM'
+    code: 'SKM',
   },
   {
     name: 'Stoke Newington',
-    code: 'SKW'
+    code: 'SKW',
   },
   {
     name: 'Stoke-on-Trent',
-    code: 'SOT'
+    code: 'SOT',
   },
   {
     name: 'Stone (Staffs)',
-    code: 'SNE'
+    code: 'SNE',
   },
   {
     name: 'Stone Crossing',
-    code: 'SCG'
+    code: 'SCG',
   },
   {
     name: 'Stonebridge Park',
-    code: 'SBP'
+    code: 'SBP',
   },
   {
     name: 'Stonegate',
-    code: 'SOG'
+    code: 'SOG',
   },
   {
     name: 'Stonehaven',
-    code: 'STN'
+    code: 'STN',
   },
   {
     name: 'Stonehouse',
-    code: 'SHU'
+    code: 'SHU',
   },
   {
     name: 'Stoneleigh',
-    code: 'SNL'
+    code: 'SNL',
   },
   {
     name: 'Stourbridge Junction',
-    code: 'SBJ'
+    code: 'SBJ',
   },
   {
     name: 'Stourbridge Town',
-    code: 'SBT'
+    code: 'SBT',
   },
   {
     name: 'Stow',
-    code: 'SOI'
+    code: 'SOI',
   },
   {
     name: 'Stowmarket',
-    code: 'SMK'
+    code: 'SMK',
   },
   {
     name: 'Stranraer',
-    code: 'STR'
+    code: 'STR',
   },
   {
     name: 'Stratford (London)',
-    code: 'SRA'
+    code: 'SRA',
   },
   {
     name: 'Stratford International',
-    code: 'SFA'
+    code: 'SFA',
   },
   {
     name: 'Stratford-upon-Avon',
-    code: 'SAV'
+    code: 'SAV',
   },
   {
     name: 'Stratford-upon-Avon Parkway',
-    code: 'STY'
+    code: 'STY',
   },
   {
     name: 'Strathcarron',
-    code: 'STC'
+    code: 'STC',
   },
   {
     name: 'Strawberry Hill',
-    code: 'STW'
+    code: 'STW',
   },
   {
     name: 'Streatham (Greater London)',
-    code: 'STE'
+    code: 'STE',
   },
   {
     name: 'Streatham Common',
-    code: 'SRC'
+    code: 'SRC',
   },
   {
     name: 'Streatham Hill',
-    code: 'SRH'
+    code: 'SRH',
   },
   {
     name: 'Streethouse',
-    code: 'SHC'
+    code: 'SHC',
   },
   {
     name: 'Strines',
-    code: 'SRN'
+    code: 'SRN',
   },
   {
     name: 'Stromeferry',
-    code: 'STF'
+    code: 'STF',
   },
   {
     name: 'Strood (Kent)',
-    code: 'SOO'
+    code: 'SOO',
   },
   {
     name: 'Stroud (Gloucs)',
-    code: 'STD'
+    code: 'STD',
   },
   {
     name: 'Sturry',
-    code: 'STU'
+    code: 'STU',
   },
   {
     name: 'Styal',
-    code: 'SYA'
+    code: 'SYA',
   },
   {
     name: 'Sudbury & Harrow Road',
-    code: 'SUD'
+    code: 'SUD',
   },
   {
     name: 'Sudbury (Suffolk)',
-    code: 'SUY'
+    code: 'SUY',
   },
   {
     name: 'Sudbury Hill Harrow',
-    code: 'SDH'
+    code: 'SDH',
   },
   {
     name: 'Sugar Loaf',
-    code: 'SUG'
+    code: 'SUG',
   },
   {
     name: 'Summerston',
-    code: 'SUM'
+    code: 'SUM',
   },
   {
     name: 'Sunbury',
-    code: 'SUU'
+    code: 'SUU',
   },
   {
     name: 'Sunderland',
-    code: 'SUN'
+    code: 'SUN',
   },
   {
     name: 'Sundridge Park',
-    code: 'SUP'
+    code: 'SUP',
   },
   {
     name: 'Sunningdale',
-    code: 'SNG'
+    code: 'SNG',
   },
   {
     name: 'Sunnymeads',
-    code: 'SNY'
+    code: 'SNY',
   },
   {
     name: 'Surbiton',
-    code: 'SUR'
+    code: 'SUR',
   },
   {
     name: 'Surrey Quays',
-    code: 'SQE'
+    code: 'SQE',
   },
   {
     name: 'Sutton (Surrey)',
-    code: 'SUO'
+    code: 'SUO',
   },
   {
     name: 'Sutton Coldfield',
-    code: 'SUT'
+    code: 'SUT',
   },
   {
     name: 'Sutton Common',
-    code: 'SUC'
+    code: 'SUC',
   },
   {
     name: 'Sutton Parkway',
-    code: 'SPK'
+    code: 'SPK',
   },
   {
     name: 'Swale',
-    code: 'SWL'
+    code: 'SWL',
   },
   {
     name: 'Swanley',
-    code: 'SAY'
+    code: 'SAY',
   },
   {
     name: 'Swanscombe',
-    code: 'SWM'
+    code: 'SWM',
   },
   {
     name: 'Swansea',
-    code: 'SWA'
+    code: 'SWA',
   },
   {
     name: 'Swanwick',
-    code: 'SNW'
+    code: 'SNW',
   },
   {
     name: 'Sway',
-    code: 'SWY'
+    code: 'SWY',
   },
   {
     name: 'Swaythling',
-    code: 'SWG'
+    code: 'SWG',
   },
   {
     name: 'Swinderby',
-    code: 'SWD'
+    code: 'SWD',
   },
   {
     name: 'Swindon (Wilts)',
-    code: 'SWI'
+    code: 'SWI',
   },
   {
     name: 'Swineshead',
-    code: 'SWE'
+    code: 'SWE',
   },
   {
     name: 'Swinton (Manchester)',
-    code: 'SNN'
+    code: 'SNN',
   },
   {
     name: 'Swinton (South Yorks)',
-    code: 'SWN'
+    code: 'SWN',
   },
   {
     name: 'Sydenham (London)',
-    code: 'SYD'
+    code: 'SYD',
   },
   {
     name: 'Sydenham Hill',
-    code: 'SYH'
+    code: 'SYH',
   },
   {
     name: 'Syon Lane',
-    code: 'SYL'
+    code: 'SYL',
   },
   {
     name: 'Syston',
-    code: 'SYS'
+    code: 'SYS',
   },
   {
     name: 'Tackley',
-    code: 'TAC'
+    code: 'TAC',
   },
   {
     name: 'Tadworth',
-    code: 'TAD'
+    code: 'TAD',
   },
   {
     name: 'Taffs Well',
-    code: 'TAF'
+    code: 'TAF',
   },
   {
     name: 'Tain',
-    code: 'TAI'
+    code: 'TAI',
   },
   {
     name: 'Talsarnau',
-    code: 'TAL'
+    code: 'TAL',
   },
   {
     name: 'Talybont',
-    code: 'TLB'
+    code: 'TLB',
   },
   {
     name: 'Tal-y-Cafn',
-    code: 'TLC'
+    code: 'TLC',
   },
   {
     name: 'Tame Bridge Parkway',
-    code: 'TAB'
+    code: 'TAB',
   },
   {
     name: 'Tamworth',
-    code: 'TAM'
+    code: 'TAM',
   },
   {
     name: 'Taplow',
-    code: 'TAP'
+    code: 'TAP',
   },
   {
     name: 'Tattenham Corner',
-    code: 'TAT'
+    code: 'TAT',
   },
   {
     name: 'Taunton',
-    code: 'TAU'
+    code: 'TAU',
   },
   {
     name: 'Taynuilt',
-    code: 'TAY'
+    code: 'TAY',
   },
   {
     name: 'Teddington',
-    code: 'TED'
+    code: 'TED',
   },
   {
     name: 'Tees-side Airport',
-    code: 'TEA'
+    code: 'TEA',
   },
   {
     name: 'Teignmouth',
-    code: 'TGM'
+    code: 'TGM',
   },
   {
     name: 'Telford Central',
-    code: 'TFC'
+    code: 'TFC',
   },
   {
     name: 'Templecombe',
-    code: 'TMC'
+    code: 'TMC',
   },
   {
     name: 'Tenby',
-    code: 'TEN'
+    code: 'TEN',
   },
   {
     name: 'Teynham',
-    code: 'TEY'
+    code: 'TEY',
   },
   {
     name: 'Thames Ditton',
-    code: 'THD'
+    code: 'THD',
   },
   {
     name: 'Thatcham',
-    code: 'THA'
+    code: 'THA',
   },
   {
     name: 'Thatto Heath',
-    code: 'THH'
+    code: 'THH',
   },
   {
     name: 'The Hawthorns',
-    code: 'THW'
+    code: 'THW',
   },
   {
     name: 'The Lakes (Warks)',
-    code: 'TLK'
+    code: 'TLK',
   },
   {
     name: 'Theale',
-    code: 'THE'
+    code: 'THE',
   },
   {
     name: 'Theobalds Grove',
-    code: 'TEO'
+    code: 'TEO',
   },
   {
     name: 'Thetford',
-    code: 'TTF'
+    code: 'TTF',
   },
   {
     name: 'Thirsk',
-    code: 'THI'
+    code: 'THI',
   },
   {
     name: 'Thornaby',
-    code: 'TBY'
+    code: 'TBY',
   },
   {
     name: 'Thorne North',
-    code: 'TNN'
+    code: 'TNN',
   },
   {
     name: 'Thorne South',
-    code: 'TNS'
+    code: 'TNS',
   },
   {
     name: 'Thornford',
-    code: 'THO'
+    code: 'THO',
   },
   {
     name: 'Thornliebank',
-    code: 'THB'
+    code: 'THB',
   },
   {
     name: 'Thornton Abbey',
-    code: 'TNA'
+    code: 'TNA',
   },
   {
     name: 'Thornton Heath',
-    code: 'TTH'
+    code: 'TTH',
   },
   {
     name: 'Thorntonhall',
-    code: 'THT'
+    code: 'THT',
   },
   {
     name: 'Thorpe Bay',
-    code: 'TPB'
+    code: 'TPB',
   },
   {
     name: 'Thorpe Culvert',
-    code: 'TPC'
+    code: 'TPC',
   },
   {
     name: 'Thorpe-le-Soken',
-    code: 'TLS'
+    code: 'TLS',
   },
   {
     name: 'Three Bridges',
-    code: 'TBD'
+    code: 'TBD',
   },
   {
     name: 'Three Oaks',
-    code: 'TOK'
+    code: 'TOK',
   },
   {
     name: 'Thurgarton',
-    code: 'THU'
+    code: 'THU',
   },
   {
     name: 'Thurnscoe',
-    code: 'THC'
+    code: 'THC',
   },
   {
     name: 'Thurso',
-    code: 'THS'
+    code: 'THS',
   },
   {
     name: 'Thurston',
-    code: 'TRS'
+    code: 'TRS',
   },
   {
     name: 'Tilbury Town',
-    code: 'TIL'
+    code: 'TIL',
   },
   {
     name: 'Tile Hill',
-    code: 'THL'
+    code: 'THL',
   },
   {
     name: 'Tilehurst',
-    code: 'TLH'
+    code: 'TLH',
   },
   {
     name: 'Tipton',
-    code: 'TIP'
+    code: 'TIP',
   },
   {
     name: 'Tir-Phil',
-    code: 'TIR'
+    code: 'TIR',
   },
   {
     name: 'Tisbury',
-    code: 'TIS'
+    code: 'TIS',
   },
   {
     name: 'Tiverton Parkway',
-    code: 'TVP'
+    code: 'TVP',
   },
   {
     name: 'Todmorden',
-    code: 'TOD'
+    code: 'TOD',
   },
   {
     name: 'Tolworth',
-    code: 'TOL'
+    code: 'TOL',
   },
   {
     name: 'Ton Pentre',
-    code: 'TPN'
+    code: 'TPN',
   },
   {
     name: 'Tonbridge',
-    code: 'TON'
+    code: 'TON',
   },
   {
     name: 'Tondu',
-    code: 'TDU'
+    code: 'TDU',
   },
   {
     name: 'Tonfanau',
-    code: 'TNF'
+    code: 'TNF',
   },
   {
     name: 'Tonypandy',
-    code: 'TNP'
+    code: 'TNP',
   },
   {
     name: 'Tooting',
-    code: 'TOO'
+    code: 'TOO',
   },
   {
     name: 'Topsham',
-    code: 'TOP'
+    code: 'TOP',
   },
   {
     name: 'Torquay',
-    code: 'TQY'
+    code: 'TQY',
   },
   {
     name: 'Torre',
-    code: 'TRR'
+    code: 'TRR',
   },
   {
     name: 'Totnes',
-    code: 'TOT'
+    code: 'TOT',
   },
   {
     name: 'Tottenham Hale',
-    code: 'TOM'
+    code: 'TOM',
   },
   {
     name: 'Totton',
-    code: 'TTN'
+    code: 'TTN',
   },
   {
     name: 'Town Green',
-    code: 'TWN'
+    code: 'TWN',
   },
   {
     name: 'Trafford Park',
-    code: 'TRA'
+    code: 'TRA',
   },
   {
     name: 'Trefforest',
-    code: 'TRF'
+    code: 'TRF',
   },
   {
     name: 'Trefforest Estate',
-    code: 'TRE'
+    code: 'TRE',
   },
   {
     name: 'Trehafod',
-    code: 'TRH'
+    code: 'TRH',
   },
   {
     name: 'Treherbert',
-    code: 'TRB'
+    code: 'TRB',
   },
   {
     name: 'Treorchy',
-    code: 'TRY'
+    code: 'TRY',
   },
   {
     name: 'Trimley',
-    code: 'TRM'
+    code: 'TRM',
   },
   {
     name: 'Tring',
-    code: 'TRI'
+    code: 'TRI',
   },
   {
     name: 'Troed-y-rhiw',
-    code: 'TRD'
+    code: 'TRD',
   },
   {
     name: 'Troon',
-    code: 'TRN'
+    code: 'TRN',
   },
   {
     name: 'Trowbridge',
-    code: 'TRO'
+    code: 'TRO',
   },
   {
     name: 'Truro',
-    code: 'TRU'
+    code: 'TRU',
   },
   {
     name: 'Tulloch',
-    code: 'TUL'
+    code: 'TUL',
   },
   {
     name: 'Tulse Hill',
-    code: 'TUH'
+    code: 'TUH',
   },
   {
     name: 'Tunbridge Wells',
-    code: 'TBW'
+    code: 'TBW',
   },
   {
     name: 'Turkey Street',
-    code: 'TUR'
+    code: 'TUR',
   },
   {
     name: 'Tutbury & Hatton',
-    code: 'TUT'
+    code: 'TUT',
   },
   {
     name: 'Tweedbank',
-    code: 'TWB'
+    code: 'TWB',
   },
   {
     name: 'Twickenham',
-    code: 'TWI'
+    code: 'TWI',
   },
   {
     name: 'Twyford',
-    code: 'TWY'
+    code: 'TWY',
   },
   {
     name: 'Ty Croes',
-    code: 'TYC'
+    code: 'TYC',
   },
   {
     name: 'Ty Glas',
-    code: 'TGS'
+    code: 'TGS',
   },
   {
     name: 'Tygwyn',
-    code: 'TYG'
+    code: 'TYG',
   },
   {
     name: 'Tyndrum Lower',
-    code: 'TYL'
+    code: 'TYL',
   },
   {
     name: 'Tyseley',
-    code: 'TYS'
+    code: 'TYS',
   },
   {
     name: 'Tywyn',
-    code: 'TYW'
+    code: 'TYW',
   },
   {
     name: 'Uckfield',
-    code: 'UCK'
+    code: 'UCK',
   },
   {
     name: 'Uddingston',
-    code: 'UDD'
+    code: 'UDD',
   },
   {
     name: 'Ulceby',
-    code: 'ULC'
+    code: 'ULC',
   },
   {
     name: 'Ulleskelf',
-    code: 'ULL'
+    code: 'ULL',
   },
   {
     name: 'Ulverston',
-    code: 'ULV'
+    code: 'ULV',
   },
   {
     name: 'Umberleigh',
-    code: 'UMB'
+    code: 'UMB',
   },
   {
     name: 'University (Birmingham)',
-    code: 'UNI'
+    code: 'UNI',
   },
   {
     name: 'Uphall',
-    code: 'UHA'
+    code: 'UHA',
   },
   {
     name: 'Upholland',
-    code: 'UPL'
+    code: 'UPL',
   },
   {
     name: 'Upminster',
-    code: 'UPM'
+    code: 'UPM',
   },
   {
     name: 'Upper Halliford',
-    code: 'UPH'
+    code: 'UPH',
   },
   {
     name: 'Upper Holloway',
-    code: 'UHL'
+    code: 'UHL',
   },
   {
     name: 'Upper Tyndrum',
-    code: 'UTY'
+    code: 'UTY',
   },
   {
     name: 'Upper Warlingham',
-    code: 'UWL'
+    code: 'UWL',
   },
   {
     name: 'Upton (Merseyside)',
-    code: 'UPT'
+    code: 'UPT',
   },
   {
     name: 'Upwey',
-    code: 'UPW'
+    code: 'UPW',
   },
   {
     name: 'Urmston',
-    code: 'URM'
+    code: 'URM',
   },
   {
     name: 'Uttoxeter',
-    code: 'UTT'
+    code: 'UTT',
   },
   {
     name: 'Valley',
-    code: 'VAL'
+    code: 'VAL',
   },
   {
     name: 'Vauxhall',
-    code: 'VXH'
+    code: 'VXH',
   },
   {
     name: 'Virginia Water',
-    code: 'VIR'
+    code: 'VIR',
   },
   {
     name: 'Waddon',
-    code: 'WDO'
+    code: 'WDO',
   },
   {
     name: 'Wadhurst',
-    code: 'WAD'
+    code: 'WAD',
   },
   {
     name: 'Wainfleet',
-    code: 'WFL'
+    code: 'WFL',
   },
   {
     name: 'Wakefield Kirkgate',
-    code: 'WKK'
+    code: 'WKK',
   },
   {
     name: 'Wakefield Westgate',
-    code: 'WKF'
+    code: 'WKF',
   },
   {
     name: 'Walkden',
-    code: 'WKD'
+    code: 'WKD',
   },
   {
     name: 'Wallasey Grove Road',
-    code: 'WLG'
+    code: 'WLG',
   },
   {
     name: 'Wallasey Village',
-    code: 'WLV'
+    code: 'WLV',
   },
   {
     name: 'Wallington',
-    code: 'WLT'
+    code: 'WLT',
   },
   {
     name: 'Wallyford',
-    code: 'WAF'
+    code: 'WAF',
   },
   {
     name: 'Walmer',
-    code: 'WAM'
+    code: 'WAM',
   },
   {
     name: 'Walsall',
-    code: 'WSL'
+    code: 'WSL',
   },
   {
     name: 'Walsden',
-    code: 'WDN'
+    code: 'WDN',
   },
   {
     name: 'Waltham Cross',
-    code: 'WLC'
+    code: 'WLC',
   },
   {
     name: 'Walthamstow Central',
-    code: 'WHC'
+    code: 'WHC',
   },
   {
     name: "Walthamstow Queen's Road",
-    code: 'WMW'
+    code: 'WMW',
   },
   {
     name: 'Walton (Merseyside)',
-    code: 'WAO'
+    code: 'WAO',
   },
   {
     name: 'Walton-on-Thames',
-    code: 'WAL'
+    code: 'WAL',
   },
   {
     name: 'Walton-on-the-Naze',
-    code: 'WON'
+    code: 'WON',
   },
   {
     name: 'Wanborough',
-    code: 'WAN'
+    code: 'WAN',
   },
   {
     name: 'Wandsworth Common',
-    code: 'WSW'
+    code: 'WSW',
   },
   {
     name: 'Wandsworth Road',
-    code: 'WWR'
+    code: 'WWR',
   },
   {
     name: 'Wandsworth Town',
-    code: 'WNT'
+    code: 'WNT',
   },
   {
     name: 'Wanstead Park',
-    code: 'WNP'
+    code: 'WNP',
   },
   {
     name: 'Wapping',
-    code: 'WPE'
+    code: 'WPE',
   },
   {
     name: 'Warblington',
-    code: 'WBL'
+    code: 'WBL',
   },
   {
     name: 'Ware (Herts)',
-    code: 'WAR'
+    code: 'WAR',
   },
   {
     name: 'Wareham (Dorset)',
-    code: 'WRM'
+    code: 'WRM',
   },
   {
     name: 'Wargrave',
-    code: 'WGV'
+    code: 'WGV',
   },
   {
     name: 'Warminster',
-    code: 'WMN'
+    code: 'WMN',
   },
   {
     name: 'Warnham',
-    code: 'WNH'
+    code: 'WNH',
   },
   {
     name: 'Warrington Bank Quay',
-    code: 'WBQ'
+    code: 'WBQ',
   },
   {
     name: 'Warrington Central',
-    code: 'WAC'
+    code: 'WAC',
   },
   {
     name: 'Warwick',
-    code: 'WRW'
+    code: 'WRW',
   },
   {
     name: 'Warwick Parkway',
-    code: 'WRP'
+    code: 'WRP',
   },
   {
     name: 'Water Orton',
-    code: 'WTO'
+    code: 'WTO',
   },
   {
     name: 'Waterbeach',
-    code: 'WBC'
+    code: 'WBC',
   },
   {
     name: 'Wateringbury',
-    code: 'WTR'
+    code: 'WTR',
   },
   {
     name: 'Waterloo (Merseyside)',
-    code: 'WLO'
+    code: 'WLO',
   },
   {
     name: 'Watford High Street',
-    code: 'WFH'
+    code: 'WFH',
   },
   {
     name: 'Watford Junction',
-    code: 'WFJ'
+    code: 'WFJ',
   },
   {
     name: 'Watford North',
-    code: 'WFN'
+    code: 'WFN',
   },
   {
     name: 'Watlington',
-    code: 'WTG'
+    code: 'WTG',
   },
   {
     name: 'Watton-at-Stone',
-    code: 'WAS'
+    code: 'WAS',
   },
   {
     name: 'Waun-Gron Park',
-    code: 'WNG'
+    code: 'WNG',
   },
   {
     name: 'Wavertree Technology Park',
-    code: 'WAV'
+    code: 'WAV',
   },
   {
     name: 'Wedgwood',
-    code: 'WED'
+    code: 'WED',
   },
   {
     name: 'Weeley',
-    code: 'WEE'
+    code: 'WEE',
   },
   {
     name: 'Weeton',
-    code: 'WET'
+    code: 'WET',
   },
   {
     name: 'Welham Green',
-    code: 'WMG'
+    code: 'WMG',
   },
   {
     name: 'Welling',
-    code: 'WLI'
+    code: 'WLI',
   },
   {
     name: 'Wellingborough',
-    code: 'WEL'
+    code: 'WEL',
   },
   {
     name: 'Wellington (Shropshire)',
-    code: 'WLN'
+    code: 'WLN',
   },
   {
     name: 'Welshpool',
-    code: 'WLP'
+    code: 'WLP',
   },
   {
     name: 'Welwyn Garden City',
-    code: 'WGC'
+    code: 'WGC',
   },
   {
     name: 'Welwyn North',
-    code: 'WLW'
+    code: 'WLW',
   },
   {
     name: 'Wem',
-    code: 'WEM'
+    code: 'WEM',
   },
   {
     name: 'Wembley Central',
-    code: 'WMB'
+    code: 'WMB',
   },
   {
     name: 'Wembley Stadium',
-    code: 'WCX'
+    code: 'WCX',
   },
   {
     name: 'Wemyss Bay',
-    code: 'WMS'
+    code: 'WMS',
   },
   {
     name: 'Wendover',
-    code: 'WND'
+    code: 'WND',
   },
   {
     name: 'Wennington',
-    code: 'WNN'
+    code: 'WNN',
   },
   {
     name: 'West Allerton',
-    code: 'WSA'
+    code: 'WSA',
   },
   {
     name: 'West Brompton',
-    code: 'WBP'
+    code: 'WBP',
   },
   {
     name: 'West Byfleet',
-    code: 'WBY'
+    code: 'WBY',
   },
   {
     name: 'West Calder',
-    code: 'WCL'
+    code: 'WCL',
   },
   {
     name: 'West Croydon',
-    code: 'WCY'
+    code: 'WCY',
   },
   {
     name: 'West Drayton',
-    code: 'WDT'
+    code: 'WDT',
   },
   {
     name: 'West Dulwich',
-    code: 'WDU'
+    code: 'WDU',
   },
   {
     name: 'West Ealing',
-    code: 'WEA'
+    code: 'WEA',
   },
   {
     name: 'West Ham',
-    code: 'WEH'
+    code: 'WEH',
   },
   {
     name: 'West Hampstead',
-    code: 'WHD'
+    code: 'WHD',
   },
   {
     name: 'West Hampstead Thameslink',
-    code: 'WHP'
+    code: 'WHP',
   },
   {
     name: 'West Horndon',
-    code: 'WHR'
+    code: 'WHR',
   },
   {
     name: 'West Kilbride',
-    code: 'WKB'
+    code: 'WKB',
   },
   {
     name: 'West Kirby',
-    code: 'WKI'
+    code: 'WKI',
   },
   {
     name: 'West Malling',
-    code: 'WMA'
+    code: 'WMA',
   },
   {
     name: 'West Norwood',
-    code: 'WNW'
+    code: 'WNW',
   },
   {
     name: 'West Ruislip',
-    code: 'WRU'
+    code: 'WRU',
   },
   {
     name: 'West Runton',
-    code: 'WRN'
+    code: 'WRN',
   },
   {
     name: 'West St Leonards',
-    code: 'WLD'
+    code: 'WLD',
   },
   {
     name: 'West Sutton',
-    code: 'WSU'
+    code: 'WSU',
   },
   {
     name: 'West Wickham',
-    code: 'WWI'
+    code: 'WWI',
   },
   {
     name: 'West Worthing',
-    code: 'WWO'
+    code: 'WWO',
   },
   {
     name: 'Westbury (Wilts)',
-    code: 'WSB'
+    code: 'WSB',
   },
   {
     name: 'Westcliff',
-    code: 'WCF'
+    code: 'WCF',
   },
   {
     name: 'Westcombe Park',
-    code: 'WCB'
+    code: 'WCB',
   },
   {
     name: 'Westenhanger',
-    code: 'WHA'
+    code: 'WHA',
   },
   {
     name: 'Wester Hailes',
-    code: 'WTA'
+    code: 'WTA',
   },
   {
     name: 'Westerfield',
-    code: 'WFI'
+    code: 'WFI',
   },
   {
     name: 'Westerton',
-    code: 'WES'
+    code: 'WES',
   },
   {
     name: 'Westgate-on-Sea',
-    code: 'WGA'
+    code: 'WGA',
   },
   {
     name: 'Westhoughton',
-    code: 'WHG'
+    code: 'WHG',
   },
   {
     name: 'Weston Milton',
-    code: 'WNM'
+    code: 'WNM',
   },
   {
     name: 'Weston-super-Mare',
-    code: 'WSM'
+    code: 'WSM',
   },
   {
     name: 'Wetheral',
-    code: 'WRL'
+    code: 'WRL',
   },
   {
     name: 'Weybridge',
-    code: 'WYB'
+    code: 'WYB',
   },
   {
     name: 'Weymouth',
-    code: 'WEY'
+    code: 'WEY',
   },
   {
     name: 'Whaley Bridge',
-    code: 'WBR'
+    code: 'WBR',
   },
   {
     name: 'Whalley (Lancs)',
-    code: 'WHE'
+    code: 'WHE',
   },
   {
     name: 'Whatstandwell',
-    code: 'WTS'
+    code: 'WTS',
   },
   {
     name: 'Whifflet',
-    code: 'WFF'
+    code: 'WFF',
   },
   {
     name: 'Whimple',
-    code: 'WHM'
+    code: 'WHM',
   },
   {
     name: 'Whinhill',
-    code: 'WNL'
+    code: 'WNL',
   },
   {
     name: 'Whiston',
-    code: 'WHN'
+    code: 'WHN',
   },
   {
     name: 'Whitby',
-    code: 'WTB'
+    code: 'WTB',
   },
   {
     name: 'Whitchurch (Cardiff)',
-    code: 'WHT'
+    code: 'WHT',
   },
   {
     name: 'Whitchurch (Hants)',
-    code: 'WCH'
+    code: 'WCH',
   },
   {
     name: 'Whitchurch (Shropshire)',
-    code: 'WTC'
+    code: 'WTC',
   },
   {
     name: 'White Hart Lane',
-    code: 'WHL'
+    code: 'WHL',
   },
   {
     name: 'White Notley',
-    code: 'WNY'
+    code: 'WNY',
   },
   {
     name: 'Whitechapel',
-    code: 'ZLW'
+    code: 'ZLW',
   },
   {
     name: 'Whitecraigs',
-    code: 'WCR'
+    code: 'WCR',
   },
   {
     name: 'Whitehaven',
-    code: 'WTH'
+    code: 'WTH',
   },
   {
     name: 'Whitland',
-    code: 'WTL'
+    code: 'WTL',
   },
   {
     name: 'Whitley Bridge',
-    code: 'WBD'
+    code: 'WBD',
   },
   {
     name: 'Whitlocks End',
-    code: 'WTE'
+    code: 'WTE',
   },
   {
     name: 'Whitstable',
-    code: 'WHI'
+    code: 'WHI',
   },
   {
     name: 'Whittlesea',
-    code: 'WLE'
+    code: 'WLE',
   },
   {
     name: 'Whittlesford Parkway',
-    code: 'WLF'
+    code: 'WLF',
   },
   {
     name: 'Whitton (London)',
-    code: 'WTN'
+    code: 'WTN',
   },
   {
     name: 'Whitwell (Derbyshire)',
-    code: 'WWL'
+    code: 'WWL',
   },
   {
     name: 'Whyteleafe',
-    code: 'WHY'
+    code: 'WHY',
   },
   {
     name: 'Whyteleafe South',
-    code: 'WHS'
+    code: 'WHS',
   },
   {
     name: 'Wick',
-    code: 'WCK'
+    code: 'WCK',
   },
   {
     name: 'Wickford',
-    code: 'WIC'
+    code: 'WIC',
   },
   {
     name: 'Wickham Market',
-    code: 'WCM'
+    code: 'WCM',
   },
   {
     name: 'Widdrington',
-    code: 'WDD'
+    code: 'WDD',
   },
   {
     name: 'Widnes',
-    code: 'WID'
+    code: 'WID',
   },
   {
     name: 'Widney Manor',
-    code: 'WMR'
+    code: 'WMR',
   },
   {
     name: 'Wigan North Western',
-    code: 'WGN'
+    code: 'WGN',
   },
   {
     name: 'Wigan Wallgate',
-    code: 'WGW'
+    code: 'WGW',
   },
   {
     name: 'Wigton',
-    code: 'WGT'
+    code: 'WGT',
   },
   {
     name: 'Wildmill',
-    code: 'WMI'
+    code: 'WMI',
   },
   {
     name: 'Willesden Junction',
-    code: 'WIJ'
+    code: 'WIJ',
   },
   {
     name: 'Williamwood',
-    code: 'WLM'
+    code: 'WLM',
   },
   {
     name: 'Willington',
-    code: 'WIL'
+    code: 'WIL',
   },
   {
     name: 'Wilmcote',
-    code: 'WMC'
+    code: 'WMC',
   },
   {
     name: 'Wilmslow',
-    code: 'WML'
+    code: 'WML',
   },
   {
     name: 'Wilnecote (Staffs)',
-    code: 'WNE'
+    code: 'WNE',
   },
   {
     name: 'Wimbledon',
-    code: 'WIM'
+    code: 'WIM',
   },
   {
     name: 'Wimbledon Chase',
-    code: 'WBO'
+    code: 'WBO',
   },
   {
     name: 'Winchelsea',
-    code: 'WSE'
+    code: 'WSE',
   },
   {
     name: 'Winchester',
-    code: 'WIN'
+    code: 'WIN',
   },
   {
     name: 'Winchfield',
-    code: 'WNF'
+    code: 'WNF',
   },
   {
     name: 'Winchmore Hill',
-    code: 'WIH'
+    code: 'WIH',
   },
   {
     name: 'Windermere',
-    code: 'WDM'
+    code: 'WDM',
   },
   {
     name: 'Windsor & Eton Central',
-    code: 'WNC'
+    code: 'WNC',
   },
   {
     name: 'Windsor & Eton Riverside',
-    code: 'WNR'
+    code: 'WNR',
   },
   {
     name: 'Winnersh',
-    code: 'WNS'
+    code: 'WNS',
   },
   {
     name: 'Winnersh Triangle',
-    code: 'WTI'
+    code: 'WTI',
   },
   {
     name: 'Winsford',
-    code: 'WSF'
+    code: 'WSF',
   },
   {
     name: 'Wishaw',
-    code: 'WSH'
+    code: 'WSH',
   },
   {
     name: 'Witham',
-    code: 'WTM'
+    code: 'WTM',
   },
   {
     name: 'Witley',
-    code: 'WTY'
+    code: 'WTY',
   },
   {
     name: 'Witton (West Midlands)',
-    code: 'WTT'
+    code: 'WTT',
   },
   {
     name: 'Wivelsfield',
-    code: 'WVF'
+    code: 'WVF',
   },
   {
     name: 'Wivenhoe',
-    code: 'WIV'
+    code: 'WIV',
   },
   {
     name: 'Woburn Sands',
-    code: 'WOB'
+    code: 'WOB',
   },
   {
     name: 'Woking',
-    code: 'WOK'
+    code: 'WOK',
   },
   {
     name: 'Wokingham',
-    code: 'WKM'
+    code: 'WKM',
   },
   {
     name: 'Woldingham',
-    code: 'WOH'
+    code: 'WOH',
   },
   {
     name: 'Wolverhampton',
-    code: 'WVH'
+    code: 'WVH',
   },
   {
     name: 'Wolverton',
-    code: 'WOL'
+    code: 'WOL',
   },
   {
     name: 'Wombwell',
-    code: 'WOM'
+    code: 'WOM',
   },
   {
     name: 'Wood End',
-    code: 'WDE'
+    code: 'WDE',
   },
   {
     name: 'Wood Street',
-    code: 'WST'
+    code: 'WST',
   },
   {
     name: 'Woodbridge',
-    code: 'WDB'
+    code: 'WDB',
   },
   {
     name: 'Woodgrange Park',
-    code: 'WGR'
+    code: 'WGR',
   },
   {
     name: 'Woodhall',
-    code: 'WDL'
+    code: 'WDL',
   },
   {
     name: 'Woodhouse',
-    code: 'WDH'
+    code: 'WDH',
   },
   {
     name: 'Woodlesford',
-    code: 'WDS'
+    code: 'WDS',
   },
   {
     name: 'Woodley',
-    code: 'WLY'
+    code: 'WLY',
   },
   {
     name: 'Woodmansterne',
-    code: 'WME'
+    code: 'WME',
   },
   {
     name: 'Woodsmoor',
-    code: 'WSR'
+    code: 'WSR',
   },
   {
     name: 'Wool',
-    code: 'WOO'
+    code: 'WOO',
   },
   {
     name: 'Woolston',
-    code: 'WLS'
+    code: 'WLS',
   },
   {
     name: 'Woolwich Arsenal',
-    code: 'WWA'
+    code: 'WWA',
   },
   {
     name: 'Woolwich Dockyard',
-    code: 'WWD'
+    code: 'WWD',
   },
   {
     name: 'Wootton Wawen',
-    code: 'WWW'
+    code: 'WWW',
   },
   {
     name: 'Worcester Foregate Street',
-    code: 'WOF'
+    code: 'WOF',
   },
   {
     name: 'Worcester Park',
-    code: 'WCP'
+    code: 'WCP',
   },
   {
     name: 'Worcester Shrub Hill',
-    code: 'WOS'
+    code: 'WOS',
   },
   {
     name: 'Workington',
-    code: 'WKG'
+    code: 'WKG',
   },
   {
     name: 'Worksop',
-    code: 'WRK'
+    code: 'WRK',
   },
   {
     name: 'Worle',
-    code: 'WOR'
+    code: 'WOR',
   },
   {
     name: 'Worplesdon',
-    code: 'WPL'
+    code: 'WPL',
   },
   {
     name: 'Worstead',
-    code: 'WRT'
+    code: 'WRT',
   },
   {
     name: 'Worthing',
-    code: 'WRH'
+    code: 'WRH',
   },
   {
     name: 'Wrabness',
-    code: 'WRB'
+    code: 'WRB',
   },
   {
     name: 'Wraysbury',
-    code: 'WRY'
+    code: 'WRY',
   },
   {
     name: 'Wrenbury',
-    code: 'WRE'
+    code: 'WRE',
   },
   {
     name: 'Wressle',
-    code: 'WRS'
+    code: 'WRS',
   },
   {
     name: 'Wrexham Central',
-    code: 'WXC'
+    code: 'WXC',
   },
   {
     name: 'Wrexham General',
-    code: 'WRX'
+    code: 'WRX',
   },
   {
     name: 'Wye',
-    code: 'WYE'
+    code: 'WYE',
   },
   {
     name: 'Wylam',
-    code: 'WYM'
+    code: 'WYM',
   },
   {
     name: 'Wylde Green',
-    code: 'WYL'
+    code: 'WYL',
   },
   {
     name: 'Wymondham',
-    code: 'WMD'
+    code: 'WMD',
   },
   {
     name: 'Wythall',
-    code: 'WYT'
+    code: 'WYT',
   },
   {
     name: 'Yalding',
-    code: 'YAL'
+    code: 'YAL',
   },
   {
     name: 'Yardley Wood',
-    code: 'YRD'
+    code: 'YRD',
   },
   {
     name: 'Yarm',
-    code: 'YRM'
+    code: 'YRM',
   },
   {
     name: 'Yate',
-    code: 'YAE'
+    code: 'YAE',
   },
   {
     name: 'Yatton',
-    code: 'YAT'
+    code: 'YAT',
   },
   {
     name: 'Yeoford',
-    code: 'YEO'
+    code: 'YEO',
   },
   {
     name: 'Yeovil Junction',
-    code: 'YVJ'
+    code: 'YVJ',
   },
   {
     name: 'Yeovil Pen Mill',
-    code: 'YVP'
+    code: 'YVP',
   },
   {
     name: 'Yetminster',
-    code: 'YET'
+    code: 'YET',
   },
   {
     name: 'Ynyswen',
-    code: 'YNW'
+    code: 'YNW',
   },
   {
     name: 'Yoker',
-    code: 'YOK'
+    code: 'YOK',
   },
   {
     name: 'York',
-    code: 'YRK'
+    code: 'YRK',
   },
   {
     name: 'Yorton',
-    code: 'YRT'
+    code: 'YRT',
   },
   {
     name: 'Ystrad Mynach',
-    code: 'YSM'
+    code: 'YSM',
   },
   {
     name: 'Ystrad Rhondda',
-    code: 'YSR'
-  }
+    code: 'YSR',
+  },
 ]
 
 const getStationNameByCRS = crs =>
